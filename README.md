@@ -33,7 +33,7 @@ First up, I wanted to see how development’s been trending over time. I grouped
 ## 3. Analysis 2: Linking Development to Cash Flow
 To get why these swings happened, I matched up the number of approved homes with how much money was spent on property sales in Cambridgeshire each year. Spoiler: there’s a tight connection.
 
-![Development vs. Market Spend Flowchart](reports\Development_vs_Market_Spend_Flowchart.png)
+![Development vs. Market Spend Flowchart](reports/Development_vs_Market_Spend_Flowchart.png)
 
 ### What I Learned:
 - **Money Talks First**: The market was pumping from 2013, hitting a peak in 2016-2017. All that cash flying around—high sales, rising prices—set the stage for the 2017-2018 development explosion. Developers were like, “This is our moment!”
@@ -42,7 +42,7 @@ To get why these swings happened, I matched up the number of approved homes with
 ## 4. Analysis 3: Where’s the Action Happening?
 This part’s about finding the growth hotspots. By sorting projects into “Sectors” based on their parsed addresses, I figured out which towns and villages are driving the development train.
 
-![Hotspot Map Screenshot](reports\Brownfield_Development_Hotspots.png)
+![Hotspot Map Screenshot](reports/Brownfield_Development_Hotspots.png)
 
 *Note: You’ll need to screenshot your Sector_Hotspot_Map.html file and save it as Sector_Hotspot_Map_Screenshot.png in the reports folder for this to work.*
 
