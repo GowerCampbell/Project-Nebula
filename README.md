@@ -1,6 +1,6 @@
 # Project Nebula: My Take on Cambridgeshire’s Property Development Scene
 
-## 1. Kicking Things Off: What’s This All About?
+## Kicking Things Off: What’s This All About?
 
 ### So, What’s Brownfield Land Anyway?
 Alright, let’s get this straight—Brownfield Land isn’t just some random patch of dirt. It’s a big deal in the UK’s housing game plan. We’re talking about land that’s been used before but is now sitting empty or rundown—think old factories, abandoned railway yards, shuttered shops, or even those sad little garage blocks. The government’s all about pushing developers to build on these spots first to spruce up neglected areas, make use of existing roads and pipes, and keep the green countryside from turning into a concrete jungle. This report is my deep dive into what’s happening with these sites in Cambridgeshire, trying to spot where the action’s at.
@@ -20,7 +20,7 @@ Let’s be real—the data wasn’t perfect. I hit a few bumps along the way:
 - **Council Data Chaos**: Early on, I realized council datasets were all over the place—different formats, column names like “site-reference” one day and “SiteReference” the next, and some were just incomplete. That’s why I stuck with the national dataset; it was like finding a solid rock in a stormy sea.
 - **Messy Addresses**: The address field was a free-for-all. One site might say “Fulbourn, Cambridge,” another just “Fulbourn,” or worse, barely anything. I built a list of Cambridgeshire towns and villages and wrote code to sort through the mess, grouping sites into “Sectors” for a solid hotspot analysis.
 
-## 2. Analysis 1: Tracking the Development Rollercoaster (2010-2023)
+## Analysis 1: Tracking the Development Rollercoaster (2010-2023)
 First up, I wanted to see how development’s been trending over time. I grouped all the approved sites by their decision year, and man, what a story it tells—boom, dip, and bounce-back.
 
 ![Yearly Development Growth Chart](reports/Yearly_Development_Growth.png)
@@ -30,7 +30,7 @@ First up, I wanted to see how development’s been trending over time. I grouped
 - **The 2019-2021 Slump**: Things cooled off fast, with approvals dropping and staying low for three years. Call it a market “whoops” moment—maybe the boom filled up the pipeline, or stuff like economic jitters and the pandemic put a damper on new plans.
 - **The 2022 Comeback**: By 2022, things were looking up again, with over 4,000 new homes approved. It’s like the market took a deep breath and said, “Alright, let’s do this again.”
 
-## 3. Analysis 2: Linking Development to Cash Flow
+## Analysis 2: Linking Development to Cash Flow
 To get why these swings happened, I matched up the number of approved homes with how much money was spent on property sales in Cambridgeshire each year. Spoiler: there’s a tight connection.
 
 ![Development vs. Market Spend Flowchart](reports/Development_vs_Market_Spend_Flowchart.png)
