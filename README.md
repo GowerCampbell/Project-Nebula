@@ -23,7 +23,7 @@ Let’s be real—the data wasn’t perfect. I hit a few bumps along the way:
 ## 2. Analysis 1: Tracking the Development Rollercoaster (2010-2023)
 First up, I wanted to see how development’s been trending over time. I grouped all the approved sites by their decision year, and man, what a story it tells—boom, dip, and bounce-back.
 
-![Yearly Development Growth Chart](reports\Yearly_Development_Growth.png)
+![Yearly Development Growth Chart](reports/Yearly_Development_Growth.png)
 
 ### What’s the Deal?
 - **The 2017-2018 Party**: Holy cow, those years were wild! Over 10,000 new homes got the green light in just two years. It screams big investment and confidence, probably fueled by a hot local economy and government housing goals.
