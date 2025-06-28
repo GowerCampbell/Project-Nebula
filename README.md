@@ -44,7 +44,7 @@ This part’s about finding the growth hotspots. By sorting projects into “Sec
 
 ![Hotspot Map Screenshot](reports/Brownfield_Development_Hotspots.png)
 
-*Note: You’ll need to screenshot your Sector_Hotspot_Map.html file and save it as Sector_Hotspot_Map_Screenshot.png in the reports folder for this to work.*
+*Note: Red areas indicate significant hotspots for the development of brownfield sites, yellow areas denote minor development potential, and green areas represent regions with little development activity.
 
 ### What’s Popping?
 - **The Big Dogs: Oakington and Waterbeach**: These two are killing it, accounting for a whopping 89% of all new homes approved. Big brownfield sites—like old barracks or industrial zones—make these spots perfect for massive housing projects.
