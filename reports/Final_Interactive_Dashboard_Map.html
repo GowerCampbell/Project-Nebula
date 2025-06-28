@@ -1,0 +1,3334 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bbe2430aafd565be57ab89cbeb634c02 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bbe2430aafd565be57ab89cbeb634c02" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bbe2430aafd565be57ab89cbeb634c02 = L.map(
+                "map_bbe2430aafd565be57ab89cbeb634c02",
+                {
+                    center: [52.3, 0.1],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_20b15b4e103627ae612ba648c4fb1670 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_20b15b4e103627ae612ba648c4fb1670.addTo(map_bbe2430aafd565be57ab89cbeb634c02);
+        
+    
+            var feature_group_345963798910ec42e91c03e306389ac4 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_c7c895e2691ee7d570eed6d91f2283fc = L.circle(
+                [52.2639002, 0.0739466],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8665.448632355972, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_0e57dfe2967a28c2b21268caf90813f2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f261193bdf9a13571504dcc15413243d = $(`<div id="html_f261193bdf9a13571504dcc15413243d" style="width: 100.0%; height: 100.0%;"><h3>OAKINGTON</h3><b>Total Dwellings Approved:</b> 7509</div>`)[0];
+                popup_0e57dfe2967a28c2b21268caf90813f2.setContent(html_f261193bdf9a13571504dcc15413243d);
+            
+        
+
+        circle_c7c895e2691ee7d570eed6d91f2283fc.bindPopup(popup_0e57dfe2967a28c2b21268caf90813f2)
+        ;
+
+        
+    
+    
+            var circle_3764f9bd50e4ee3d78db006514d9798c = L.circle(
+                [52.281576, 0.189765625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8206.704576137732, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_320cf633ff55de49876b5f506f7ba0d7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a55c493220ecc4bc2f2defadd9c4de79 = $(`<div id="html_a55c493220ecc4bc2f2defadd9c4de79" style="width: 100.0%; height: 100.0%;"><h3>WATERBEACH</h3><b>Total Dwellings Approved:</b> 6735</div>`)[0];
+                popup_320cf633ff55de49876b5f506f7ba0d7.setContent(html_a55c493220ecc4bc2f2defadd9c4de79);
+            
+        
+
+        circle_3764f9bd50e4ee3d78db006514d9798c.bindPopup(popup_320cf633ff55de49876b5f506f7ba0d7)
+        ;
+
+        
+    
+    
+            var circle_8adcdf268bf1ad794d0c28c4b32243f3 = L.circle(
+                [52.192666083333336, 0.20736983333333334],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2590.3667693977236, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_e23ed3320375468b850e3d02e003235b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_673290a712139964d4f24025d775c61e = $(`<div id="html_673290a712139964d4f24025d775c61e" style="width: 100.0%; height: 100.0%;"><h3>FULBOURN</h3><b>Total Dwellings Approved:</b> 671</div>`)[0];
+                popup_e23ed3320375468b850e3d02e003235b.setContent(html_673290a712139964d4f24025d775c61e);
+            
+        
+
+        circle_8adcdf268bf1ad794d0c28c4b32243f3.bindPopup(popup_e23ed3320375468b850e3d02e003235b)
+        ;
+
+        
+    
+    
+            var circle_7536caa0325ae1e18a1c762f003ac601 = L.circle(
+                [52.152713125, -0.197510625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1612.4515496597098, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_b31b4ec4af09cc95dbfb33adbe44f364 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6ef1282e6587486e2bf8517be41a520a = $(`<div id="html_6ef1282e6587486e2bf8517be41a520a" style="width: 100.0%; height: 100.0%;"><h3>GAMLINGAY</h3><b>Total Dwellings Approved:</b> 260</div>`)[0];
+                popup_b31b4ec4af09cc95dbfb33adbe44f364.setContent(html_6ef1282e6587486e2bf8517be41a520a);
+            
+        
+
+        circle_7536caa0325ae1e18a1c762f003ac601.bindPopup(popup_b31b4ec4af09cc95dbfb33adbe44f364)
+        ;
+
+        
+    
+    
+            var circle_82ba46a8bf743aeaa07d4d9275c57f3a = L.circle(
+                [52.215078250000005, 0.12271975],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1280.6248474865697, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_23af878944aa219112c8234ba7689250 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3dd78974945604df11be11c219de4084 = $(`<div id="html_3dd78974945604df11be11c219de4084" style="width: 100.0%; height: 100.0%;"><h3>IMPINGTON</h3><b>Total Dwellings Approved:</b> 164</div>`)[0];
+                popup_23af878944aa219112c8234ba7689250.setContent(html_3dd78974945604df11be11c219de4084);
+            
+        
+
+        circle_82ba46a8bf743aeaa07d4d9275c57f3a.bindPopup(popup_23af878944aa219112c8234ba7689250)
+        ;
+
+        
+    
+    
+            var circle_9d739f5e1e5864eb8777c58d0a823f42 = L.circle(
+                [52.22168509090909, 0.09205236363636363],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1100.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_810fa158b4dd5b0758f73b4a8d33f425 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3ec1bcba22ee514b1077a2558190f828 = $(`<div id="html_3ec1bcba22ee514b1077a2558190f828" style="width: 100.0%; height: 100.0%;"><h3>HISTON</h3><b>Total Dwellings Approved:</b> 121</div>`)[0];
+                popup_810fa158b4dd5b0758f73b4a8d33f425.setContent(html_3ec1bcba22ee514b1077a2558190f828);
+            
+        
+
+        circle_9d739f5e1e5864eb8777c58d0a823f42.bindPopup(popup_810fa158b4dd5b0758f73b4a8d33f425)
+        ;
+
+        
+    
+    
+            var circle_f7d4b0a8186e3596df7d3843e37da6e5 = L.circle(
+                [52.19054166666666, -0.09999166666666666],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1072.3805294763608, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_8de0fc53de3805eac833e42f5b8e3e17 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_231c403c9555ae9defa4096b706fc355 = $(`<div id="html_231c403c9555ae9defa4096b706fc355" style="width: 100.0%; height: 100.0%;"><h3>PAPWORTH EVERARD</h3><b>Total Dwellings Approved:</b> 115</div>`)[0];
+                popup_8de0fc53de3805eac833e42f5b8e3e17.setContent(html_231c403c9555ae9defa4096b706fc355);
+            
+        
+
+        circle_f7d4b0a8186e3596df7d3843e37da6e5.bindPopup(popup_8de0fc53de3805eac833e42f5b8e3e17)
+        ;
+
+        
+    
+    
+            var circle_45f028add1b863b068a579f5b1ff8370 = L.circle(
+                [52.157647125, 0.13578225],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 818.535277187245, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_58347fed5d2339a9b450c5237d49ceac = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a8c0b8f800f50f5f227cfd3977947016 = $(`<div id="html_a8c0b8f800f50f5f227cfd3977947016" style="width: 100.0%; height: 100.0%;"><h3>GREAT SHELFORD</h3><b>Total Dwellings Approved:</b> 67</div>`)[0];
+                popup_58347fed5d2339a9b450c5237d49ceac.setContent(html_a8c0b8f800f50f5f227cfd3977947016);
+            
+        
+
+        circle_45f028add1b863b068a579f5b1ff8370.bindPopup(popup_58347fed5d2339a9b450c5237d49ceac)
+        ;
+
+        
+    
+    
+            var circle_67ea5797609f7f4d4c42c2731776ea46 = L.circle(
+                [52.09103433333333, -0.019114999999999997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 721.1102550927978, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_f0f2c8bbbca5389883d4ac5228560abf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dbee4da4c28b0c21093e74194ad47e3f = $(`<div id="html_dbee4da4c28b0c21093e74194ad47e3f" style="width: 100.0%; height: 100.0%;"><h3>BASSINGBOURN</h3><b>Total Dwellings Approved:</b> 52</div>`)[0];
+                popup_f0f2c8bbbca5389883d4ac5228560abf.setContent(html_dbee4da4c28b0c21093e74194ad47e3f);
+            
+        
+
+        circle_67ea5797609f7f4d4c42c2731776ea46.bindPopup(popup_f0f2c8bbbca5389883d4ac5228560abf)
+        ;
+
+        
+    
+    
+            var circle_ffad7324397a405323c36bb6f03a46e3 = L.circle(
+                [52.22791881818182, 0.14502554545454546],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 670.820393249937, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_e45566e8f5f9cc2661ab37eb187fda1e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e2d4eaaafdde6679c9dfb69ff03dd722 = $(`<div id="html_e2d4eaaafdde6679c9dfb69ff03dd722" style="width: 100.0%; height: 100.0%;"><h3>MILTON</h3><b>Total Dwellings Approved:</b> 45</div>`)[0];
+                popup_e45566e8f5f9cc2661ab37eb187fda1e.setContent(html_e2d4eaaafdde6679c9dfb69ff03dd722);
+            
+        
+
+        circle_ffad7324397a405323c36bb6f03a46e3.bindPopup(popup_e45566e8f5f9cc2661ab37eb187fda1e)
+        ;
+
+        
+    
+    
+            var circle_280a9e53374eb7c3e8ec09b0c3c705f4 = L.circle(
+                [52.095678, 0.0017171999999999999],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 655.7438524302, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_877b5156af65854ade820bf896ba135d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fe755d17af76c20fa4f194ba5484c703 = $(`<div id="html_fe755d17af76c20fa4f194ba5484c703" style="width: 100.0%; height: 100.0%;"><h3>MELDRETH</h3><b>Total Dwellings Approved:</b> 43</div>`)[0];
+                popup_877b5156af65854ade820bf896ba135d.setContent(html_fe755d17af76c20fa4f194ba5484c703);
+            
+        
+
+        circle_280a9e53374eb7c3e8ec09b0c3c705f4.bindPopup(popup_877b5156af65854ade820bf896ba135d)
+        ;
+
+        
+    
+    
+            var circle_f8749ecd31026a49c97c84d49cd1815b = L.circle(
+                [52.19674716666666, -0.00330066666666666],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 565.685424949238, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_5c0cd5e03094379a659c935c6ec65d48 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bec8513067ab5ac16add484b226dc855 = $(`<div id="html_bec8513067ab5ac16add484b226dc855" style="width: 100.0%; height: 100.0%;"><h3>SANDY</h3><b>Total Dwellings Approved:</b> 32</div>`)[0];
+                popup_5c0cd5e03094379a659c935c6ec65d48.setContent(html_bec8513067ab5ac16add484b226dc855);
+            
+        
+
+        circle_f8749ecd31026a49c97c84d49cd1815b.bindPopup(popup_5c0cd5e03094379a659c935c6ec65d48)
+        ;
+
+        
+    
+    
+            var circle_4db0a1b26d4fc88ee7cb440930ab2bdb = L.circle(
+                [52.20964511111111, -0.02001377777777778],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 547.7225575051662, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_1daffbce719fbca7120bb6fae60603c3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_91e225c09104031c671053c0e319d6e2 = $(`<div id="html_91e225c09104031c671053c0e319d6e2" style="width: 100.0%; height: 100.0%;"><h3>CALDECOTE</h3><b>Total Dwellings Approved:</b> 30</div>`)[0];
+                popup_1daffbce719fbca7120bb6fae60603c3.setContent(html_91e225c09104031c671053c0e319d6e2);
+            
+        
+
+        circle_4db0a1b26d4fc88ee7cb440930ab2bdb.bindPopup(popup_1daffbce719fbca7120bb6fae60603c3)
+        ;
+
+        
+    
+    
+            var circle_1e740d62a80a5575dab92eeea5f36b52 = L.circle(
+                [52.0978784, 0.2815608],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 547.7225575051662, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_b6011b9f79f905cdfef998677a6b125a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6271bccbe7a2d5f147543c034ff91201 = $(`<div id="html_6271bccbe7a2d5f147543c034ff91201" style="width: 100.0%; height: 100.0%;"><h3>LINTON</h3><b>Total Dwellings Approved:</b> 30</div>`)[0];
+                popup_b6011b9f79f905cdfef998677a6b125a.setContent(html_6271bccbe7a2d5f147543c034ff91201);
+            
+        
+
+        circle_1e740d62a80a5575dab92eeea5f36b52.bindPopup(popup_b6011b9f79f905cdfef998677a6b125a)
+        ;
+
+        
+    
+    
+            var circle_278b3cefe3b53a27669f1fc7e2c59ddb = L.circle(
+                [52.274678800000004, 0.1521056],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 538.5164807134504, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_6950d22425e9e406fa5bdec3f7e5b873 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f7f61c2228e76f922b5ff4c4d327329c = $(`<div id="html_f7f61c2228e76f922b5ff4c4d327329c" style="width: 100.0%; height: 100.0%;"><h3>BARTON</h3><b>Total Dwellings Approved:</b> 29</div>`)[0];
+                popup_6950d22425e9e406fa5bdec3f7e5b873.setContent(html_f7f61c2228e76f922b5ff4c4d327329c);
+            
+        
+
+        circle_278b3cefe3b53a27669f1fc7e2c59ddb.bindPopup(popup_6950d22425e9e406fa5bdec3f7e5b873)
+        ;
+
+        
+    
+    
+            var circle_1d49ae339ca461500d66975ce374bceb = L.circle(
+                [52.075030999999996, 0.0027215],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 458.257569495584, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_6bf2280c9568841cda486742c457e307 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_361f65bef71f2bb11efb523170210754 = $(`<div id="html_361f65bef71f2bb11efb523170210754" style="width: 100.0%; height: 100.0%;"><h3>MELBOURN</h3><b>Total Dwellings Approved:</b> 21</div>`)[0];
+                popup_6bf2280c9568841cda486742c457e307.setContent(html_361f65bef71f2bb11efb523170210754);
+            
+        
+
+        circle_1d49ae339ca461500d66975ce374bceb.bindPopup(popup_6bf2280c9568841cda486742c457e307)
+        ;
+
+        
+    
+    
+            var circle_8ff02a6c874a0ca120882343d134f436 = L.circle(
+                [52.09132153846154, -0.04797653846153846],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 412.31056256176606, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_02f35a8a506a33c499edd542bb57c8e9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c377a2119e6d86155d7d057b73c22af2 = $(`<div id="html_c377a2119e6d86155d7d057b73c22af2" style="width: 100.0%; height: 100.0%;"><h3>ROYSTON</h3><b>Total Dwellings Approved:</b> 17</div>`)[0];
+                popup_02f35a8a506a33c499edd542bb57c8e9.setContent(html_c377a2119e6d86155d7d057b73c22af2);
+            
+        
+
+        circle_8ff02a6c874a0ca120882343d134f436.bindPopup(popup_02f35a8a506a33c499edd542bb57c8e9)
+        ;
+
+        
+    
+    
+            var circle_80a524608bb44ccc4856fd7b70368d46 = L.circle(
+                [52.213318, 0.0104815],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 400.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_16f77dc70a210c94a1b212fb7a6b2980 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dfc036f0a03b79e969c0e2a450c97141 = $(`<div id="html_dfc036f0a03b79e969c0e2a450c97141" style="width: 100.0%; height: 100.0%;"><h3>HARDWICK</h3><b>Total Dwellings Approved:</b> 16</div>`)[0];
+                popup_16f77dc70a210c94a1b212fb7a6b2980.setContent(html_dfc036f0a03b79e969c0e2a450c97141);
+            
+        
+
+        circle_80a524608bb44ccc4856fd7b70368d46.bindPopup(popup_16f77dc70a210c94a1b212fb7a6b2980)
+        ;
+
+        
+    
+    
+            var circle_569b3a19c2bafded016fb5f35925e35c = L.circle(
+                [52.28374671428571, 0.12545185714285714],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 360.5551275463989, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_8a9d99895a4e51ea874df2825228bb6a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_99c774f552326c366627436cfbfe3b19 = $(`<div id="html_99c774f552326c366627436cfbfe3b19" style="width: 100.0%; height: 100.0%;"><h3>COTTENHAM</h3><b>Total Dwellings Approved:</b> 13</div>`)[0];
+                popup_8a9d99895a4e51ea874df2825228bb6a.setContent(html_99c774f552326c366627436cfbfe3b19);
+            
+        
+
+        circle_569b3a19c2bafded016fb5f35925e35c.bindPopup(popup_8a9d99895a4e51ea874df2825228bb6a)
+        ;
+
+        
+    
+    
+            var circle_0f2a52917664f5044f068f7e294854fd = L.circle(
+                [52.142219000000004, 0.08437100000000002],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 331.66247903554, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_3299ea0f77f1ff95c3807076188297be = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_683331705155e5780dbf082be4823cc3 = $(`<div id="html_683331705155e5780dbf082be4823cc3" style="width: 100.0%; height: 100.0%;"><h3>HARSTON</h3><b>Total Dwellings Approved:</b> 11</div>`)[0];
+                popup_3299ea0f77f1ff95c3807076188297be.setContent(html_683331705155e5780dbf082be4823cc3);
+            
+        
+
+        circle_0f2a52917664f5044f068f7e294854fd.bindPopup(popup_3299ea0f77f1ff95c3807076188297be)
+        ;
+
+        
+    
+    
+            var circle_0b0a8a0e5ef9b151b14d9cf550deee53 = L.circle(
+                [52.183767666666675, 0.051116999999999996],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 244.9489742783178, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_1022840d4e7c62d8ad976c9fcdd1f5ce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_758ba0c07436c8230a4089f636e7abea = $(`<div id="html_758ba0c07436c8230a4089f636e7abea" style="width: 100.0%; height: 100.0%;"><h3>COMBERTON</h3><b>Total Dwellings Approved:</b> 6</div>`)[0];
+                popup_1022840d4e7c62d8ad976c9fcdd1f5ce.setContent(html_758ba0c07436c8230a4089f636e7abea);
+            
+        
+
+        circle_0b0a8a0e5ef9b151b14d9cf550deee53.bindPopup(popup_1022840d4e7c62d8ad976c9fcdd1f5ce)
+        ;
+
+        
+    
+    
+            var circle_74a0d2bf6493f311d56cc3cb46cb940f = L.circle(
+                [52.115708, 0.05838],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 244.9489742783178, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_55c61ac22cadec288174401b54f37833 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_28122401f378b44a06bde6e4c95dc695 = $(`<div id="html_28122401f378b44a06bde6e4c95dc695" style="width: 100.0%; height: 100.0%;"><h3>FOXTON</h3><b>Total Dwellings Approved:</b> 6</div>`)[0];
+                popup_55c61ac22cadec288174401b54f37833.setContent(html_28122401f378b44a06bde6e4c95dc695);
+            
+        
+
+        circle_74a0d2bf6493f311d56cc3cb46cb940f.bindPopup(popup_55c61ac22cadec288174401b54f37833)
+        ;
+
+        
+    
+    
+            var circle_551b99a77c2fc1a209a3b71899db12d7 = L.circle(
+                [52.1952215, 0.198454],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 173.20508075688772, "stroke": true, "weight": 3}
+            ).addTo(feature_group_345963798910ec42e91c03e306389ac4);
+        
+    
+        var popup_a86e400c32d01759014a87e9e360d458 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c39038100315980b504901c74b1864a8 = $(`<div id="html_c39038100315980b504901c74b1864a8" style="width: 100.0%; height: 100.0%;"><h3>TEVERSHAM</h3><b>Total Dwellings Approved:</b> 3</div>`)[0];
+                popup_a86e400c32d01759014a87e9e360d458.setContent(html_c39038100315980b504901c74b1864a8);
+            
+        
+
+        circle_551b99a77c2fc1a209a3b71899db12d7.bindPopup(popup_a86e400c32d01759014a87e9e360d458)
+        ;
+
+        
+    
+    
+            feature_group_345963798910ec42e91c03e306389ac4.addTo(map_bbe2430aafd565be57ab89cbeb634c02);
+        
+    
+            var feature_group_02500a4cf5ad0c007bab4736516227f1 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_b1f96d07f050944048d2a54a574399ab = L.circleMarker(
+                [52.115708, 0.05838],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_32c7bcffb3b99a63c54b77930e98a2c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_428c75abd3ded9a8b17cd7c43779a746 = $(`<div id="html_428c75abd3ded9a8b17cd7c43779a746" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Trinity School 8 Station Road Foxton Cambridgeshire CB22 6SA<br><b>Dwellings:</b> 6</div>`)[0];
+                popup_32c7bcffb3b99a63c54b77930e98a2c0.setContent(html_428c75abd3ded9a8b17cd7c43779a746);
+            
+        
+
+        circle_marker_b1f96d07f050944048d2a54a574399ab.bindPopup(popup_32c7bcffb3b99a63c54b77930e98a2c0)
+        ;
+
+        
+    
+    
+            var circle_marker_0a193b31bfa0be7d24b1b4535c25b853 = L.circleMarker(
+                [52.216191, 0.126498],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_5e66e5487c28ebaa7be3a64e1677fa69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d664f259b5ea83b9b8158353449b0282 = $(`<div id="html_d664f259b5ea83b9b8158353449b0282" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Mayfair Court Milton Road Cambridge Cambridgeshire<br><b>Dwellings:</b> 6</div>`)[0];
+                popup_5e66e5487c28ebaa7be3a64e1677fa69.setContent(html_d664f259b5ea83b9b8158353449b0282);
+            
+        
+
+        circle_marker_0a193b31bfa0be7d24b1b4535c25b853.bindPopup(popup_5e66e5487c28ebaa7be3a64e1677fa69)
+        ;
+
+        
+    
+    
+            var circle_marker_6f8b3e1938efca713d1425f6391ecc29 = L.circleMarker(
+                [52.185911, 0.211323],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_0fa517b324860a6c87d6b6567e2f12ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0530d676adcd2fcc1905fb668c1b6bd8 = $(`<div id="html_0530d676adcd2fcc1905fb668c1b6bd8" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Hannah Reed And Associates Telford House 76 Cow Lane Fulbourn Cambridge Cambridgeshire CB21 5HB<br><b>Dwellings:</b> 11</div>`)[0];
+                popup_0fa517b324860a6c87d6b6567e2f12ba.setContent(html_0530d676adcd2fcc1905fb668c1b6bd8);
+            
+        
+
+        circle_marker_6f8b3e1938efca713d1425f6391ecc29.bindPopup(popup_0fa517b324860a6c87d6b6567e2f12ba)
+        ;
+
+        
+    
+    
+            var circle_marker_cd93a69165a337129bb63df332da3727 = L.circleMarker(
+                [52.217214, 0.01331],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_4eecadead9ff75f83bbac9d2b65de757 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15ed726592b054416027b916f6f97970 = $(`<div id="html_15ed726592b054416027b916f6f97970" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land At 147 St Neots Road Hardwick Cambridgeshire<br><b>Dwellings:</b> 9</div>`)[0];
+                popup_4eecadead9ff75f83bbac9d2b65de757.setContent(html_15ed726592b054416027b916f6f97970);
+            
+        
+
+        circle_marker_cd93a69165a337129bb63df332da3727.bindPopup(popup_4eecadead9ff75f83bbac9d2b65de757)
+        ;
+
+        
+    
+    
+            var circle_marker_5bb5507f34b8011eb49a77e2309ab45a = L.circleMarker(
+                [52.242013, 0.110112],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_a9fd0bff0ed48b5d98d8d3f5d0dd6b1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfb3a49ea88fe6e9628e2f9e36f721f5 = $(`<div id="html_cfb3a49ea88fe6e9628e2f9e36f721f5" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Old Station Yard, Cambridge Road, IMPINGTON, CB24 9NU<br><b>Dwellings:</b> 38</div>`)[0];
+                popup_a9fd0bff0ed48b5d98d8d3f5d0dd6b1e.setContent(html_cfb3a49ea88fe6e9628e2f9e36f721f5);
+            
+        
+
+        circle_marker_5bb5507f34b8011eb49a77e2309ab45a.bindPopup(popup_a9fd0bff0ed48b5d98d8d3f5d0dd6b1e)
+        ;
+
+        
+    
+    
+            var circle_marker_6fe7226527e43869bc714d18a4b3a5d1 = L.circleMarker(
+                [52.215094, 0.13397],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_1b4ffd19dcbdd78482c0c989f2b98a0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83a52fb9146cb52850decceceb6cabec = $(`<div id="html_83a52fb9146cb52850decceceb6cabec" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land off, De Freville Avenue/, SANDY LANE, CAMBRIDGE<br><b>Dwellings:</b> 29</div>`)[0];
+                popup_1b4ffd19dcbdd78482c0c989f2b98a0c.setContent(html_83a52fb9146cb52850decceceb6cabec);
+            
+        
+
+        circle_marker_6fe7226527e43869bc714d18a4b3a5d1.bindPopup(popup_1b4ffd19dcbdd78482c0c989f2b98a0c)
+        ;
+
+        
+    
+    
+            var circle_marker_74aac008d7f6db626542118fb9be120d = L.circleMarker(
+                [52.186178, 0.200861],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_277fffabcb8943ffb8ea2b92feb5132c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1bff8c9bdb86c4cc7657279a3af1450 = $(`<div id="html_c1bff8c9bdb86c4cc7657279a3af1450" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Ida Darwin Hospital, Fulbourn Old Drift, Fulbourn, Cambridge, Cambridgeshire, CB21 5EE<br><b>Dwellings:</b> 203</div>`)[0];
+                popup_277fffabcb8943ffb8ea2b92feb5132c.setContent(html_c1bff8c9bdb86c4cc7657279a3af1450);
+            
+        
+
+        circle_marker_74aac008d7f6db626542118fb9be120d.bindPopup(popup_277fffabcb8943ffb8ea2b92feb5132c)
+        ;
+
+        
+    
+    
+            var circle_marker_a6f79fed6c300dfb4c3ef196c274bcf5 = L.circleMarker(
+                [52.147838, 0.139596],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_7513519ef5a193b04257dd994a170e5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d4b3600bb0a135eae7d0a46fc360d37 = $(`<div id="html_1d4b3600bb0a135eae7d0a46fc360d37" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 2 Station Road Great Shelford Cambridge Cambridgeshire CB22 5LR<br><b>Dwellings:</b> 39</div>`)[0];
+                popup_7513519ef5a193b04257dd994a170e5c.setContent(html_1d4b3600bb0a135eae7d0a46fc360d37);
+            
+        
+
+        circle_marker_a6f79fed6c300dfb4c3ef196c274bcf5.bindPopup(popup_7513519ef5a193b04257dd994a170e5c)
+        ;
+
+        
+    
+    
+            var circle_marker_becbf493694111f2ca592d9527ecc380 = L.circleMarker(
+                [52.267514, 0.064349],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_1b052e0738f2b3f927936814731a1854 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b528f39110efd450c832ec0a4c5014e = $(`<div id="html_0b528f39110efd450c832ec0a4c5014e" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Nothstowe Phase 3 - Land at, Oakington Barracks, Ramptoon Road, Longstanton, Cambridge CB4<br><b>Dwellings:</b> 4000</div>`)[0];
+                popup_1b052e0738f2b3f927936814731a1854.setContent(html_0b528f39110efd450c832ec0a4c5014e);
+            
+        
+
+        circle_marker_becbf493694111f2ca592d9527ecc380.bindPopup(popup_1b052e0738f2b3f927936814731a1854)
+        ;
+
+        
+    
+    
+            var circle_marker_5aefc0e9ff37ade8af74d5a55b092306 = L.circleMarker(
+                [52.217263, 0.013063],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_c994b3658d42fce25a5b911243fb9349 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25ad42959ed9a17ad6531b134f52fe1d = $(`<div id="html_25ad42959ed9a17ad6531b134f52fe1d" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Newton House 147 St Neots Road Hardwick Cambridgeshire<br><b>Dwellings:</b> 5</div>`)[0];
+                popup_c994b3658d42fce25a5b911243fb9349.setContent(html_25ad42959ed9a17ad6531b134f52fe1d);
+            
+        
+
+        circle_marker_5aefc0e9ff37ade8af74d5a55b092306.bindPopup(popup_c994b3658d42fce25a5b911243fb9349)
+        ;
+
+        
+    
+    
+            var circle_marker_41e050e3787d431b9b90d6e418754b12 = L.circleMarker(
+                [52.21211, -0.020368],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_09f7d42f5760a61f0c4798fafe7cdfb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_691bfa192bde3a88ccc0973e32fed473 = $(`<div id="html_691bfa192bde3a88ccc0973e32fed473" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land At 87 Highfields Road Highfields Caldecote Caldecote Cambridgeshire<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_09f7d42f5760a61f0c4798fafe7cdfb3.setContent(html_691bfa192bde3a88ccc0973e32fed473);
+            
+        
+
+        circle_marker_41e050e3787d431b9b90d6e418754b12.bindPopup(popup_09f7d42f5760a61f0c4798fafe7cdfb3)
+        ;
+
+        
+    
+    
+            var circle_marker_7989655de9d8486c359701e180172918 = L.circleMarker(
+                [52.145149, 0.089978],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_4472a083b3063f8127003aca2a30ea9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe2075416dfca675dc422363569e0306 = $(`<div id="html_fe2075416dfca675dc422363569e0306" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 180 High Street Harston CB22 7QD<br><b>Dwellings:</b> 8</div>`)[0];
+                popup_4472a083b3063f8127003aca2a30ea9c.setContent(html_fe2075416dfca675dc422363569e0306);
+            
+        
+
+        circle_marker_7989655de9d8486c359701e180172918.bindPopup(popup_4472a083b3063f8127003aca2a30ea9c)
+        ;
+
+        
+    
+    
+            var circle_marker_888bb7a0e41af9aec010b56c75b7105b = L.circleMarker(
+                [52.098718, 0.280406],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_edf69d32fe08f1c96b45e9142205510d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e439ff9b91bd88dd3217c10445ad6b1 = $(`<div id="html_2e439ff9b91bd88dd3217c10445ad6b1" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 41, Back Road, Linton, Cambridge, Cambridgeshire, CB21 4LG<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_edf69d32fe08f1c96b45e9142205510d.setContent(html_2e439ff9b91bd88dd3217c10445ad6b1);
+            
+        
+
+        circle_marker_888bb7a0e41af9aec010b56c75b7105b.bindPopup(popup_edf69d32fe08f1c96b45e9142205510d)
+        ;
+
+        
+    
+    
+            var circle_marker_bbcaeb841ee5ab34f222a9bffd3ea945 = L.circleMarker(
+                [52.285826, 0.181618],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_1ecfdede5de83953cbc417fa6c2b0e6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d879b9375a672ca486ee9f1ffab1f88b = $(`<div id="html_d879b9375a672ca486ee9f1ffab1f88b" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Parcel 2.1, Eastern Woods Waterbeach Barracks And Airfield Site Waterbeach Cambridgeshire<br><b>Dwellings:</b> 111</div>`)[0];
+                popup_1ecfdede5de83953cbc417fa6c2b0e6f.setContent(html_d879b9375a672ca486ee9f1ffab1f88b);
+            
+        
+
+        circle_marker_bbcaeb841ee5ab34f222a9bffd3ea945.bindPopup(popup_1ecfdede5de83953cbc417fa6c2b0e6f)
+        ;
+
+        
+    
+    
+            var circle_marker_6e5fff78a9857ba3f5bd4ae3fd5a6ba3 = L.circleMarker(
+                [52.308436, 0.194009],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_bde18c1ac90c1d04a2b82f803adcb977 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1eed14807f35d325da1b7b002123a3bf = $(`<div id="html_1eed14807f35d325da1b7b002123a3bf" style="width: 100.0%; height: 100.0%;"><b>Address:</b> The Travellers Rest Ely Road Chittering Waterbeach CB25 9PH<br><b>Dwellings:</b> 6</div>`)[0];
+                popup_bde18c1ac90c1d04a2b82f803adcb977.setContent(html_1eed14807f35d325da1b7b002123a3bf);
+            
+        
+
+        circle_marker_6e5fff78a9857ba3f5bd4ae3fd5a6ba3.bindPopup(popup_bde18c1ac90c1d04a2b82f803adcb977)
+        ;
+
+        
+    
+    
+            var circle_marker_785ffabeb12fbe545322f6bef78b536b = L.circleMarker(
+                [52.2576, 0.110383],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_f18c16a4ec585b8ae7d1a285a9a5f40b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaf4b49943c74ed813b37eb764406d68 = $(`<div id="html_eaf4b49943c74ed813b37eb764406d68" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 1 Garden Walk Histon CB24 9HH<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_f18c16a4ec585b8ae7d1a285a9a5f40b.setContent(html_eaf4b49943c74ed813b37eb764406d68);
+            
+        
+
+        circle_marker_785ffabeb12fbe545322f6bef78b536b.bindPopup(popup_f18c16a4ec585b8ae7d1a285a9a5f40b)
+        ;
+
+        
+    
+    
+            var circle_marker_a1ab6c6a41007060290516b42e619bda = L.circleMarker(
+                [52.194444, -0.029113],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_60fc8b86d250ee861698c975ace16c7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3a671282eafb77c831be4b115fe74a1 = $(`<div id="html_f3a671282eafb77c831be4b115fe74a1" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Burr Elm Court Main Street Caldecote Cambridgeshire<br><b>Dwellings:</b> 5</div>`)[0];
+                popup_60fc8b86d250ee861698c975ace16c7a.setContent(html_f3a671282eafb77c831be4b115fe74a1);
+            
+        
+
+        circle_marker_a1ab6c6a41007060290516b42e619bda.bindPopup(popup_60fc8b86d250ee861698c975ace16c7a)
+        ;
+
+        
+    
+    
+            var circle_marker_04152a254f370e59c998685b53e2d226 = L.circleMarker(
+                [52.286536, 0.179233],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_a14503f05f90cc35cda801db25e875d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3a5008f07a5f92888885f93b65c5441 = $(`<div id="html_f3a5008f07a5f92888885f93b65c5441" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Northern Woods Waterbeach Barracks And Airfield Parcel 1 Denny End Road Waterbeach Cambridge Cambridgeshire CB25 9PA<br><b>Dwellings:</b> 89</div>`)[0];
+                popup_a14503f05f90cc35cda801db25e875d0.setContent(html_f3a5008f07a5f92888885f93b65c5441);
+            
+        
+
+        circle_marker_04152a254f370e59c998685b53e2d226.bindPopup(popup_a14503f05f90cc35cda801db25e875d0)
+        ;
+
+        
+    
+    
+            var circle_marker_d628986ba2c723801931330c980b85ff = L.circleMarker(
+                [52.270857, 0.196962],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_ff4526fd8e7f01bccd17366e163b71a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61a288fbe38cd6a5c91650dea790a965 = $(`<div id="html_61a288fbe38cd6a5c91650dea790a965" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 95 Bannold Road Waterbeach CB25 9LQ<br><b>Dwellings:</b> 4</div>`)[0];
+                popup_ff4526fd8e7f01bccd17366e163b71a7.setContent(html_61a288fbe38cd6a5c91650dea790a965);
+            
+        
+
+        circle_marker_d628986ba2c723801931330c980b85ff.bindPopup(popup_ff4526fd8e7f01bccd17366e163b71a7)
+        ;
+
+        
+    
+    
+            var circle_marker_cd57d57ac09ad2fd0f4307ac86d86edd = L.circleMarker(
+                [52.183929, 0.220104],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_5583a43ac2dd79993617377020422e41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c38868158065fd7ed299256a5306c0b = $(`<div id="html_2c38868158065fd7ed299256a5306c0b" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 6 Pierce Lane Fulbourn CB21 5DL<br><b>Dwellings:</b> 5</div>`)[0];
+                popup_5583a43ac2dd79993617377020422e41.setContent(html_2c38868158065fd7ed299256a5306c0b);
+            
+        
+
+        circle_marker_cd57d57ac09ad2fd0f4307ac86d86edd.bindPopup(popup_5583a43ac2dd79993617377020422e41)
+        ;
+
+        
+    
+    
+            var circle_marker_b6db33a15c8be223417c1479ee13db35 = L.circleMarker(
+                [52.218086, -0.012695],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_1a85b56b76878f7dc94a329bdc9ca661 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_332a2c6eeecf9cc33892760abcc1dc26 = $(`<div id="html_332a2c6eeecf9cc33892760abcc1dc26" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Westside St Neots Road Highfields Caldecote Cambridge CB3 8AY<br><b>Dwellings:</b> 9</div>`)[0];
+                popup_1a85b56b76878f7dc94a329bdc9ca661.setContent(html_332a2c6eeecf9cc33892760abcc1dc26);
+            
+        
+
+        circle_marker_b6db33a15c8be223417c1479ee13db35.bindPopup(popup_1a85b56b76878f7dc94a329bdc9ca661)
+        ;
+
+        
+    
+    
+            var circle_marker_99dba741fa981524f258b41689e8c644 = L.circleMarker(
+                [52.183767, 0.051224],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_a6cdb5615a03d69007c49e78cba55319 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e78a87538b07dd4a7e62df10b7095243 = $(`<div id="html_e78a87538b07dd4a7e62df10b7095243" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 15, Comberton Road, Barton, Cambridge, Cambridgeshire, CB23 7BA<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_a6cdb5615a03d69007c49e78cba55319.setContent(html_e78a87538b07dd4a7e62df10b7095243);
+            
+        
+
+        circle_marker_99dba741fa981524f258b41689e8c644.bindPopup(popup_a6cdb5615a03d69007c49e78cba55319)
+        ;
+
+        
+    
+    
+            var circle_marker_655a673a254814185858daa14b49e29a = L.circleMarker(
+                [52.247448, -0.121621],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_77e48593749819610e74a0493719d053 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c3444c81f1f3baed3c1e7ee5a831fed = $(`<div id="html_0c3444c81f1f3baed3c1e7ee5a831fed" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Queen Marys Nurses Home 31 Church Lane Papworth Everard CB23 3QN<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_77e48593749819610e74a0493719d053.setContent(html_0c3444c81f1f3baed3c1e7ee5a831fed);
+            
+        
+
+        circle_marker_655a673a254814185858daa14b49e29a.bindPopup(popup_77e48593749819610e74a0493719d053)
+        ;
+
+        
+    
+    
+            var circle_marker_197d5945ebcaec2f5f303e810c01f5b6 = L.circleMarker(
+                [52.230153, 0.118599],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_02bce7d11409a876a3e4bc80608f6be5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45a627705c3398a6e85c258766a0f5a5 = $(`<div id="html_45a627705c3398a6e85c258766a0f5a5" style="width: 100.0%; height: 100.0%;"><b>Address:</b> The Meadows Community Centre 1 St Catharines Road Impington Cambridge CB4 3XJ<br><b>Dwellings:</b> 56</div>`)[0];
+                popup_02bce7d11409a876a3e4bc80608f6be5.setContent(html_45a627705c3398a6e85c258766a0f5a5);
+            
+        
+
+        circle_marker_197d5945ebcaec2f5f303e810c01f5b6.bindPopup(popup_02bce7d11409a876a3e4bc80608f6be5)
+        ;
+
+        
+    
+    
+            var circle_marker_c22dadb919dcb120c390811345e50570 = L.circleMarker(
+                [52.117052, -0.089347],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_040c01ec8b2a9c81f3854d42bec1c177 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb1074083d5b4050aa97bf26d4e6cd84 = $(`<div id="html_fb1074083d5b4050aa97bf26d4e6cd84" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Brickyard Farm, Lower Road, Croydon, Royston, SG8 0HA<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_040c01ec8b2a9c81f3854d42bec1c177.setContent(html_fb1074083d5b4050aa97bf26d4e6cd84);
+            
+        
+
+        circle_marker_c22dadb919dcb120c390811345e50570.bindPopup(popup_040c01ec8b2a9c81f3854d42bec1c177)
+        ;
+
+        
+    
+    
+            var circle_marker_6f76943cba067cac172f62dc4c77065b = L.circleMarker(
+                [52.158068, 0.15361],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_ed8c57ec8de48a7c5bb9abcad1b6eeda = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8fe9e65b57a5cb6bbd7754cc648be89 = $(`<div id="html_b8fe9e65b57a5cb6bbd7754cc648be89" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Beechwood House, 197 Hinton Way, Great Shelford, Cambridge, Cambridgeshire, CB22 5AN<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_ed8c57ec8de48a7c5bb9abcad1b6eeda.setContent(html_b8fe9e65b57a5cb6bbd7754cc648be89);
+            
+        
+
+        circle_marker_6f76943cba067cac172f62dc4c77065b.bindPopup(popup_ed8c57ec8de48a7c5bb9abcad1b6eeda)
+        ;
+
+        
+    
+    
+            var circle_marker_9c4e9564ec466a100a6648409ed39618 = L.circleMarker(
+                [52.089117, -0.000605],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_c8b691b50b331d75190d09bf0d6eb1e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d78d2b3b5366facbd517bdbf7936a4f = $(`<div id="html_0d78d2b3b5366facbd517bdbf7936a4f" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Scrapyard, Chiswick End, Meldreth, ROYSTON, SG8 6LZ<br><b>Dwellings:</b> 6</div>`)[0];
+                popup_c8b691b50b331d75190d09bf0d6eb1e3.setContent(html_0d78d2b3b5366facbd517bdbf7936a4f);
+            
+        
+
+        circle_marker_9c4e9564ec466a100a6648409ed39618.bindPopup(popup_c8b691b50b331d75190d09bf0d6eb1e3)
+        ;
+
+        
+    
+    
+            var circle_marker_0c040266cc3093e320f4e58380f0674e = L.circleMarker(
+                [52.262311, 0.110958],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_da88553b3e6bb62670018a578fbede0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54164528bb196c6ab15c6319b557e177 = $(`<div id="html_54164528bb196c6ab15c6319b557e177" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 130 Cottenham Road Histon CB24 9ET<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_da88553b3e6bb62670018a578fbede0b.setContent(html_54164528bb196c6ab15c6319b557e177);
+            
+        
+
+        circle_marker_0c040266cc3093e320f4e58380f0674e.bindPopup(popup_da88553b3e6bb62670018a578fbede0b)
+        ;
+
+        
+    
+    
+            var circle_marker_c369771060d26c5d31bc04e3b5e37ab0 = L.circleMarker(
+                [52.156428, -0.196737],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_2b1813c63ee8f38403284965cf64e684 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e984a80169ba360878a681da1dcb9f38 = $(`<div id="html_e984a80169ba360878a681da1dcb9f38" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Pinewood Structures Ltd, Green End Industrial Estate, Green End, GAMLINGAY, SG19 3LX<br><b>Dwellings:</b> 85</div>`)[0];
+                popup_2b1813c63ee8f38403284965cf64e684.setContent(html_e984a80169ba360878a681da1dcb9f38);
+            
+        
+
+        circle_marker_c369771060d26c5d31bc04e3b5e37ab0.bindPopup(popup_2b1813c63ee8f38403284965cf64e684)
+        ;
+
+        
+    
+    
+            var circle_marker_9f668252403a78ed603699b723454fd9 = L.circleMarker(
+                [52.205774, -0.02163],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_614ff9ae960dc627ed52939be285de6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6b2dcc8eb005ece4f28d5690c2e91f8 = $(`<div id="html_f6b2dcc8eb005ece4f28d5690c2e91f8" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land On The North Side Of 2 East Drive Highfields Caldecote Caldecote Cambridge Cambridgeshire CB23 7NZ<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_614ff9ae960dc627ed52939be285de6e.setContent(html_f6b2dcc8eb005ece4f28d5690c2e91f8);
+            
+        
+
+        circle_marker_9f668252403a78ed603699b723454fd9.bindPopup(popup_614ff9ae960dc627ed52939be285de6e)
+        ;
+
+        
+    
+    
+            var circle_marker_a53a010c88c85b165744017de8e7b634 = L.circleMarker(
+                [52.182971, 0.221344],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_a0fd7f8c73fe7ac19486659b30782873 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddc8c37f429db1ca27531ea500c0a804 = $(`<div id="html_ddc8c37f429db1ca27531ea500c0a804" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Rear of The Six Bells, 9, High Street, FULBOURN, CB21 5DH<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_a0fd7f8c73fe7ac19486659b30782873.setContent(html_ddc8c37f429db1ca27531ea500c0a804);
+            
+        
+
+        circle_marker_a53a010c88c85b165744017de8e7b634.bindPopup(popup_a0fd7f8c73fe7ac19486659b30782873)
+        ;
+
+        
+    
+    
+            var circle_marker_966464294327999d7ac17876e11504ab = L.circleMarker(
+                [52.160004, 0.125193],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_c16569e02276b5841e5bc17fdfa347d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8295cb29dc63e831ca1db5dfa2b5bb7 = $(`<div id="html_a8295cb29dc63e831ca1db5dfa2b5bb7" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 125 Cambridge Road Great Shelford Cambridge Cambridgeshire CB22 5JJ<br><b>Dwellings:</b> 7</div>`)[0];
+                popup_c16569e02276b5841e5bc17fdfa347d5.setContent(html_a8295cb29dc63e831ca1db5dfa2b5bb7);
+            
+        
+
+        circle_marker_966464294327999d7ac17876e11504ab.bindPopup(popup_c16569e02276b5841e5bc17fdfa347d5)
+        ;
+
+        
+    
+    
+            var circle_marker_d0e048c8181a61154d55f70d631caef6 = L.circleMarker(
+                [52.225917, 0.110637],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_dbe2fa7f9372b5918ebcbe1184dff155 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b826ae0d98bc76d29997f0aa8fdd4835 = $(`<div id="html_b826ae0d98bc76d29997f0aa8fdd4835" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 295 - 301 Histon Road Cambridge Cambridgeshire CB4 3NF<br><b>Dwellings:</b> 26</div>`)[0];
+                popup_dbe2fa7f9372b5918ebcbe1184dff155.setContent(html_b826ae0d98bc76d29997f0aa8fdd4835);
+            
+        
+
+        circle_marker_d0e048c8181a61154d55f70d631caef6.bindPopup(popup_dbe2fa7f9372b5918ebcbe1184dff155)
+        ;
+
+        
+    
+    
+            var circle_marker_37b04c07a1ce1967b856ec6d01d296ec = L.circleMarker(
+                [52.09635, 0.272635],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_4c4aace03edb793d75d081a2865d72fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ed5ed9f137cd8274d548a7d305e1779 = $(`<div id="html_8ed5ed9f137cd8274d548a7d305e1779" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 20, Cambridge Road, Linton, Cambridge, Cambridgeshire, CB21 4NN<br><b>Dwellings:</b> 14</div>`)[0];
+                popup_4c4aace03edb793d75d081a2865d72fa.setContent(html_8ed5ed9f137cd8274d548a7d305e1779);
+            
+        
+
+        circle_marker_37b04c07a1ce1967b856ec6d01d296ec.bindPopup(popup_4c4aace03edb793d75d081a2865d72fa)
+        ;
+
+        
+    
+    
+            var circle_marker_59cd235339272acba68d4ae70956a49d = L.circleMarker(
+                [52.29258, 0.124391],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_7dc3cffda2bcb50a10dc042814a59cb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d92a827cac3f73a855a67812e92ad421 = $(`<div id="html_d92a827cac3f73a855a67812e92ad421" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Unit F2, Broad Lane Industrial Estate, Broad Lane, Cottenham, Cambridge, Cambridgeshire, CB24 8SW<br><b>Dwellings:</b> 9</div>`)[0];
+                popup_7dc3cffda2bcb50a10dc042814a59cb2.setContent(html_d92a827cac3f73a855a67812e92ad421);
+            
+        
+
+        circle_marker_59cd235339272acba68d4ae70956a49d.bindPopup(popup_7dc3cffda2bcb50a10dc042814a59cb2)
+        ;
+
+        
+    
+    
+            var circle_marker_d8acc12ed09f2ca690ef031868abe370 = L.circleMarker(
+                [52.252938, 0.105063],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_71f9623697b48e3e2fbcb400b5384599 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51596201cb7ac48bac522c344f9cbfbe = $(`<div id="html_51596201cb7ac48bac522c344f9cbfbe" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land adjacent to School Hill, Histon, CB24 9JE<br><b>Dwellings:</b> 9</div>`)[0];
+                popup_71f9623697b48e3e2fbcb400b5384599.setContent(html_51596201cb7ac48bac522c344f9cbfbe);
+            
+        
+
+        circle_marker_d8acc12ed09f2ca690ef031868abe370.bindPopup(popup_71f9623697b48e3e2fbcb400b5384599)
+        ;
+
+        
+    
+    
+            var circle_marker_1cc8c88ed8e5dce8d9150a65864f6754 = L.circleMarker(
+                [52.220836, 0.134685],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_25c36cccb408e1485423bdf5400355ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fece475e8dcca5f306454801602e812 = $(`<div id="html_0fece475e8dcca5f306454801602e812" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 220 Milton Road Cambridge CB4 1LQ<br><b>Dwellings:</b> 5</div>`)[0];
+                popup_25c36cccb408e1485423bdf5400355ec.setContent(html_0fece475e8dcca5f306454801602e812);
+            
+        
+
+        circle_marker_1cc8c88ed8e5dce8d9150a65864f6754.bindPopup(popup_25c36cccb408e1485423bdf5400355ec)
+        ;
+
+        
+    
+    
+            var circle_marker_eccc91ccc2548cc053eeedbae2e09a0c = L.circleMarker(
+                [52.218044, -0.01337],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_cac0a94eaabea05e9170ec2d3e3b0d4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1fff61baf87a582dfce9a6852b59f60 = $(`<div id="html_f1fff61baf87a582dfce9a6852b59f60" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Plot 1 Westside, St Neots Road, Caldecote, Cambridge, CB23 8AY<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_cac0a94eaabea05e9170ec2d3e3b0d4a.setContent(html_f1fff61baf87a582dfce9a6852b59f60);
+            
+        
+
+        circle_marker_eccc91ccc2548cc053eeedbae2e09a0c.bindPopup(popup_cac0a94eaabea05e9170ec2d3e3b0d4a)
+        ;
+
+        
+    
+    
+            var circle_marker_90c0fbe814178eafdc066d4408a01c22 = L.circleMarker(
+                [52.244435, 0.159651],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_a4b5224dde1a77cd012774514a0e934c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1086fb0ab53ce0d69268c870f1333d2 = $(`<div id="html_f1086fb0ab53ce0d69268c870f1333d2" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 26 , Butt Lane, MILTON, CB24 6DG<br><b>Dwellings:</b> 4</div>`)[0];
+                popup_a4b5224dde1a77cd012774514a0e934c.setContent(html_f1086fb0ab53ce0d69268c870f1333d2);
+            
+        
+
+        circle_marker_90c0fbe814178eafdc066d4408a01c22.bindPopup(popup_a4b5224dde1a77cd012774514a0e934c)
+        ;
+
+        
+    
+    
+            var circle_marker_2c623a578a8ae01273cc0e92429296d5 = L.circleMarker(
+                [52.186178, 0.200861],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_e9e8ba2381dc05775e5ff0cc60f1940d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6eca382319f822a113f9b4713086fda1 = $(`<div id="html_6eca382319f822a113f9b4713086fda1" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Ida Darwin Hospital, Fulbourn Old Drift, Fulbourn, Cambridge, Cambridgeshire, CB21 5EE<br><b>Dwellings:</b> 203</div>`)[0];
+                popup_e9e8ba2381dc05775e5ff0cc60f1940d.setContent(html_6eca382319f822a113f9b4713086fda1);
+            
+        
+
+        circle_marker_2c623a578a8ae01273cc0e92429296d5.bindPopup(popup_e9e8ba2381dc05775e5ff0cc60f1940d)
+        ;
+
+        
+    
+    
+            var circle_marker_df0031d62662cb3ef736ebc29eb260bd = L.circleMarker(
+                [52.161239, 0.125076],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_c9213a04c894f7bcfaaa1258f98dee9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78f1ea27bbed894db06635baf23f2c47 = $(`<div id="html_78f1ea27bbed894db06635baf23f2c47" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 150, Cambridge Road, Great Shelford, Cambridge, Cambridgeshire, CB22 5JU<br><b>Dwellings:</b> 4</div>`)[0];
+                popup_c9213a04c894f7bcfaaa1258f98dee9c.setContent(html_78f1ea27bbed894db06635baf23f2c47);
+            
+        
+
+        circle_marker_df0031d62662cb3ef736ebc29eb260bd.bindPopup(popup_c9213a04c894f7bcfaaa1258f98dee9c)
+        ;
+
+        
+    
+    
+            var circle_marker_18f83669814ec42b995e7b4426114144 = L.circleMarker(
+                [52.196306, 0.105649],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_91d1ad6e7aa7b2547c15b5105dca7a9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_056d321e2f12b4dda1d510f1d71c57b8 = $(`<div id="html_056d321e2f12b4dda1d510f1d71c57b8" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land Between 21 And 29 Barton Road (including 27 Barton Road And Croft Gardens).<br><b>Dwellings:</b> 9</div>`)[0];
+                popup_91d1ad6e7aa7b2547c15b5105dca7a9c.setContent(html_056d321e2f12b4dda1d510f1d71c57b8);
+            
+        
+
+        circle_marker_18f83669814ec42b995e7b4426114144.bindPopup(popup_91d1ad6e7aa7b2547c15b5105dca7a9c)
+        ;
+
+        
+    
+    
+            var circle_marker_365e4cc7aa999daaf548cb6cf16ea8f4 = L.circleMarker(
+                [52.111497, -0.072321],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_773b384923c859c62d3790938eb613e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e9e1dd42d760205ec711f168812ba5d = $(`<div id="html_1e9e1dd42d760205ec711f168812ba5d" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Former Monkfield Nutrition Site, Shingay-cum-Wendy, Royston, Herts, SG8 0HJ<br><b>Dwellings:</b> 10</div>`)[0];
+                popup_773b384923c859c62d3790938eb613e0.setContent(html_1e9e1dd42d760205ec711f168812ba5d);
+            
+        
+
+        circle_marker_365e4cc7aa999daaf548cb6cf16ea8f4.bindPopup(popup_773b384923c859c62d3790938eb613e0)
+        ;
+
+        
+    
+    
+            var circle_marker_aa085cb97e871446958b36a29628ccf4 = L.circleMarker(
+                [52.153886, 0.139798],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_97217498dea656b300b913b4a7968f4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5886c8a28c0597db9ab27fefaab9a8dd = $(`<div id="html_5886c8a28c0597db9ab27fefaab9a8dd" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Garages, Macaulay Avenue, Great Shelford, Cambridge, CB22 5AE<br><b>Dwellings:</b> 6</div>`)[0];
+                popup_97217498dea656b300b913b4a7968f4c.setContent(html_5886c8a28c0597db9ab27fefaab9a8dd);
+            
+        
+
+        circle_marker_aa085cb97e871446958b36a29628ccf4.bindPopup(popup_97217498dea656b300b913b4a7968f4c)
+        ;
+
+        
+    
+    
+            var circle_marker_c78307b719e6931eb81a36efc8afbeda = L.circleMarker(
+                [52.242924, 0.109422],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_fd0133e5b6aedf16dd7f9dca00628e0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d8ec657d0e66d14c237c14caf16c913 = $(`<div id="html_7d8ec657d0e66d14c237c14caf16c913" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Station Road Garage, Station Yard, Station Road, Histon, Cambridge, CB24 9LF<br><b>Dwellings:</b> 32</div>`)[0];
+                popup_fd0133e5b6aedf16dd7f9dca00628e0b.setContent(html_7d8ec657d0e66d14c237c14caf16c913);
+            
+        
+
+        circle_marker_c78307b719e6931eb81a36efc8afbeda.bindPopup(popup_fd0133e5b6aedf16dd7f9dca00628e0b)
+        ;
+
+        
+    
+    
+            var circle_marker_c84611c4033fa76de65febd7fd4e4801 = L.circleMarker(
+                [52.242924, 0.109422],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_75187680e03662ef4afc259385557054 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43e2ae3650d4855cf2ae6f191871156e = $(`<div id="html_43e2ae3650d4855cf2ae6f191871156e" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Station Road Garage, Station Yard, Station Road, Histon, Cambridge, CB24 9LF<br><b>Dwellings:</b> 32</div>`)[0];
+                popup_75187680e03662ef4afc259385557054.setContent(html_43e2ae3650d4855cf2ae6f191871156e);
+            
+        
+
+        circle_marker_c84611c4033fa76de65febd7fd4e4801.bindPopup(popup_75187680e03662ef4afc259385557054)
+        ;
+
+        
+    
+    
+            var circle_marker_970bf3d013222c0ae1c1e06e9b8a3cb0 = L.circleMarker(
+                [52.098718, 0.280406],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_aa2dfb0392bcb4703cf1067a0e58659a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_080da4ed939f9f34ccc49fac992d7015 = $(`<div id="html_080da4ed939f9f34ccc49fac992d7015" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 41, Back Road, Linton, Cambridge, Cambridgeshire, CB21 4LG<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_aa2dfb0392bcb4703cf1067a0e58659a.setContent(html_080da4ed939f9f34ccc49fac992d7015);
+            
+        
+
+        circle_marker_970bf3d013222c0ae1c1e06e9b8a3cb0.bindPopup(popup_aa2dfb0392bcb4703cf1067a0e58659a)
+        ;
+
+        
+    
+    
+            var circle_marker_943af729338a7eb6ab766d5a42e4784f = L.circleMarker(
+                [52.273923, 0.196498],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_08415eeb4b02458fa227417550de2843 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c5291be0f49e538e761cb2fcdff1118 = $(`<div id="html_0c5291be0f49e538e761cb2fcdff1118" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land at the corner of Capper and Cody Ro, Lancaster & Walmington House, Capper Road, Waterbeach, CB25 9LY<br><b>Dwellings:</b> 16</div>`)[0];
+                popup_08415eeb4b02458fa227417550de2843.setContent(html_0c5291be0f49e538e761cb2fcdff1118);
+            
+        
+
+        circle_marker_943af729338a7eb6ab766d5a42e4784f.bindPopup(popup_08415eeb4b02458fa227417550de2843)
+        ;
+
+        
+    
+    
+            var circle_marker_3770645d6aef4a5dac89cdd7babe985a = L.circleMarker(
+                [52.07792, 0.021135],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_4472798939e6fee4bd77385a25082bbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad44d2ebcabbce054de7d3178ae2a07f = $(`<div id="html_ad44d2ebcabbce054de7d3178ae2a07f" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 36, New Road, Melbourn, Royston, Cambridgeshire, SG8 6BY<br><b>Dwellings:</b> 21</div>`)[0];
+                popup_4472798939e6fee4bd77385a25082bbb.setContent(html_ad44d2ebcabbce054de7d3178ae2a07f);
+            
+        
+
+        circle_marker_3770645d6aef4a5dac89cdd7babe985a.bindPopup(popup_4472798939e6fee4bd77385a25082bbb)
+        ;
+
+        
+    
+    
+            var circle_marker_884137bbb86eaae39a55ec8494357045 = L.circleMarker(
+                [52.117061, -0.089288],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_11b5028744152a760012adc6b6193abf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1713ab3fbd953f14b94c0be2d4c6bd7 = $(`<div id="html_d1713ab3fbd953f14b94c0be2d4c6bd7" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Brickyard Farm, Lower Road, Croydon, Royston, SG8 0HA<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_11b5028744152a760012adc6b6193abf.setContent(html_d1713ab3fbd953f14b94c0be2d4c6bd7);
+            
+        
+
+        circle_marker_884137bbb86eaae39a55ec8494357045.bindPopup(popup_11b5028744152a760012adc6b6193abf)
+        ;
+
+        
+    
+    
+            var circle_marker_4519cd80702a01565e8113eeac1ffed8 = L.circleMarker(
+                [52.26489, 0.193385],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_27858f40ff050f1b1c942d62e0303954 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cad90ecb7af8379492f8683e95409b8c = $(`<div id="html_cad90ecb7af8379492f8683e95409b8c" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land to the rear of 10A, Rosemary Road, Waterbeach, Cambridge, Cambridgeshire, CB25 9NB<br><b>Dwellings:</b> 9</div>`)[0];
+                popup_27858f40ff050f1b1c942d62e0303954.setContent(html_cad90ecb7af8379492f8683e95409b8c);
+            
+        
+
+        circle_marker_4519cd80702a01565e8113eeac1ffed8.bindPopup(popup_27858f40ff050f1b1c942d62e0303954)
+        ;
+
+        
+    
+    
+            var circle_marker_a3653487f5c5934f8fa4f13398ef7ff7 = L.circleMarker(
+                [52.196507, 0.104926],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_efdf328fd44b176f0a64132288d1971c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c793f85411617fdcbd399600ec9c9a95 = $(`<div id="html_c793f85411617fdcbd399600ec9c9a95" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 31 Barton Road Cambridge CB3 9LB<br><b>Dwellings:</b> 9</div>`)[0];
+                popup_efdf328fd44b176f0a64132288d1971c.setContent(html_c793f85411617fdcbd399600ec9c9a95);
+            
+        
+
+        circle_marker_a3653487f5c5934f8fa4f13398ef7ff7.bindPopup(popup_efdf328fd44b176f0a64132288d1971c)
+        ;
+
+        
+    
+    
+            var circle_marker_e50f9fefd8a1f9cad9717fc8e6582afd = L.circleMarker(
+                [52.158023, 0.153623],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_72b79c5c89ebad7d2e4799bc591720d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61dbf8ead17617a1a407ebf2b7a49ce3 = $(`<div id="html_61dbf8ead17617a1a407ebf2b7a49ce3" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 197 , Hinton Way, Great Shelford, Cambridge, CB22 5AN<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_72b79c5c89ebad7d2e4799bc591720d7.setContent(html_61dbf8ead17617a1a407ebf2b7a49ce3);
+            
+        
+
+        circle_marker_e50f9fefd8a1f9cad9717fc8e6582afd.bindPopup(popup_72b79c5c89ebad7d2e4799bc591720d7)
+        ;
+
+        
+    
+    
+            var circle_marker_c7817543cfc8547c3274f5e3a5df38a4 = L.circleMarker(
+                [52.183767, 0.051224],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_92a9abc4fe3bd5e0bbacc091c5b3c57f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04b4b040c5290ac227bd5db1b8f3d75f = $(`<div id="html_04b4b040c5290ac227bd5db1b8f3d75f" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 15, Comberton Road, Barton, Cambridge, Cambridgeshire, CB23 7BA<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_92a9abc4fe3bd5e0bbacc091c5b3c57f.setContent(html_04b4b040c5290ac227bd5db1b8f3d75f);
+            
+        
+
+        circle_marker_c7817543cfc8547c3274f5e3a5df38a4.bindPopup(popup_92a9abc4fe3bd5e0bbacc091c5b3c57f)
+        ;
+
+        
+    
+    
+            var circle_marker_b0d7502eaa863038106c17d7459d80ce = L.circleMarker(
+                [52.270802, 0.197517],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_705d1eabc55c612b406c15dc3acf0047 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc956ee600e8229351c4fe97b3aa6627 = $(`<div id="html_bc956ee600e8229351c4fe97b3aa6627" style="width: 100.0%; height: 100.0%;"><b>Address:</b> The Six Bells, 9, High Street, FULBOURN, CB21 5DH<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_705d1eabc55c612b406c15dc3acf0047.setContent(html_bc956ee600e8229351c4fe97b3aa6627);
+            
+        
+
+        circle_marker_b0d7502eaa863038106c17d7459d80ce.bindPopup(popup_705d1eabc55c612b406c15dc3acf0047)
+        ;
+
+        
+    
+    
+            var circle_marker_96089402b895b59891bc9ea007f6b01d = L.circleMarker(
+                [52.201645, 0.190181],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_1e8caad543ddfb25e3974acb7a4c986b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_587b792a065127a12c1ca7571db647cc = $(`<div id="html_587b792a065127a12c1ca7571db647cc" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Numbers 1 and 3, Pembroke Way, Teversham, CAMBRIDGE, CB1 9AD<br><b>Dwellings:</b> 3</div>`)[0];
+                popup_1e8caad543ddfb25e3974acb7a4c986b.setContent(html_587b792a065127a12c1ca7571db647cc);
+            
+        
+
+        circle_marker_96089402b895b59891bc9ea007f6b01d.bindPopup(popup_1e8caad543ddfb25e3974acb7a4c986b)
+        ;
+
+        
+    
+    
+            var circle_marker_eae3aa7bbeac6d550ec236b5b0ed172f = L.circleMarker(
+                [52.186929, 0.191418],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_960016bf223381a599f504c41c87997e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec4857597acd9547dce921a747dd77a0 = $(`<div id="html_ec4857597acd9547dce921a747dd77a0" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land off Fulbourn Old Drift, Fulbourn, CAMBRIDGESHIRE, CB1 9BF<br><b>Dwellings:</b> 10</div>`)[0];
+                popup_960016bf223381a599f504c41c87997e.setContent(html_ec4857597acd9547dce921a747dd77a0);
+            
+        
+
+        circle_marker_eae3aa7bbeac6d550ec236b5b0ed172f.bindPopup(popup_960016bf223381a599f504c41c87997e)
+        ;
+
+        
+    
+    
+            var circle_marker_ad8edb2c75a1d4fceae23c9d6cfb6bbd = L.circleMarker(
+                [52.161681, 0.124483],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_55a9baa86c659d5945d82b763b56b442 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d44d8cb0073f54eab8570a7c792e408 = $(`<div id="html_0d44d8cb0073f54eab8570a7c792e408" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 160, Cambridge Road, Great Shelford, CAMBRIDGE, CB22 5JU<br><b>Dwellings:</b> 4</div>`)[0];
+                popup_55a9baa86c659d5945d82b763b56b442.setContent(html_0d44d8cb0073f54eab8570a7c792e408);
+            
+        
+
+        circle_marker_ad8edb2c75a1d4fceae23c9d6cfb6bbd.bindPopup(popup_55a9baa86c659d5945d82b763b56b442)
+        ;
+
+        
+    
+    
+            var circle_marker_621ed69b8196faa53e4f1ed7cd32e435 = L.circleMarker(
+                [52.089821, 0.007732],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_f747d8df68ba9177687a192b9f6d4c09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_729a46b4fa9acf42d5c78d15a931d300 = $(`<div id="html_729a46b4fa9acf42d5c78d15a931d300" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Former GoCold Building, Station Yard, High Street, MELDRETH, SG8 6JR<br><b>Dwellings:</b> 22</div>`)[0];
+                popup_f747d8df68ba9177687a192b9f6d4c09.setContent(html_729a46b4fa9acf42d5c78d15a931d300);
+            
+        
+
+        circle_marker_621ed69b8196faa53e4f1ed7cd32e435.bindPopup(popup_f747d8df68ba9177687a192b9f6d4c09)
+        ;
+
+        
+    
+    
+            var circle_marker_d8e7ce7c3fd8d7bef0c3a7bf6c3e307b = L.circleMarker(
+                [52.28159, 0.184577],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_5163496fdb15b0ce4cfaeaf46100a991 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e17bdf6b02993e87e7079f099a397c0d = $(`<div id="html_e17bdf6b02993e87e7079f099a397c0d" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Waterbeach Barracks and Airfield Site, Waterbeach, Cambridgeshire<br><b>Dwellings:</b> 6500</div>`)[0];
+                popup_5163496fdb15b0ce4cfaeaf46100a991.setContent(html_e17bdf6b02993e87e7079f099a397c0d);
+            
+        
+
+        circle_marker_d8e7ce7c3fd8d7bef0c3a7bf6c3e307b.bindPopup(popup_5163496fdb15b0ce4cfaeaf46100a991)
+        ;
+
+        
+    
+    
+            var circle_marker_828fbea3acf4d2a529576e69539d8169 = L.circleMarker(
+                [52.094285, 0.003816],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_844cdc1bc8e8f7870e32425ebbbd2708 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6a2cb0e07b2e6357a61a9515ae72258 = $(`<div id="html_a6a2cb0e07b2e6357a61a9515ae72258" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 70, Whitecroft Road, Meldreth, ROYSTON, SG8 6LS<br><b>Dwellings:</b> 8</div>`)[0];
+                popup_844cdc1bc8e8f7870e32425ebbbd2708.setContent(html_a6a2cb0e07b2e6357a61a9515ae72258);
+            
+        
+
+        circle_marker_828fbea3acf4d2a529576e69539d8169.bindPopup(popup_844cdc1bc8e8f7870e32425ebbbd2708)
+        ;
+
+        
+    
+    
+            var circle_marker_4565093f5613fe53e64b34e19eecd6cc = L.circleMarker(
+                [52.097831, 0.287194],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_9b13ae9193cc1205e51ee4d32d80be16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73c5894d69e18f0c7c0504126732f35c = $(`<div id="html_73c5894d69e18f0c7c0504126732f35c" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 1, Horseheath Road, Linton, CAMBRIDGE, CB21 4LU<br><b>Dwellings:</b> 6</div>`)[0];
+                popup_9b13ae9193cc1205e51ee4d32d80be16.setContent(html_73c5894d69e18f0c7c0504126732f35c);
+            
+        
+
+        circle_marker_4565093f5613fe53e64b34e19eecd6cc.bindPopup(popup_9b13ae9193cc1205e51ee4d32d80be16)
+        ;
+
+        
+    
+    
+            var circle_marker_b13b8539ca6e0c06779a0f0bdda9c370 = L.circleMarker(
+                [52.11605, -0.001752],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_ba6ca22295bd7660b15fd878a69bbc6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69ee1045e69c45af41f710565c8e621b = $(`<div id="html_69ee1045e69c45af41f710565c8e621b" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Former Golf Club House, Malton Golf Course, Malton Lane, Meldreth, ROYSTON, SG8 6PE<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_ba6ca22295bd7660b15fd878a69bbc6f.setContent(html_69ee1045e69c45af41f710565c8e621b);
+            
+        
+
+        circle_marker_b13b8539ca6e0c06779a0f0bdda9c370.bindPopup(popup_ba6ca22295bd7660b15fd878a69bbc6f)
+        ;
+
+        
+    
+    
+            var circle_marker_f92c6a896604f95c235b06c6d1f41d60 = L.circleMarker(
+                [52.262312, 0.110914],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_506f1055a9d6884a4abf8b6e7b3c96f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8ba01e921226e6c3bf084e0c2df813a = $(`<div id="html_f8ba01e921226e6c3bf084e0c2df813a" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land at Rear of 130, Cottenham Road, Histon, CAMBRIDGE, CB24 9ET<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_506f1055a9d6884a4abf8b6e7b3c96f7.setContent(html_f8ba01e921226e6c3bf084e0c2df813a);
+            
+        
+
+        circle_marker_f92c6a896604f95c235b06c6d1f41d60.bindPopup(popup_506f1055a9d6884a4abf8b6e7b3c96f7)
+        ;
+
+        
+    
+    
+            var circle_marker_8befafb5c2428c7339e7e7cd6866e2d5 = L.circleMarker(
+                [52.262312, 0.110914],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_9074f1630e0425746972a0a305ef4eb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3f3a9f44898a8afd2ef58cb5ba53413 = $(`<div id="html_b3f3a9f44898a8afd2ef58cb5ba53413" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land at Rear of 130, Cottenham Road, Histon, CAMBRIDGE, CB24 9ET<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_9074f1630e0425746972a0a305ef4eb4.setContent(html_b3f3a9f44898a8afd2ef58cb5ba53413);
+            
+        
+
+        circle_marker_8befafb5c2428c7339e7e7cd6866e2d5.bindPopup(popup_9074f1630e0425746972a0a305ef4eb4)
+        ;
+
+        
+    
+    
+            var circle_marker_46c1ee9129b09156261447c5a0fd3d98 = L.circleMarker(
+                [52.183864, 0.220686],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_50c12319ce596df4f58b4f9a74ff3db0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd8a0d9529f473655a9118f5057e60fb = $(`<div id="html_fd8a0d9529f473655a9118f5057e60fb" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 2, Pierce Lane, Fulbourn, CAMBRIDGE, CB21 5DL<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_50c12319ce596df4f58b4f9a74ff3db0.setContent(html_fd8a0d9529f473655a9118f5057e60fb);
+            
+        
+
+        circle_marker_46c1ee9129b09156261447c5a0fd3d98.bindPopup(popup_50c12319ce596df4f58b4f9a74ff3db0)
+        ;
+
+        
+    
+    
+            var circle_marker_a4a6c8cca7abd260c891fc0238b2ec7f = L.circleMarker(
+                [52.146134, 0.152056],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_f15982882c7af6ac5edd76d652b56fc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6773a578cd744e40dd72d45e65db0d3 = $(`<div id="html_d6773a578cd744e40dd72d45e65db0d3" style="width: 100.0%; height: 100.0%;"><b>Address:</b> The Bishops Site, Cambridge Road, IMPINGTON, CB24 9NU<br><b>Dwellings:</b> 35</div>`)[0];
+                popup_f15982882c7af6ac5edd76d652b56fc2.setContent(html_d6773a578cd744e40dd72d45e65db0d3);
+            
+        
+
+        circle_marker_a4a6c8cca7abd260c891fc0238b2ec7f.bindPopup(popup_f15982882c7af6ac5edd76d652b56fc2)
+        ;
+
+        
+    
+    
+            var circle_marker_40c767fc4417546211f690cb266f5686 = L.circleMarker(
+                [52.242013, 0.110112],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_693a0b28258c0ccc37087dc01448ff3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_761821a6af022b762989e2837beecf30 = $(`<div id="html_761821a6af022b762989e2837beecf30" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Old Station Yard, Cambridge Road, IMPINGTON, CB24 9NU<br><b>Dwellings:</b> 35</div>`)[0];
+                popup_693a0b28258c0ccc37087dc01448ff3a.setContent(html_761821a6af022b762989e2837beecf30);
+            
+        
+
+        circle_marker_40c767fc4417546211f690cb266f5686.bindPopup(popup_693a0b28258c0ccc37087dc01448ff3a)
+        ;
+
+        
+    
+    
+            var circle_marker_0bac5428a03ee22a37c8f468d90de5b8 = L.circleMarker(
+                [52.242493, 0.110121],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_17abdc78cad775b51a4f0b2ece3b06a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b04a31fe7361f6779dbf0b8c8e25232 = $(`<div id="html_5b04a31fe7361f6779dbf0b8c8e25232" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 2-4 Water Lane, OAKINGTON AND WESTWICK, CB24 3AL<br><b>Dwellings:</b> 5</div>`)[0];
+                popup_17abdc78cad775b51a4f0b2ece3b06a6.setContent(html_5b04a31fe7361f6779dbf0b8c8e25232);
+            
+        
+
+        circle_marker_0bac5428a03ee22a37c8f468d90de5b8.bindPopup(popup_17abdc78cad775b51a4f0b2ece3b06a6)
+        ;
+
+        
+    
+    
+            var circle_marker_ad845238255723a8fdeedec3ffe22d08 = L.circleMarker(
+                [52.25825, 0.065516],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_0435f2716804b19d86783a1134a22c0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b144d50aa122b8a3c50beb5e8a89c21 = $(`<div id="html_5b144d50aa122b8a3c50beb5e8a89c21" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 2-4, Water Lane, Oakington, CAMBRIDGE, CB24 3AL<br><b>Dwellings:</b> 4</div>`)[0];
+                popup_0435f2716804b19d86783a1134a22c0b.setContent(html_5b144d50aa122b8a3c50beb5e8a89c21);
+            
+        
+
+        circle_marker_ad845238255723a8fdeedec3ffe22d08.bindPopup(popup_0435f2716804b19d86783a1134a22c0b)
+        ;
+
+        
+    
+    
+            var circle_marker_738dbc047d36344467c2efaa3357a675 = L.circleMarker(
+                [52.064427, -0.082006],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_b24923681cba9a67dcc8d5681417c1bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49a3433e1ab2c37370e979752dafed19 = $(`<div id="html_49a3433e1ab2c37370e979752dafed19" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Former station site including derelict Histon & Impington Railway Station, 94-96 Station Road, Impington, Cambridge, CB24 9NP<br><b>Dwellings:</b> 12</div>`)[0];
+                popup_b24923681cba9a67dcc8d5681417c1bf.setContent(html_49a3433e1ab2c37370e979752dafed19);
+            
+        
+
+        circle_marker_738dbc047d36344467c2efaa3357a675.bindPopup(popup_b24923681cba9a67dcc8d5681417c1bf)
+        ;
+
+        
+    
+    
+            var circle_marker_1fed1c4b1ffdef8dc01bd2649db4354a = L.circleMarker(
+                [52.242515, 0.110179],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_dee342b2c0b292e2047e81651ebc899e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_894b1ef8791e05919986f88faa9f0081 = $(`<div id="html_894b1ef8791e05919986f88faa9f0081" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Former station site including derelict Histon & Impington Railway Station, 94-96, Station Road, Impington, CAMBRIDGE, CB24 9NP<br><b>Dwellings:</b> 12</div>`)[0];
+                popup_dee342b2c0b292e2047e81651ebc899e.setContent(html_894b1ef8791e05919986f88faa9f0081);
+            
+        
+
+        circle_marker_1fed1c4b1ffdef8dc01bd2649db4354a.bindPopup(popup_dee342b2c0b292e2047e81651ebc899e)
+        ;
+
+        
+    
+    
+            var circle_marker_80c9852f2d125678380f2e8c3114f453 = L.circleMarker(
+                [52.214913, 0.130522],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_602f5e6ffe6b1f8879c6e6fbbe559b9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1dbbe954ac8dc5d2d10e1fb6864ecaf = $(`<div id="html_d1dbbe954ac8dc5d2d10e1fb6864ecaf" style="width: 100.0%; height: 100.0%;"><b>Address:</b> St Regis And 108 Chesterton Road, St Regis House 47 Hamilton Road, St. Regis, CAMBRIDGE, CB4 1BY<br><b>Dwellings:</b> 14</div>`)[0];
+                popup_602f5e6ffe6b1f8879c6e6fbbe559b9e.setContent(html_d1dbbe954ac8dc5d2d10e1fb6864ecaf);
+            
+        
+
+        circle_marker_80c9852f2d125678380f2e8c3114f453.bindPopup(popup_602f5e6ffe6b1f8879c6e6fbbe559b9e)
+        ;
+
+        
+    
+    
+            var circle_marker_69e9f571535ee08fe820062fb997df6e = L.circleMarker(
+                [52.178455, -0.145204],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_f048c8f32c4a77c9e7e489ea7f481097 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efbbd99bf91a6bb417852c2945f9275b = $(`<div id="html_efbbd99bf91a6bb417852c2945f9275b" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land to the side of Willow Tree House, Church Street, Little Gransden, Sandy, SG193DU<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_f048c8f32c4a77c9e7e489ea7f481097.setContent(html_efbbd99bf91a6bb417852c2945f9275b);
+            
+        
+
+        circle_marker_69e9f571535ee08fe820062fb997df6e.bindPopup(popup_f048c8f32c4a77c9e7e489ea7f481097)
+        ;
+
+        
+    
+    
+            var circle_marker_a75f4e0b5bc1e0885f4973efe0808b15 = L.circleMarker(
+                [52.242276, 0.159445],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_428d09742916d0224b0f3a23f1688c6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc8a8a128060121ffc72e74095f3d6dc = $(`<div id="html_fc8a8a128060121ffc72e74095f3d6dc" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 2, Cambridge Road, MILTON, CB24 6AW<br><b>Dwellings:</b> 5</div>`)[0];
+                popup_428d09742916d0224b0f3a23f1688c6c.setContent(html_fc8a8a128060121ffc72e74095f3d6dc);
+            
+        
+
+        circle_marker_a75f4e0b5bc1e0885f4973efe0808b15.bindPopup(popup_428d09742916d0224b0f3a23f1688c6c)
+        ;
+
+        
+    
+    
+            var circle_marker_fcffddb4313b9f90a60154946eeb84ab = L.circleMarker(
+                [52.245952, 0.109053],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_f59d53162baae7dbb6184b7663db5c6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_257991b1ac6b62bbd0cbeaa6e3f972ce = $(`<div id="html_257991b1ac6b62bbd0cbeaa6e3f972ce" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 66 - 68, Station Road, HISTON, CB24 9LF<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_f59d53162baae7dbb6184b7663db5c6b.setContent(html_257991b1ac6b62bbd0cbeaa6e3f972ce);
+            
+        
+
+        circle_marker_fcffddb4313b9f90a60154946eeb84ab.bindPopup(popup_f59d53162baae7dbb6184b7663db5c6b)
+        ;
+
+        
+    
+    
+            var circle_marker_207ce9aa45f472661381ddf0f9585bf0 = L.circleMarker(
+                [52.089117, -0.000605],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_18b8b01ca55ca87904e6898686232a4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22647d312366f14600a0a441e3ab4115 = $(`<div id="html_22647d312366f14600a0a441e3ab4115" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Scrapyard, Chiswick End, Meldreth, ROYSTON, SG8 6LZ<br><b>Dwellings:</b> 6</div>`)[0];
+                popup_18b8b01ca55ca87904e6898686232a4e.setContent(html_22647d312366f14600a0a441e3ab4115);
+            
+        
+
+        circle_marker_207ce9aa45f472661381ddf0f9585bf0.bindPopup(popup_18b8b01ca55ca87904e6898686232a4e)
+        ;
+
+        
+    
+    
+            var circle_marker_8029ce46ed3bb50db9b27270b166c4e3 = L.circleMarker(
+                [52.160438, 0.124879],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_2230001003cfbc82742ec08c6075f71b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f16ff7db0a9f8a854268c1aa99cfc28 = $(`<div id="html_1f16ff7db0a9f8a854268c1aa99cfc28" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 129, Cambridge Road, Great Shelford, CAMBRIDGE, CB22 5JJ<br><b>Dwellings:</b> 5</div>`)[0];
+                popup_2230001003cfbc82742ec08c6075f71b.setContent(html_1f16ff7db0a9f8a854268c1aa99cfc28);
+            
+        
+
+        circle_marker_8029ce46ed3bb50db9b27270b166c4e3.bindPopup(popup_2230001003cfbc82742ec08c6075f71b)
+        ;
+
+        
+    
+    
+            var circle_marker_a483779451e9bb266f5dd8758c88b73c = L.circleMarker(
+                [52.081714, -0.044486],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_2f9de883de765a301f5833f855c4eba1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79c956e9aadaaf30cfc8d8812c3b92c7 = $(`<div id="html_79c956e9aadaaf30cfc8d8812c3b92c7" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land located north of 131, The Causeway, Bassingbourn, ROYSTON, SG8 5JB<br><b>Dwellings:</b> 6</div>`)[0];
+                popup_2f9de883de765a301f5833f855c4eba1.setContent(html_79c956e9aadaaf30cfc8d8812c3b92c7);
+            
+        
+
+        circle_marker_a483779451e9bb266f5dd8758c88b73c.bindPopup(popup_2f9de883de765a301f5833f855c4eba1)
+        ;
+
+        
+    
+    
+            var circle_marker_1b47b460dcf858265d864c2f0a8b7dc8 = L.circleMarker(
+                [52.081819, -0.04422],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_88ddf400d7112862c3bd3781be7d1819 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3caca9ec2ddaa6d994a8832fafafdc1a = $(`<div id="html_3caca9ec2ddaa6d994a8832fafafdc1a" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land located north of 131, The Causeway, Bassingbourn, ROYSTON, SG8 5JB<br><b>Dwellings:</b> 6</div>`)[0];
+                popup_88ddf400d7112862c3bd3781be7d1819.setContent(html_3caca9ec2ddaa6d994a8832fafafdc1a);
+            
+        
+
+        circle_marker_1b47b460dcf858265d864c2f0a8b7dc8.bindPopup(popup_88ddf400d7112862c3bd3781be7d1819)
+        ;
+
+        
+    
+    
+            var circle_marker_801204f526721a2211803a37e916d862 = L.circleMarker(
+                [52.227023, 0.144046],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_6da8cb4084671b9ad0d4d89ba2bfc87e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dca5d1f53a6b90ff7e534d38e16af30 = $(`<div id="html_1dca5d1f53a6b90ff7e534d38e16af30" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 339, Milton Road, CAMBRIDGE, CB4 1XL<br><b>Dwellings:</b> 4</div>`)[0];
+                popup_6da8cb4084671b9ad0d4d89ba2bfc87e.setContent(html_1dca5d1f53a6b90ff7e534d38e16af30);
+            
+        
+
+        circle_marker_801204f526721a2211803a37e916d862.bindPopup(popup_6da8cb4084671b9ad0d4d89ba2bfc87e)
+        ;
+
+        
+    
+    
+            var circle_marker_9c466bb44cf1d60ebff3cac051431178 = L.circleMarker(
+                [52.153079, 0.092383],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_f8d5e98c0a83f8f7eb56f4fa19cc5048 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3cfe10bdfb277790b129356a56c0c02 = $(`<div id="html_b3cfe10bdfb277790b129356a56c0c02" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 26, South End, BASSINGBOURN CUM KNEESWORTH, SG8 5NJ<br><b>Dwellings:</b> 10</div>`)[0];
+                popup_f8d5e98c0a83f8f7eb56f4fa19cc5048.setContent(html_b3cfe10bdfb277790b129356a56c0c02);
+            
+        
+
+        circle_marker_9c466bb44cf1d60ebff3cac051431178.bindPopup(popup_f8d5e98c0a83f8f7eb56f4fa19cc5048)
+        ;
+
+        
+    
+    
+            var circle_marker_b4c4b43e55fd738963bbc3a826310aa6 = L.circleMarker(
+                [52.076163, -0.058914],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_e639cd202db806c011a2f0af210c62cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6154bd68c13ca82f25b1fd4e0654fdb2 = $(`<div id="html_6154bd68c13ca82f25b1fd4e0654fdb2" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 26, South End, BASSINGBOURN CUM KNEESWORTH, SG8 5NJ<br><b>Dwellings:</b> 10</div>`)[0];
+                popup_e639cd202db806c011a2f0af210c62cb.setContent(html_6154bd68c13ca82f25b1fd4e0654fdb2);
+            
+        
+
+        circle_marker_b4c4b43e55fd738963bbc3a826310aa6.bindPopup(popup_e639cd202db806c011a2f0af210c62cb)
+        ;
+
+        
+    
+    
+            var circle_marker_b99ab70394cebe1bb44ef365badb5103 = L.circleMarker(
+                [52.137743, 0.079958],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_f5552062cc0212cf3f25c6a27eb792ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dacc2a109736c2c9949e48ff4629512 = $(`<div id="html_1dacc2a109736c2c9949e48ff4629512" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 21, High Street, HARSTON, CB22 7PX<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_f5552062cc0212cf3f25c6a27eb792ef.setContent(html_1dacc2a109736c2c9949e48ff4629512);
+            
+        
+
+        circle_marker_b99ab70394cebe1bb44ef365badb5103.bindPopup(popup_f5552062cc0212cf3f25c6a27eb792ef)
+        ;
+
+        
+    
+    
+            var circle_marker_5cab16e32ab6d744408667818bc8d621 = L.circleMarker(
+                [52.076195, -0.05932],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_58424fe7d6dc97322162111018c49586 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b95c43662766d5fbb59df7bd5cf5f310 = $(`<div id="html_b95c43662766d5fbb59df7bd5cf5f310" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land between Church Lane and Ermine Street South, Church Lane, Papworth Everard, CAMBRIDGE, CB23 3QN<br><b>Dwellings:</b> 53</div>`)[0];
+                popup_58424fe7d6dc97322162111018c49586.setContent(html_b95c43662766d5fbb59df7bd5cf5f310);
+            
+        
+
+        circle_marker_5cab16e32ab6d744408667818bc8d621.bindPopup(popup_58424fe7d6dc97322162111018c49586)
+        ;
+
+        
+    
+    
+            var circle_marker_bd4347b27ecaa799485fa2fd51289033 = L.circleMarker(
+                [52.206134, -0.024611],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_1a3c94a9bd9177580fc045d97803c00c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1c7f845880851292ec3d7940d4168da = $(`<div id="html_a1c7f845880851292ec3d7940d4168da" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land Adjoining 6, Highfields Road, Highfields Caldecote, CAMBRIDGE, CB23 7NX<br><b>Dwellings:</b> 7</div>`)[0];
+                popup_1a3c94a9bd9177580fc045d97803c00c.setContent(html_a1c7f845880851292ec3d7940d4168da);
+            
+        
+
+        circle_marker_bd4347b27ecaa799485fa2fd51289033.bindPopup(popup_1a3c94a9bd9177580fc045d97803c00c)
+        ;
+
+        
+    
+    
+            var circle_marker_3e5a98fdc7a3b4538da4c5ec762d55b5 = L.circleMarker(
+                [52.181046, -0.138226],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_3ec0016db2a8b5c60adb7a324905c5b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28968922cb1f56f6297cfe6034c36f7c = $(`<div id="html_28968922cb1f56f6297cfe6034c36f7c" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 6, Primrose Hill, Little Gransden, SANDY, SG19 3DP<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_3ec0016db2a8b5c60adb7a324905c5b0.setContent(html_28968922cb1f56f6297cfe6034c36f7c);
+            
+        
+
+        circle_marker_3e5a98fdc7a3b4538da4c5ec762d55b5.bindPopup(popup_3ec0016db2a8b5c60adb7a324905c5b0)
+        ;
+
+        
+    
+    
+            var circle_marker_30951fc3256bf6aa34ea50a869127cb4 = L.circleMarker(
+                [52.062041, -0.128221],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_3c8f7bf45ee9207c65deb09b3fcdc2a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a41ee9428f65ac955270ea33e92aa12d = $(`<div id="html_a41ee9428f65ac955270ea33e92aa12d" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land to rear of 4, Mill Courtyard, Steeple Morden, Royston, Cambridgeshire, SG8 0NH<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_3c8f7bf45ee9207c65deb09b3fcdc2a1.setContent(html_a41ee9428f65ac955270ea33e92aa12d);
+            
+        
+
+        circle_marker_30951fc3256bf6aa34ea50a869127cb4.bindPopup(popup_3c8f7bf45ee9207c65deb09b3fcdc2a1)
+        ;
+
+        
+    
+    
+            var circle_marker_7d8910493f9cf67779d2efa02a0201ac = L.circleMarker(
+                [52.18615, 0.200671],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_f55bd92c1b98836b02a836cd0b7580af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b23de1223ad826ed94c788f07416bea = $(`<div id="html_3b23de1223ad826ed94c788f07416bea" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Ida Darwin Hospital, Fulbourn Old Drift, FULBOURN, CB21 5EE<br><b>Dwellings:</b> 203</div>`)[0];
+                popup_f55bd92c1b98836b02a836cd0b7580af.setContent(html_3b23de1223ad826ed94c788f07416bea);
+            
+        
+
+        circle_marker_7d8910493f9cf67779d2efa02a0201ac.bindPopup(popup_f55bd92c1b98836b02a836cd0b7580af)
+        ;
+
+        
+    
+    
+            var circle_marker_f1dfb6259744d99b2c9f3e4e7cc3e5af = L.circleMarker(
+                [52.281724, 0.063898],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_748a3c907bdb1dcafc2bca0acefea521 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38d676359a65f2388ec4480d5fc26cb6 = $(`<div id="html_38d676359a65f2388ec4480d5fc26cb6" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land to the East of B1050 and Longstanton, West of the Cambridgeshire Guided Busway (CGB) and North of Oakington<br><b>Dwellings:</b> 3500</div>`)[0];
+                popup_748a3c907bdb1dcafc2bca0acefea521.setContent(html_38d676359a65f2388ec4480d5fc26cb6);
+            
+        
+
+        circle_marker_f1dfb6259744d99b2c9f3e4e7cc3e5af.bindPopup(popup_748a3c907bdb1dcafc2bca0acefea521)
+        ;
+
+        
+    
+    
+            var circle_marker_3ec03c2f85e9a8f34dd89fd8f775b6c8 = L.circleMarker(
+                [52.396572, 0.258746],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_3732cfa8ab80874ce8abd0cc45e0f2b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3706cefa3651296741704415c65b577e = $(`<div id="html_3706cefa3651296741704415c65b577e" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land At Barton Road Car Park Barton Road Ely Cambridgeshire<br><b>Dwellings:</b> 11</div>`)[0];
+                popup_3732cfa8ab80874ce8abd0cc45e0f2b0.setContent(html_3706cefa3651296741704415c65b577e);
+            
+        
+
+        circle_marker_3ec03c2f85e9a8f34dd89fd8f775b6c8.bindPopup(popup_3732cfa8ab80874ce8abd0cc45e0f2b0)
+        ;
+
+        
+    
+    
+            var circle_marker_8eed02e2176685f9865e9c06ec770387 = L.circleMarker(
+                [52.156651, -0.196794],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_3db5c094d01cb14c3682951a013a1b6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3911dd344fb705ec1f88022c41adbaa8 = $(`<div id="html_3911dd344fb705ec1f88022c41adbaa8" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land at Green End Industrial Estate, Green End, Gamlingay, Gamlingay, Cambridgeshire, SG19 3LX <br><b>Dwellings:</b> 90</div>`)[0];
+                popup_3db5c094d01cb14c3682951a013a1b6f.setContent(html_3911dd344fb705ec1f88022c41adbaa8);
+            
+        
+
+        circle_marker_8eed02e2176685f9865e9c06ec770387.bindPopup(popup_3db5c094d01cb14c3682951a013a1b6f)
+        ;
+
+        
+    
+    
+            var circle_marker_dfc0fe3fe3896646198ca49b8eddc88c = L.circleMarker(
+                [52.156554, -0.196746],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_6cfe1eb23621dcd3ac5cefeaff584599 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e036ac3d05c75c55dcfd212290ac398 = $(`<div id="html_3e036ac3d05c75c55dcfd212290ac398" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Pinewood Structures Ltd, Green End Industrial Estate, Green End, GAMLINGAY, SG19 3LX<br><b>Dwellings:</b> 85</div>`)[0];
+                popup_6cfe1eb23621dcd3ac5cefeaff584599.setContent(html_3e036ac3d05c75c55dcfd212290ac398);
+            
+        
+
+        circle_marker_dfc0fe3fe3896646198ca49b8eddc88c.bindPopup(popup_6cfe1eb23621dcd3ac5cefeaff584599)
+        ;
+
+        
+    
+    
+            var circle_marker_fbd24fabe8a96e16b6f8fd84963df45f = L.circleMarker(
+                [52.097775, 0.287163],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_64c1fc685c26f048bfcd956282b6dfd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d40f10e50b18e4340f32b79bfe49d06 = $(`<div id="html_5d40f10e50b18e4340f32b79bfe49d06" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 1, Horseheath Road, Linton, Cambridge, Cambridgeshire, CB21 4LU<br><b>Dwellings:</b> 6</div>`)[0];
+                popup_64c1fc685c26f048bfcd956282b6dfd9.setContent(html_5d40f10e50b18e4340f32b79bfe49d06);
+            
+        
+
+        circle_marker_fbd24fabe8a96e16b6f8fd84963df45f.bindPopup(popup_64c1fc685c26f048bfcd956282b6dfd9)
+        ;
+
+        
+    
+    
+            var circle_marker_7ad3dbad0d574b4184dd2774efa35b92 = L.circleMarker(
+                [52.095751, 0.070734],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_e1589461e70a6d6f0a7b11f701a8ec8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_325a6e773efc6cb0aef5b713002456dc = $(`<div id="html_325a6e773efc6cb0aef5b713002456dc" style="width: 100.0%; height: 100.0%;"><b>Address:</b> The Willows & Highbank, Long Lane, Fowlmere, Royston, Herts, SG8 7TG<br><b>Dwellings:</b> 3</div>`)[0];
+                popup_e1589461e70a6d6f0a7b11f701a8ec8d.setContent(html_325a6e773efc6cb0aef5b713002456dc);
+            
+        
+
+        circle_marker_7ad3dbad0d574b4184dd2774efa35b92.bindPopup(popup_e1589461e70a6d6f0a7b11f701a8ec8d)
+        ;
+
+        
+    
+    
+            var circle_marker_a2e2f4a49077aa22843e7b51e4e1a931 = L.circleMarker(
+                [52.186785, 0.21817],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_f7518cf65e6c8cc0b9c2b9d1be657382 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b5bf60e6dfc24b0a0521917ca9fe191 = $(`<div id="html_4b5bf60e6dfc24b0a0521917ca9fe191" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land to the east of, Cox's Drove, Fulbourn, CB21 5HE <br><b>Dwellings:</b> 6</div>`)[0];
+                popup_f7518cf65e6c8cc0b9c2b9d1be657382.setContent(html_4b5bf60e6dfc24b0a0521917ca9fe191);
+            
+        
+
+        circle_marker_a2e2f4a49077aa22843e7b51e4e1a931.bindPopup(popup_f7518cf65e6c8cc0b9c2b9d1be657382)
+        ;
+
+        
+    
+    
+            var circle_marker_aed6a002ef37d8fe477bc29530cf4fc2 = L.circleMarker(
+                [52.225857, 0.110866],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_755aa89b9796d11d98033568999bbebe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5a8d6b4648b84620daf933feac0fcce = $(`<div id="html_d5a8d6b4648b84620daf933feac0fcce" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 295 to 301 Histon Road<br><b>Dwellings:</b> 26</div>`)[0];
+                popup_755aa89b9796d11d98033568999bbebe.setContent(html_d5a8d6b4648b84620daf933feac0fcce);
+            
+        
+
+        circle_marker_aed6a002ef37d8fe477bc29530cf4fc2.bindPopup(popup_755aa89b9796d11d98033568999bbebe)
+        ;
+
+        
+    
+    
+            var circle_marker_2f4bc98891ef2a503fec788db7acd5bd = L.circleMarker(
+                [52.242544, 0.159502],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_66fce7f1c79da3bc7ee044d01261b11c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5398cbe1927f185339a1323bc450a168 = $(`<div id="html_5398cbe1927f185339a1323bc450a168" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 2, Cambridge Road, Milton, Cambridge, Cambridgeshire, CB24 6AW<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_66fce7f1c79da3bc7ee044d01261b11c.setContent(html_5398cbe1927f185339a1323bc450a168);
+            
+        
+
+        circle_marker_2f4bc98891ef2a503fec788db7acd5bd.bindPopup(popup_66fce7f1c79da3bc7ee044d01261b11c)
+        ;
+
+        
+    
+    
+            var circle_marker_5e64b575e53f1b9ef4342f6776b554f8 = L.circleMarker(
+                [52.143765, 0.083177],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_60211fcfab69f402fc27820a67140f17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acb298dfa8135d36b9ddb4f001041a17 = $(`<div id="html_acb298dfa8135d36b9ddb4f001041a17" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Sheepshead Lane, Harston, Cambridgeshire<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_60211fcfab69f402fc27820a67140f17.setContent(html_acb298dfa8135d36b9ddb4f001041a17);
+            
+        
+
+        circle_marker_5e64b575e53f1b9ef4342f6776b554f8.bindPopup(popup_60211fcfab69f402fc27820a67140f17)
+        ;
+
+        
+    
+    
+            var circle_marker_49765c62ef42287b650d4c348f1fca71 = L.circleMarker(
+                [52.294768, 0.13387],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_8d9d41196f3a075088712bb8390c71d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e6a0cde302da272a6a28fdf0c9b52f8 = $(`<div id="html_4e6a0cde302da272a6a28fdf0c9b52f8" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 40, Church Lane, Cottenham, Cambridge, Cambridgeshire, CB24 8SN<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_8d9d41196f3a075088712bb8390c71d7.setContent(html_4e6a0cde302da272a6a28fdf0c9b52f8);
+            
+        
+
+        circle_marker_49765c62ef42287b650d4c348f1fca71.bindPopup(popup_8d9d41196f3a075088712bb8390c71d7)
+        ;
+
+        
+    
+    
+            var circle_marker_56d17efcabf218713d95ac11cf332ffe = L.circleMarker(
+                [52.209431, 0.007777],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_16b85692009678a22721bc9d3bb0075f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74b733ea4b5aecfce0c9e30431ec6002 = $(`<div id="html_74b733ea4b5aecfce0c9e30431ec6002" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 44, Main Street, Hardwick, CAMBRIDGE, CB23 7QS<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_16b85692009678a22721bc9d3bb0075f.setContent(html_74b733ea4b5aecfce0c9e30431ec6002);
+            
+        
+
+        circle_marker_56d17efcabf218713d95ac11cf332ffe.bindPopup(popup_16b85692009678a22721bc9d3bb0075f)
+        ;
+
+        
+    
+    
+            var circle_marker_36b7431a60351d5ffd3dc91407bdac27 = L.circleMarker(
+                [52.209364, 0.007776],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_a717ffab0549fdcd34f2b77b6be9bc2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93745ad67c857054801ff3345c50e7f0 = $(`<div id="html_93745ad67c857054801ff3345c50e7f0" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 44, Main Street, Hardwick, Cambridge, Cambridgeshire, CB23 7QS<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_a717ffab0549fdcd34f2b77b6be9bc2f.setContent(html_93745ad67c857054801ff3345c50e7f0);
+            
+        
+
+        circle_marker_36b7431a60351d5ffd3dc91407bdac27.bindPopup(popup_a717ffab0549fdcd34f2b77b6be9bc2f)
+        ;
+
+        
+    
+    
+            var circle_marker_9950a85e6719fd35f369493bb6ef0d77 = L.circleMarker(
+                [52.183769, 0.050903],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_38a5ee495a5e3639599f7ceb9abd3df1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_972866238fef703a938e5a98d046d370 = $(`<div id="html_972866238fef703a938e5a98d046d370" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 15, Comberton Road, Barton, Cambridge, Cambridgeshire, CB23 7BA<br><b>Dwellings:</b> 2</div>`)[0];
+                popup_38a5ee495a5e3639599f7ceb9abd3df1.setContent(html_972866238fef703a938e5a98d046d370);
+            
+        
+
+        circle_marker_9950a85e6719fd35f369493bb6ef0d77.bindPopup(popup_38a5ee495a5e3639599f7ceb9abd3df1)
+        ;
+
+        
+    
+    
+            var circle_marker_873c414fbadeecbe1950d18c4c61887d = L.circleMarker(
+                [52.081691, -0.04421],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_ec035eff9fdd7cabcbf3e1e3cdddacaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88e2f7434dbc2cfbfe80dcadc5e61ddf = $(`<div id="html_88e2f7434dbc2cfbfe80dcadc5e61ddf" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land to the rear of, 131 The Causeway, Bassingbourn Cum Kneesworth, Royston, Cambridgeshire, SG8 5JB<br><b>Dwellings:</b> 20</div>`)[0];
+                popup_ec035eff9fdd7cabcbf3e1e3cdddacaf.setContent(html_88e2f7434dbc2cfbfe80dcadc5e61ddf);
+            
+        
+
+        circle_marker_873c414fbadeecbe1950d18c4c61887d.bindPopup(popup_ec035eff9fdd7cabcbf3e1e3cdddacaf)
+        ;
+
+        
+    
+    
+            var circle_marker_12f0fb7ca1e606fe617f6fb0726e5b34 = L.circleMarker(
+                [52.216656, -0.016122],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_ce3c2b125a522449ade76327b324673c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55941c17920cc3cbbf4b948cb97b34ec = $(`<div id="html_55941c17920cc3cbbf4b948cb97b34ec" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Westwind, Highfields Road, Highfields Caldecote, Caldecote, Cambridge, Cambridgeshire, CB23 7NX<br><b>Dwellings:</b> 1</div>`)[0];
+                popup_ce3c2b125a522449ade76327b324673c.setContent(html_55941c17920cc3cbbf4b948cb97b34ec);
+            
+        
+
+        circle_marker_12f0fb7ca1e606fe617f6fb0726e5b34.bindPopup(popup_ce3c2b125a522449ade76327b324673c)
+        ;
+
+        
+    
+    
+            var circle_marker_44bda8ef09481f83c7a6aa5052143e94 = L.circleMarker(
+                [52.247982, -0.119034],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_a38cf9ea33f00665298de40c1785f533 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91cc38bdba4f14e31d47dfdb17868015 = $(`<div id="html_91cc38bdba4f14e31d47dfdb17868015" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Land between Church Lane & Ermine Street South, Papworth Everard, CAMBRIDGE, CB23 3RG<br><b>Dwellings:</b> 61</div>`)[0];
+                popup_a38cf9ea33f00665298de40c1785f533.setContent(html_91cc38bdba4f14e31d47dfdb17868015);
+            
+        
+
+        circle_marker_44bda8ef09481f83c7a6aa5052143e94.bindPopup(popup_a38cf9ea33f00665298de40c1785f533)
+        ;
+
+        
+    
+    
+            var circle_marker_4a6eb3d488902d1bbe90d4097308b4f2 = L.circleMarker(
+                [52.216573, 0.125395],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_09007560024d737dd5d7138867eb4ea6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2995469bcb0eaae3d166fad2cfe2c911 = $(`<div id="html_2995469bcb0eaae3d166fad2cfe2c911" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Former Milton Road Primary School Milton Road<br><b>Dwellings:</b> 5</div>`)[0];
+                popup_09007560024d737dd5d7138867eb4ea6.setContent(html_2995469bcb0eaae3d166fad2cfe2c911);
+            
+        
+
+        circle_marker_4a6eb3d488902d1bbe90d4097308b4f2.bindPopup(popup_09007560024d737dd5d7138867eb4ea6)
+        ;
+
+        
+    
+    
+            var circle_marker_a84b8deac15d92dd3efc44831fd36731 = L.circleMarker(
+                [52.218086, -0.012695],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_4dffe77fda97e7a179b772c34e964e8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23457673b3a1045026a2b30e8d61c1f7 = $(`<div id="html_23457673b3a1045026a2b30e8d61c1f7" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 17 Highfield Court, Highfields Road, Highfields Caldecote, CAMBRIDGE, CB23 7NW<br><b>Dwellings:</b> 4</div>`)[0];
+                popup_4dffe77fda97e7a179b772c34e964e8b.setContent(html_23457673b3a1045026a2b30e8d61c1f7);
+            
+        
+
+        circle_marker_a84b8deac15d92dd3efc44831fd36731.bindPopup(popup_4dffe77fda97e7a179b772c34e964e8b)
+        ;
+
+        
+    
+    
+            var circle_marker_efb51e78a92955bee0d7fcc177b2707f = L.circleMarker(
+                [52.18499, 0.18802],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_fc263044e0d37dc5fd6e1e97f84385e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1cfb85c18dac66b3c8799ccfd7417bd = $(`<div id="html_f1cfb85c18dac66b3c8799ccfd7417bd" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Fulbourn & Ida Darwin Hospitals,Fulbourn Old Drift, Cambridgeshire<br><b>Dwellings:</b> 230</div>`)[0];
+                popup_fc263044e0d37dc5fd6e1e97f84385e0.setContent(html_f1cfb85c18dac66b3c8799ccfd7417bd);
+            
+        
+
+        circle_marker_efb51e78a92955bee0d7fcc177b2707f.bindPopup(popup_fc263044e0d37dc5fd6e1e97f84385e0)
+        ;
+
+        
+    
+    
+            var circle_marker_7b8cba9865d45c3fc60615582447cd58 = L.circleMarker(
+                [52.26952, 0.065849],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_78607970a224052031ae678b6520efdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2425eb2ed231d57eb5d740efe79f5829 = $(`<div id="html_2425eb2ed231d57eb5d740efe79f5829" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Nothstowe Phase 3 - Land at, Oakington Barracks, Ramptoon Road, Longstanton, Cambridge CB4<br><b>Dwellings:</b> 3500</div>`)[0];
+                popup_78607970a224052031ae678b6520efdd.setContent(html_2425eb2ed231d57eb5d740efe79f5829);
+            
+        
+
+        circle_marker_7b8cba9865d45c3fc60615582447cd58.bindPopup(popup_78607970a224052031ae678b6520efdd)
+        ;
+
+        
+    
+    
+            var circle_marker_c60c1031e23b41b4622ab52649951cfa = L.circleMarker(
+                [52.215106, 0.133946],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_d8d3200d954996d153709c3c87f67c38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c3e9c45c3abef9119f5b755626912a8 = $(`<div id="html_9c3e9c45c3abef9119f5b755626912a8" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Sandy Lane<br><b>Dwellings:</b> 23</div>`)[0];
+                popup_d8d3200d954996d153709c3c87f67c38.setContent(html_9c3e9c45c3abef9119f5b755626912a8);
+            
+        
+
+        circle_marker_c60c1031e23b41b4622ab52649951cfa.bindPopup(popup_d8d3200d954996d153709c3c87f67c38)
+        ;
+
+        
+    
+    
+            var circle_marker_f8c45eb96182cfbe1674e1b33e971ccc = L.circleMarker(
+                [52.229812, 0.145937],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_b03ea90e77413f9e41c637c6b696bc7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7ddb9b2de3234e479709d8eaad156de = $(`<div id="html_d7ddb9b2de3234e479709d8eaad156de" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Housing allocation at, 379--381 Milton Road, Cambridge, CB4<br><b>Dwellings:</b> 95</div>`)[0];
+                popup_b03ea90e77413f9e41c637c6b696bc7c.setContent(html_d7ddb9b2de3234e479709d8eaad156de);
+            
+        
+
+        circle_marker_f8c45eb96182cfbe1674e1b33e971ccc.bindPopup(popup_b03ea90e77413f9e41c637c6b696bc7c)
+        ;
+
+        
+    
+    
+            var circle_marker_40bb386a24ace0067b39cf848ff14f03 = L.circleMarker(
+                [52.218693, 0.109797],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_9ebebf52dac0b8fc2a0d54d28b10137e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_789aa471e368a6e3482f657feb210a2c = $(`<div id="html_789aa471e368a6e3482f657feb210a2c" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Housing allocation at, Willowcroft, Histon Road, Cambridge, CB4<br><b>Dwellings:</b> 78</div>`)[0];
+                popup_9ebebf52dac0b8fc2a0d54d28b10137e.setContent(html_789aa471e368a6e3482f657feb210a2c);
+            
+        
+
+        circle_marker_40bb386a24ace0067b39cf848ff14f03.bindPopup(popup_9ebebf52dac0b8fc2a0d54d28b10137e)
+        ;
+
+        
+    
+    
+            var circle_marker_160e55be951d42be8cc4536d65b29f5f = L.circleMarker(
+                [52.28055, 0.191843],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_62311e38bd7930899c7b6cc66afbb07e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0c4119d750a030b5c3787ba5eb7cc7b = $(`<div id="html_f0c4119d750a030b5c3787ba5eb7cc7b" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Waterbeach Barracks and Airfield Site, Waterbeach, Cambridgeshire<br><b>Dwellings:</b> 5100</div>`)[0];
+                popup_62311e38bd7930899c7b6cc66afbb07e.setContent(html_f0c4119d750a030b5c3787ba5eb7cc7b);
+            
+        
+
+        circle_marker_160e55be951d42be8cc4536d65b29f5f.bindPopup(popup_62311e38bd7930899c7b6cc66afbb07e)
+        ;
+
+        
+    
+    
+            var circle_marker_3decf7293eee1c4cd79783dce75e21e8 = L.circleMarker(
+                [52.229895, 0.145415],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_28003146f86e85a49dc1a52d7d87d3ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9451ce6298fd3383ddca7d7f71b91a2 = $(`<div id="html_c9451ce6298fd3383ddca7d7f71b91a2" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 379-381 Milton Road<br><b>Dwellings:</b> 95</div>`)[0];
+                popup_28003146f86e85a49dc1a52d7d87d3ab.setContent(html_c9451ce6298fd3383ddca7d7f71b91a2);
+            
+        
+
+        circle_marker_3decf7293eee1c4cd79783dce75e21e8.bindPopup(popup_28003146f86e85a49dc1a52d7d87d3ab)
+        ;
+
+        
+    
+    
+            var circle_marker_a366bc1e2b6ddc0df01deffe804d02b6 = L.circleMarker(
+                [52.218789, 0.10976],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(feature_group_02500a4cf5ad0c007bab4736516227f1);
+        
+    
+        var popup_fa3c093ec9911cf2348a1444314bcbf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4196a4df2feebc2eb21da66fec2a55e = $(`<div id="html_d4196a4df2feebc2eb21da66fec2a55e" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Willowcroft, Histon Road<br><b>Dwellings:</b> 78</div>`)[0];
+                popup_fa3c093ec9911cf2348a1444314bcbf6.setContent(html_d4196a4df2feebc2eb21da66fec2a55e);
+            
+        
+
+        circle_marker_a366bc1e2b6ddc0df01deffe804d02b6.bindPopup(popup_fa3c093ec9911cf2348a1444314bcbf6)
+        ;
+
+        
+    
+    
+            var layer_control_5bbbacd5617551db7c17330c926ce862_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_20b15b4e103627ae612ba648c4fb1670,
+                },
+                overlays :  {
+                    "Development Hotspots (by Sector)" : feature_group_345963798910ec42e91c03e306389ac4,
+                    "Individual Projects" : feature_group_02500a4cf5ad0c007bab4736516227f1,
+                },
+            };
+            let layer_control_5bbbacd5617551db7c17330c926ce862 = L.control.layers(
+                layer_control_5bbbacd5617551db7c17330c926ce862_layers.base_layers,
+                layer_control_5bbbacd5617551db7c17330c926ce862_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_bbe2430aafd565be57ab89cbeb634c02);
+
+        
+</script>
+</html>

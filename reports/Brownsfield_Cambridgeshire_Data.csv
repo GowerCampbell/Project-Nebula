@@ -1,0 +1,445 @@
+point,SiteReference,Hectares,Dwellings,Council,PermissionDate,PlanningStatus,Address,longitude,latitude
+POINT(0.334604 52.334016),BLR2347,0.26,,,2024-12-04,permissioned,Walter Gidney Pavilion Fountain Lane Soham Ely Cambridgeshire CB7 5ED,0.334604,52.334016
+POINT(0.394855 52.184473),BLR0905,1.59,,,2024-11-21,permissioned,Ley Cottage 2 Dullingham Ley Dullingham Newmarket Suffolk CB8 9XG,0.394855,52.184473
+POINT(0.351328 52.32957),BLR2346,11.29,,,2024-10-17,permissioned,Land To Rear Of 81 - 111 Brook Street Soham Cambridgeshire,0.351328,52.32957
+POINT(0.383237 52.30604),BLR1102,0.27,0.0,,2024-09-16,permissioned,Fordham Technology Centre 5 Station Road Fordham Cambridgeshire CB7 5LW,0.383237,52.30604
+POINT(0.428228 52.19804),BLR3503,0.54,,,2024-07-09,permissioned,6 Ditton Green Woodditton Cambridgeshire CB8 9SQ,0.428228,52.19804
+POINT(0.397088 52.20205),BLR2401,0.9,,,2024-03-25,permissioned,Site South West Of Ashfield House 20 High Street Stetchworth Newmarket Suffolk CB8 9TJ,0.397088,52.20205
+POINT(0.348768 52.322353),BLR2345,10.38,,,2023-10-31,permissioned,Downfield Farm Fordham Road Soham Ely Cambridgeshire CB7 5AH,0.348768,52.322353
+POINT(0.24564 52.458275),BLR1613,0.27,,,2023-06-22,permissioned,4A Fourth Drove Little Downham Ely Cambridgeshire CB6 2ES,0.24564,52.458275
+POINT(0.149074 52.396973),BLR3301,0.43,0.0,,2023-06-22,permissioned,Kings Of Witcham Ltd The Slade Witcham Cambridgeshire,0.149074,52.396973
+POINT(0.348615 52.500443),BLR1834,0.51,,,2023-05-22,permissioned,Site Of Coronation House Black Horse Drove Littleport Ely Cambridgeshire CB6 1EG,0.348615,52.500443
+POINT(0.276329 52.482746),BLR1832,0.5,,,2023-04-04,permissioned,New Pools Farm Old Pool Drove Littleport Ely Cambridgeshire CB6 1RL,0.276329,52.482746
+POINT(-0.047105 52.297339),S/3380/19/FL,0.3,1.0,,2023-03-22,permissioned,Land At The Back Of 30 Cootes Lane Fen Drayton Cambridge Cambridgeshire CB24 4SL,-0.047105,52.297339
+POINT(0.051724 52.065846),22/05474/FUL,0.34,1.0,,2023-03-21,permissioned,"Bridgefoot Farm, Bridgefoot Barn Farm Shop And Tea Room Barley Road Flint Cross Great And Little Chishill Cambridgeshire SG8 7PU",0.051724,52.065846
+POINT(0.379916 52.19946),BLR0904,15.33,,,2023-03-17,permissioned,Dullingham Park 10 Eagle Lane Dullingham Newmarket Suffolk CB8 9XB,0.379916,52.19946
+POINT(0.05838 52.115708),22/05580/FUL,0.2,6.0,,2023-03-07,permissioned,Trinity School 8 Station Road Foxton Cambridgeshire CB22 6SA,0.05838,52.115708
+POINT(0.119996 52.227808),22/01995/FUL,0.55,34.0,,2023-02-28,permissioned,Aylesborough Close Cambridge Cambridgeshire,0.119996,52.227808
+POINT(0.187127 52.241951),22/04533/FUL,0.27,2.0,,2023-02-24,permissioned,Northgate Farm High Street Horningsea Cambridgeshire CB25 9JG,0.187127,52.241951
+POINT(0.126482 52.230857),22/00583/FUL,0.15,14.0,,2023-02-16,permissioned,Land At Aragon Close And Sackville Close Cambridge Cambridgeshire,0.126482,52.230857
+POINT(0.382855 52.39107),BLR1302,0.31,,,2023-02-15,permissioned,The Lowes 36 Prickwillow Road Isleham Ely Cambridgeshire CB7 5RH,0.382855,52.39107
+POINT(0.167548 52.315714),22/03763/FUL,0.37,0.0,,2023-02-15,permissioned,"4 The Lakes, Lake House Twentypence Road Cottenham Cambridgeshire CB24 8PP",0.167548,52.315714
+POINT(0.326611 52.340313),BLR2344,0.45,,,2023-02-07,permissioned,117 Mereside Soham Cambridgeshire CB7 5EG,0.326611,52.340313
+POINT(0.216666 52.361744),BLR3213,0.44,,,2023-01-31,permissioned,Plot 1 Field House Stud Whitecross Road Wilburton Cambridgeshire CB6 3QB,0.216666,52.361744
+POINT(0.127029 52.200337),20/03418/FUL | 22/04933/S73,0.03,6.0,,2023-01-25,permissioned,14-17 Regent Terrace Cambridge CB2 1AA,0.127029,52.200337
+POINT(-0.125002 52.084292),22/04784/FUL,0.42,0.0,,2023-01-13,permissioned,39 New Road Guilden Morden SG8 0JN,-0.125002,52.084292
+POINT(-0.202533 52.148982),S/1075/17/FL | 22/04868/S73,0.26,0.0,,2023-01-12,permissioned,"16, Little Heath, Gamlingay, SANDY, SG19 3LL",-0.202533,52.148982
+POINT(0.126498 52.216191),22/04570/PRIOR,0.11,6.0,,2022-12-08,permissioned,Mayfair Court Milton Road Cambridge Cambridgeshire,0.126498,52.216191
+POINT(0.136076 52.208636),18/0887/FUL | 22/02969/FUL,0.05,9.0,,2022-12-08,permissioned,73 Newmarket Road Cambridge CB5 8EG,0.136076,52.208636
+POINT(0.348828 52.29212),BLR0514,0.37,,,2022-11-30,permissioned,Breach Cottage Ness Road Burwell Cambridge CB25 0DB,0.348828,52.29212
+POINT(0.13548 52.21513),19/0819/OUT | 22/03584/REM,0.05,7.0,,2022-11-03,permissioned,51 - 55 Elizabeth Way Cambridge Cambridgeshire CB4 1DB,0.13548,52.21513
+POINT(0.085071 52.039759),22/03455/FUL,0.8,0.0,,2022-11-02,permissioned,6 Chishill Road Heydon Cambridgeshire SG8 8PW,0.085071,52.039759
+POINT(0.304474 52.40853),BLR1043,0.34,,,2022-10-12,permissioned,Dairy Farm House 18 Prickwillow Road Queen Adelaide Ely Cambridgeshire CB7 4SH,0.304474,52.40853
+POINT(0.046975 52.309701),22/03191/PRIOR,0.27,1.0,,2022-09-26,permissioned,Avon Fields Haden Way Willingham Cambridge Cambridgeshire CB24 5HB,0.046975,52.309701
+POINT(0.211323 52.185911),22/03530/PRIOR,0.39,11.0,,2022-09-26,permissioned,Hannah Reed And Associates Telford House 76 Cow Lane Fulbourn Cambridge Cambridgeshire CB21 5HB,0.211323,52.185911
+POINT(0.41107 52.44654),BLR1833,0.47,,,2022-09-02,permissioned,Sebastapol Farm Redmere Ely Cambridgeshire CB7 4SS,0.41107,52.44654
+POINT(0.01331 52.217214),21/03438/FUL,0.1,9.0,,2022-09-01,permissioned,Land At 147 St Neots Road Hardwick Cambridgeshire,0.01331,52.217214
+POINT(0.145514 52.176992),22/02067/FUL,0.17,8.0,,2022-08-26,permissioned,1A Fendon Road Cambridge Cambridgeshire,0.145514,52.176992
+POINT(0.098186 52.097453),S/3975/18/FL,0.74,7.0,,2022-08-24,permissioned,Rectory Farm Middle Street Thriplow Cambridgeshire,0.098186,52.097453
+POINT(0.137316 52.229591),17/0927/FUL | 22/00278/FUL,0.1,9.0,,2022-07-27,permissioned,"Jenny Wren, St. Kilda Avenue, CAMBRIDGE, CB4 2QA",0.137316,52.229591
+POINT(0.197207 52.389637),BLR3401,2.24,,,2022-07-08,permissioned,Land North Of 22 Marroway Lane Witchford Cambridgeshire,0.197207,52.389637
+POINT(0.174649 52.18777),21/02759/FUL,0.03,48.0,,2022-07-08,permissioned,Colville Road Phase 3 Land At Colville Road And Fishers Lane High Street Cherry Hinton Cambridge Cambridgeshire CB1 9HT,0.174649,52.18777
+POINT(0.111876 52.387142),BLR2601,0.65,,,2022-07-04,permissioned,121-123 High Street Sutton Ely Cambridgeshire CB6 2NR,0.111876,52.387142
+POINT(-0.225338 52.146701),22/01680/FUL,0.72,0.0,,2022-07-01,permissioned,8A Potton Road The Heath Gamlingay Cambridgeshire SG19 2JH,-0.225338,52.146701
+POINT(0.110112 52.242013),S/0671/17/FL | 21/02902/FUL,0.23,38.0,,2022-06-24,permissioned,"Old Station Yard, Cambridge Road, IMPINGTON, CB24 9NU",0.110112,52.242013
+POINT(0.13397 52.215094),C/03/0406 | C/03/1241 | 06/0544/FUL | 18/1193/FUL,0.59,29.0,,2022-06-22,permissioned,"Land off, De Freville Avenue/, SANDY LANE, CAMBRIDGE",0.13397,52.215094
+POINT(0.117196 52.167414),19/1324/FUL,0.18,8.0,,2022-06-17,permissioned,102 - 108 Shelford Road Cambridge Cambridgeshire CB2 9NF,0.117196,52.167414
+POINT(0.315167 52.20829),BLR2702,1.02,,,2022-06-10,permissioned,Hare Park Stud Hare Park Six Mile Bottom Newmarket Suffolk CB8 0UZ,0.315167,52.20829
+POINT(0.217463 52.187306),22/01257/FUL,0.3,0.0,,2022-05-09,permissioned,Barnsbury House Coxs Drove Fulbourn Cambridgeshire CB21 5HE,0.217463,52.187306
+POINT(0.251279 52.43001),BLR1614,0.42,,,2022-05-05,permissioned,Land Rear Of 47-53 Ely Road Little Downham Cambridgeshire,0.251279,52.43001
+POINT(0.200861 52.186178),S/0670/17/OL | 20/05199/REM,27.0,203.0,,2022-04-30,permissioned,"Ida Darwin Hospital, Fulbourn Old Drift, Fulbourn, Cambridge, Cambridgeshire, CB21 5EE",0.200861,52.186178
+POINT(-0.036471 52.179541),22/00252/FUL,0.31,1.0,,2022-04-22,permissioned,Kingston Barns Bourn Road Kingston CB23 2NP,-0.036471,52.179541
+POINT(0.035151 52.128727),22/00898/FUL,0.74,0.0,,2022-04-19,permissioned,7 Back Lane Barrington Cambridgeshire CB22 7RF,0.035151,52.128727
+POINT(0.458191 52.205517),BLR3502,0.36,,,2022-04-13,permissioned,3 & 5 Kirtling Road Saxon Street Newmarket Suffolk CB8 9RR,0.458191,52.205517
+POINT(0.122467 52.397263),BLR2603,36.67,,,2022-04-12,permissioned,Land Adjacent 43 Mepal Road Sutton Cambridgeshire,0.122467,52.397263
+POINT(0.122467 52.397263),BLR2602,36.67,,,2022-04-12,permissioned,Land Adjacent 43 Mepal Road Sutton Cambridgeshire,0.122467,52.397263
+POINT(0.139596 52.147838),21/05276/FUL,0.29,39.0,,2022-04-06,permissioned,2 Station Road Great Shelford Cambridge Cambridgeshire CB22 5LR,0.139596,52.147838
+POINT(0.064349 52.267514),S/NorthstoweAAP/Phase3 | 20/02171/OUT,194.93,4000.0,,2022-03-25,permissioned,"Nothstowe Phase 3 - Land at, Oakington Barracks, Ramptoon Road, Longstanton, Cambridge CB4",0.064349,52.267514
+POINT(0.463333 52.228344),BLR0608,0.31,,,2022-03-24,permissioned,The Shieling 33 Newmarket Road Cheveley Newmarket Suffolk CB8 9EQ,0.463333,52.228344
+POINT(0.15275 52.365208),BLR1213,1.56,,,2022-03-16,permissioned,64 Station Road Haddenham Ely Cambridgeshire CB6 3XD,0.15275,52.365208
+POINT(-0.069356 52.254095),21/05616/FUL,0.37,0.0,,2022-03-04,permissioned,5 Church Lane Elsworth Cambridge Cambridgeshire CB23 4HU,-0.069356,52.254095
+POINT(0.171113 52.279096),21/04957/FUL,0.51,6.0,,2022-03-03,permissioned,Emmaus Cambridge Green End Landbeach Cambridgeshire,0.171113,52.279096
+POINT(0.118585 52.179106),21/05623/FUL,0.25,0.0,,2022-03-01,permissioned,Achray Gazeley Road Cambridge CB2 9HB,0.118585,52.179106
+POINT(0.099056 52.221591),21/02052/FUL,1.86,38.0,,2022-03-01,permissioned,Land South Of Wilberforce Road Cambridge Cambridgeshire,0.099056,52.221591
+POINT(0.013063 52.217263),21/01345/FUL,0.1,5.0,,2022-02-04,permissioned,Newton House 147 St Neots Road Hardwick Cambridgeshire,0.013063,52.217263
+POINT(-0.020368 52.21211),21/05253/REM,0.26,2.0,,2022-02-04,permissioned,Land At 87 Highfields Road Highfields Caldecote Caldecote Cambridgeshire,-0.020368,52.21211
+POINT(0.002472 52.26332),21/03851/FUL,0.43,0.0,,2022-01-31,permissioned,Clare College Farm Huntingdon Road Lolworth CB23 8DN,0.002472,52.26332
+POINT(0.089978 52.145149),21/04263/FUL,0.23,8.0,,2022-01-28,permissioned,180 High Street Harston CB22 7QD,0.089978,52.145149
+POINT(0.018674 52.239296),21/02882/FUL,0.27,2.0,,2022-01-27,permissioned,Land At Church Farm Buildings Park Street Dry Drayton CB23 8BZ,0.018674,52.239296
+POINT(0.280406 52.098718),S/0736/19/OL | 21/04745/FUL,0.28,2.0,,2021-12-24,permissioned,"41, Back Road, Linton, Cambridge, Cambridgeshire, CB21 4LG",0.280406,52.098718
+POINT(-0.030765 52.090398),21/03786/FUL,0.28,0.0,,2021-12-24,permissioned,"154 Bridge Street, Whaddon, Royston, SG8 5SN",-0.030765,52.090398
+POINT(0.311005 52.132213),S/4477/17/FL | 21/02724/FUL,1.24,1.0,,2021-12-23,permissioned,"97, High Street, Balsham, CAMBRIDGE, CB21 4EP",0.311005,52.132213
+POINT(0.163448 52.155011),21/02851/FUL,0.61,0.0,,2021-12-07,permissioned,Chalk Hill Haverhill Road Stapleford CB22 5BX,0.163448,52.155011
+POINT(0.181618 52.285826),21/03866/REM,1.93,111.0,,2021-12-03,permissioned,"Parcel 2.1, Eastern Woods Waterbeach Barracks And Airfield Site Waterbeach Cambridgeshire",0.181618,52.285826
+POINT(0.154614 52.22059),21/00659/FUL,0.35,10.0,,2021-11-18,permissioned,71 - 73 Fen Road Cambridge Cambridgeshire CB4 1UN,0.154614,52.22059
+POINT(0.065109 52.210672),20/02161/FUL,0.45,3.0,,2021-11-12,permissioned,Land At And To The Rear Of 24 High Street Coton CB23 7PL,0.065109,52.210672
+POINT(0.375576 52.169174),BLR0302,0.51,,,2021-11-08,permissioned,Abbey Yard Brinkley Road Brinkley Suffolk,0.375576,52.169174
+POINT(0.394403 52.43623),BLR1828,0.1118,,,2021-11-03,permissioned,Peacocks Farm Mildenhall Road Littleport Ely Cambridgeshire CB7 4SY,0.394403,52.43623
+POINT(0.194009 52.308436),21/00033/FUL,0.33,6.0,,2021-10-22,permissioned,The Travellers Rest Ely Road Chittering Waterbeach CB25 9PH,0.194009,52.308436
+POINT(0.266512 52.40212),BLR1037,0.29,,,2021-10-19,permissioned,Swimming Pool Newnham Street Ely Cambridgeshire CB7 4PQ,0.266512,52.40212
+POINT(0.137755 52.217381),21/00537/FUL,0.17,4.0,,2021-10-11,permissioned,29 High Street Chesterton Cambridge CB4 1NQ,0.137755,52.217381
+POINT(0.110383 52.2576),21/02290/OUT,1.04,2.0,,2021-10-08,permissioned,1 Garden Walk Histon CB24 9HH,0.110383,52.2576
+POINT(-0.029113 52.194444),21/03430/PRI03O,0.18,5.0,,2021-09-16,permissioned,Burr Elm Court Main Street Caldecote Cambridgeshire,-0.029113,52.194444
+POINT(0.457917 52.21982),BLR0607,0.41,,,2021-08-27,permissioned,Glebe Stud Park Road Cheveley Suffolk CB8 9DF,0.457917,52.21982
+POINT(-0.076404 52.258148),21/02515/FUL,0.42,0.0,,2021-08-20,permissioned,Elm Lodge Meadow Drift Elsworth CB23 4HS,-0.076404,52.258148
+POINT(0.22327 52.265991),BLR1901,0.1439,,,2021-08-10,permissioned,Frolic Farm Lode Fen Lode Cambridge CB25 9HF,0.22327,52.265991
+POINT(0.179233 52.286536),21/02400/REM,1.69,89.0,,2021-07-30,permissioned,Northern Woods Waterbeach Barracks And Airfield Parcel 1 Denny End Road Waterbeach Cambridge Cambridgeshire CB25 9PA,0.179233,52.286536
+POINT(0.049805 52.2995),21/01977/FUL,0.88,0.0,,2021-07-02,permissioned,Avalon Station Road Longstanton CB24 3DS,0.049805,52.2995
+POINT(0.032461 52.187437),21/00397/FUL,0.27,0.0,,2021-06-10,permissioned,188 Barton Road Comberton CB23 7BU,0.032461,52.187437
+POINT(0.123564 52.214203),19/1098/FUL,0.28,19.0,,2021-05-14,permissioned,121 - 125 Chesterton Road Cambridge Cambridgeshire,0.123564,52.214203
+POINT(0.119954 52.186662),21/00277/FUL,0.25,0.0,,2021-04-23,permissioned,21 Trumpington Road Cambridge CB2 8AJ,0.119954,52.186662
+POINT(0.196962 52.270857),20/03370/OUT,0.22,4.0,,2021-04-20,permissioned,95 Bannold Road Waterbeach CB25 9LQ,0.196962,52.270857
+POINT(0.131193 52.19439),06/0552/FUL | 20/03429/FUL,0.83,156.0,,2021-04-09,permissioned,"Betjeman House Broadcasting House Botanic House and Public Houses at 106 -108, Hills Road, Cambridge, CB2",0.131193,52.19439
+POINT(0.462432 52.21277),BLR0606,0.91,,,2021-03-30,permissioned,Home Office Bungalows Little Green Cheveley Suffolk,0.462432,52.21277
+POINT(0.132425 52.205761),20/03912/FUL,0.07,8.0,,2021-02-25,permissioned,Land Rear Of Gibson House Paradise Street Cambridge Cambridgeshire CB1 1DJ,0.132425,52.205761
+POINT(0.164388 52.35326),BLR1211,0.42,,,2021-02-18,permissioned,Perry Rise 34 Haddenham Road Wilburton Ely Cambridgeshire CB6 3RG,0.164388,52.35326
+POINT(0.220104 52.183929),20/02833/FUL,0.13,5.0,,2021-02-17,permissioned,6 Pierce Lane Fulbourn CB21 5DL,0.220104,52.183929
+POINT(0.022969 52.316958),20/02477/FUL,0.96,20.0,,2021-02-15,permissioned,"Land off Fen End, Over, CAMBRIDGE, CB24 5NE",0.022969,52.316958
+POINT(0.146405 52.220389),20/02791/FUL,0.04,7.0,,2021-02-10,permissioned,196 Green End Road Cambridge CB4 1RL,0.146405,52.220389
+POINT(-0.012695 52.218086),S/2678/19/FL | S/1847/16/FL | S/2459/19/FL | 20/01544/FUL,1.04,9.0,,2021-02-04,permissioned,Westside St Neots Road Highfields Caldecote Cambridge CB3 8AY,-0.012695,52.218086
+POINT(0.087344 52.153532),S/2184/16/OL,18.04,32.0,,2021-01-29,permissioned,Former Waste Water Treatment Facility Cambridge Road Hauxton Cambridgeshire,0.087344,52.153532
+POINT(0.310349 52.290916),BLR0513,0.29,,,2021-01-28,permissioned,McGowan Rutherford Factory Road Burwell Cambridge CB25 0BN,0.310349,52.290916
+POINT(0.051224 52.183767),20/03949/REM,0.27,2.0,,2021-01-15,permissioned,"15, Comberton Road, Barton, Cambridge, Cambridgeshire, CB23 7BA",0.051224,52.183767
+POINT(0.13303 52.192729),20/01968/FUL,0.47,1.0,,2020-12-24,permissioned,15 Royal Albert Homes Hills Road Cambridge Cambridgeshire CB2 1PP,0.13303,52.192729
+POINT(0.176541 52.197735),C/LocalPlan/R47 | 18/0481/OUT,31.95,780.0,,2020-12-18,permissioned,Cambridge East Land North of Cherry Hinton,0.176541,52.197735
+POINT(0.172474 52.195364),20/04306/CL2PD,0.47,33.0,,2020-12-15,permissioned,509 Coldhams Lane Cambridge CB1 3JS,0.172474,52.195364
+POINT(0.346069 52.418022),BLR1039,0.13,,,2020-12-11,permissioned,1-4 Riverside Close Prickwillow Ely Cambridgeshire CB7 4UW,0.346069,52.418022
+POINT(0.161014 52.268257),20/03981/FUL,0.26,1.0,,2020-12-09,permissioned,Beach Farm Green End Landbeach CB25 9FD,0.161014,52.268257
+POINT(-0.121621 52.247448),20/04140/FUL,0.71,1.0,,2020-12-01,permissioned,Queen Marys Nurses Home 31 Church Lane Papworth Everard CB23 3QN,-0.121621,52.247448
+POINT(0.320955 52.279064),BLR0511,0.72,1.0,,2020-11-25,permissioned,Land West Of 56 Low Road Burwell Cambs CB25 0EJ,0.320955,52.279064
+POINT(0.118599 52.230153),S/4532/19/FL,1.14,56.0,,2020-11-24,permissioned,The Meadows Community Centre 1 St Catharines Road Impington Cambridge CB4 3XJ,0.118599,52.230153
+POINT(0.177144 52.192409),20/03202/FUL,0.07,6.0,,2020-11-06,permissioned,523 Coldhams Lane Cambridge CB1 3JS,0.177144,52.192409
+POINT(0.095971 52.210811),19/1734/FUL,0.87,35.0,,2020-10-30,permissioned,Clerk Maxwell Road Cambridge Cambridgeshire,0.095971,52.210811
+POINT(0.079545 52.238653),S/4302/19/FL,0.33,9.0,,2020-10-16,permissioned,16 High Street Girton Cambridge Cambridgeshire CB3 0PU,0.079545,52.238653
+POINT(-0.089347 52.117052),20/02614/FUL,0.27,1.0,,2020-10-15,permissioned,"Brickyard Farm, Lower Road, Croydon, Royston, SG8 0HA",-0.089347,52.117052
+POINT(0.15361 52.158068),20/03143/FUL,0.28,1.0,,2020-10-05,permissioned,"Beechwood House, 197 Hinton Way, Great Shelford, Cambridge, Cambridgeshire, CB22 5AN",0.15361,52.158068
+POINT(-0.000605 52.089117),S/3529/16/OL | 20/01974/REM,0.4,6.0,,2020-10-02,permissioned,"Scrapyard, Chiswick End, Meldreth, ROYSTON, SG8 6LZ",-0.000605,52.089117
+POINT(0.09629 52.222243),20/01501/PRI030 | 20/03334/PRI030 | 20/03335/PRI030,0.32,170.0,,2020-09-24,permissioned,National Institute Of Agricultural Botany Huntingdon Road Cambridge Cambridgeshire CB3 0LE,0.09629,52.222243
+POINT(0.150609 52.3495),BLR1210,0.32,,,2020-09-23,permissioned,31 Lode Way Haddenham Ely Cambridgeshire CB6 3UL,0.150609,52.3495
+POINT(0.310712 52.291004),BLR0512,0.53,,,2020-07-24,permissioned,2 Priory Farm Cottages Factory Road Burwell Cambridge CB25 0BW,0.310712,52.291004
+POINT(-0.12688 52.06695),20/02132/FUL,0.38,0.0,,2020-07-08,permissioned,27 Hay Street Steeple Morden Royston Cambridgeshire SG8 0PD,-0.12688,52.06695
+POINT(0.110958 52.262311),20/01600/FUL,0.27,1.0,,2020-07-08,permissioned,130 Cottenham Road Histon CB24 9ET,0.110958,52.262311
+POINT(0.149092 52.195082),18/1890/FUL,0.16,9.0,,2020-06-23,permissioned,Family Centre Malta Road Cambridge CB1 3LW,0.149092,52.195082
+POINT(0.173512 52.187854),19/1375/FUL,0.33,8.0,,2020-06-19,permissioned,1 Rectory Terrace High Street Cherry Hinton Cambridge CB1 9HU,0.173512,52.187854
+POINT(-0.196737 52.156428),S/4085/19/RM,2.92,85.0,,2020-06-18,permissioned,"Pinewood Structures Ltd, Green End Industrial Estate, Green End, GAMLINGAY, SG19 3LX",-0.196737,52.156428
+POINT(-0.150357 52.160844),20/01731/FUL,0.26,0.0,,2020-06-17,permissioned,Crooked Billet Farm Fullers Hill Gamlingay SG19 3BP,-0.150357,52.160844
+POINT(0.143479 52.209176),18/1679/FUL,0.06,13.0,,2020-06-12,permissioned,212-214 Newmarket Road Cambridge CB5 8JL,0.143479,52.209176
+POINT(0.137024 52.229003),19/1616/FUL,0.91,43.0,,2020-05-29,permissioned,67 - 97A Campkin Road Cambridge Cambridgeshire CB4 2NP,0.137024,52.229003
+POINT(0.046753 52.152355),20/01552/FUL,0.93,0.0,,2020-05-22,permissioned,Grove Farm Harlton Road Haslingfield Cambridge Cambridgeshire CB23 1JE,0.046753,52.152355
+POINT(0.033558 52.169137),S/1465/19/FL,0.34,0.0,,2020-05-20,permissioned,Lordsbridge Farm Cambridge Road Harlton Cambridge Cambridgeshire CB23 7AE,0.033558,52.169137
+POINT(-0.02163 52.205774),S/3652/19/FL,0.97,1.0,,2020-04-30,permissioned,Land On The North Side Of 2 East Drive Highfields Caldecote Caldecote Cambridge Cambridgeshire CB23 7NZ,-0.02163,52.205774
+POINT(0.278157 52.413476),BLR1040,0.0882,,,2020-04-29,permissioned,5-8 Simeon Close Ely Cambridgeshire CB7 4RU,0.278157,52.413476
+POINT(0.464481 52.179074),BLR1501,0.0997,,,2020-04-21,permissioned,165 The Street Kirtling,0.464481,52.179074
+POINT(0.273017 52.42665),BLR1038,0.43,,,2020-04-08,permissioned,Site South West Of Church Farm The Hamlet Chettisham Cambridgeshire,0.273017,52.42665
+POINT(0.307002 52.45786),BLR1827,0.11,6.0,,2020-04-07,permissioned,20 Wellington Street Littleport Ely Cambridgeshire CB6 1PN,0.307002,52.45786
+POINT(0.221344 52.182971),S/3834/19/FL,0.27,1.0,,2020-04-03,permissioned,"Rear of The Six Bells, 9, High Street, FULBOURN, CB21 5DH",0.221344,52.182971
+POINT(0.370637 52.18012),BLR0401,0.28,,,2020-03-24,permissioned,Poole Farm Cottage Westley Waterless Newmarket Suffolk CB8 0RQ,0.370637,52.18012
+POINT(0.316207 52.45979),BLR1801,1.07,0.0,,2020-03-20,permissioned,Station Road Littleport Ely CB6 1JL,0.316207,52.45979
+POINT(0.152112 52.197913),19/1389/TDAMIN,0.2,9.0,,2020-03-10,permissioned,Cambridge And Huntingdon Health Authority 18 Vinery Road Cambridge Cambridgeshire CB1 3DX,0.152112,52.197913
+POINT(0.125193 52.160004),S/4399/19/FL,0.28,7.0,,2020-03-05,permissioned,125 Cambridge Road Great Shelford Cambridge Cambridgeshire CB22 5JJ,0.125193,52.160004
+POINT(0.13433 52.403063),BLR2002,0.3466,,,2020-03-04,permissioned,"Old Granary Site Whitegate Farm, Witcham Road, Mepal, CB6 2AF",0.13433,52.403063
+POINT(0.157036 52.168149),18/1671/FUL,0.58,0.0,,2020-03-03,permissioned,83 - 87 Babraham Road Cambridge Cambridgeshire CB2 4DD,0.157036,52.168149
+POINT(0.131181 52.2076),19/0300/FUL,0.15,9.0,,2020-02-06,permissioned,64 Maids Causeway Cambridge Cambridgeshire CB5 8DD,0.131181,52.2076
+POINT(0.150111 52.181017),19/0698/FUL,0.05,4.0,,2020-02-06,permissioned,25A Mowbray Road Cambridge CB1 7SR,0.150111,52.181017
+POINT(0.110637 52.225917),19/0718/REM,0.71,26.0,,2020-02-05,permissioned,295 - 301 Histon Road Cambridge Cambridgeshire CB4 3NF,0.110637,52.225917
+POINT(0.272635 52.09635),S/0163/18/FL,0.12,14.0,,2020-01-31,permissioned,"20, Cambridge Road, Linton, Cambridge, Cambridgeshire, CB21 4NN",0.272635,52.09635
+POINT(0.126412 52.200591),19/1637/B1C3 | 20/1957/FUL,0.09,13.0,,2020-01-29,permissioned,Essex House 71 Regent Street Cambridge Cambridgeshire,0.126412,52.200591
+POINT(0.126412 52.200591),19/1637/B1C3,0.09,13.0,,2020-01-29,permissioned,Essex House 71 Regent Street Cambridge Cambridgeshire,0.126412,52.200591
+POINT(0.124097 52.213716),19/0242/FUL,0.05,8.0,,2020-01-15,permissioned,18 Chesterton Road Cambridge Cambridgeshire,0.124097,52.213716
+POINT(0.17543 52.187576),19/1034/FUL,0.76,45.0,,2019-12-31,permissioned,66-80B Colville Road Cambridge Cambridgeshire CB1 9EJ,0.17543,52.187576
+POINT(0.124391 52.29258),S/3703/19/FL,0.31,9.0,,2019-12-23,permissioned,"Unit F2, Broad Lane Industrial Estate, Broad Lane, Cottenham, Cambridge, Cambridgeshire, CB24 8SW",0.124391,52.29258
+POINT(0.105063 52.252938),S/1793/19/FL,0.4,9.0,,2019-12-23,permissioned,"Land adjacent to School Hill, Histon, CB24 9JE",0.105063,52.252938
+POINT(0.127957 52.205968),19/0560/FUL,0.09,8.0,,2019-12-23,permissioned,Land Rear Of 5-17 New Square Cambridge Cambridgeshire CB1 1EY,0.127957,52.205968
+POINT(-0.209047 52.146563),S/2762/19/FL,0.67,0.0,,2019-12-20,permissioned,"Old Plantation Cottage, Heath Road, Gamlingay, Sandy, SG19 2JD",-0.209047,52.146563
+POINT(0.146007 52.144674),S/2695/19/RM,0.29,1.0,,2019-12-13,permissioned,"57 to 61, London Road, Stapleford, CB22 5DG",0.146007,52.144674
+POINT(0.138282 52.207337),18/0090/FUL,0.03,9.0,,2019-12-09,permissioned,63 New Street Cambridge CB1 2QT,0.138282,52.207337
+POINT(0.136736 52.199524),18/1365/B1C3 | 19/1475/B1C3,0.04,1.0,,2019-12-09,permissioned,"Boltons Warehouse, 23 Tenison Road, CAMBRIDGE, CB1 2DG",0.136736,52.199524
+POINT(0.134685 52.220836),19/0199/FUL,0.09,5.0,,2019-11-21,permissioned,220 Milton Road Cambridge CB4 1LQ,0.134685,52.220836
+POINT(-0.01337 52.218044),S/2678/19/FL,0.34,1.0,,2019-11-16,permissioned,"Plot 1 Westside, St Neots Road, Caldecote, Cambridge, CB23 8AY",-0.01337,52.218044
+POINT(0.104053 52.099255),S/2557/19/FL,0.26,0.0,,2019-11-15,permissioned,"34, Church Street, Thriplow, Royston, Cambridgeshire, SG8 7RE",0.104053,52.099255
+POINT(0.159651 52.244435),S/1320/16/FL,0.22,4.0,,2019-11-13,permissioned,"26 , Butt Lane, MILTON, CB24 6DG",0.159651,52.244435
+POINT(0.137611 52.217141),18/1703/FUL,0.12,8.0,,2019-11-12,permissioned,25-27 High Street Chesterton Cambridge CB4 1NQ,0.137611,52.217141
+POINT(0.200861 52.186178),S/0670/17/OL,27.0,203.0,,2019-11-09,permissioned,"Ida Darwin Hospital, Fulbourn Old Drift, Fulbourn, Cambridge, Cambridgeshire, CB21 5EE",0.200861,52.186178
+POINT(0.125076 52.161239),S/1781/19/FL,0.14,4.0,,2019-10-31,permissioned,"150, Cambridge Road, Great Shelford, Cambridge, Cambridgeshire, CB22 5JU",0.125076,52.161239
+POINT(0.04637 52.311537),S/0588/19/RM,0.79,0.0,,2019-10-17,permissioned,"Alwyn Tourist Park, Willingham Road, Willingham, Cambridge, Cambridgeshire, CB24 5EU",0.04637,52.311537
+POINT(0.145427 52.202522),19/0288/FUL,3.0,295.0,,2019-10-16,permissioned,Development Land At 75 Cromwell Road Cambridge Cambridgeshire,0.145427,52.202522
+POINT(0.105649 52.196306),18/1993/FUL,0.71,9.0,,2019-10-14,permissioned,Land Between 21 And 29 Barton Road (including 27 Barton Road And Croft Gardens).,0.105649,52.196306
+POINT(0.13548 52.21513),19/0819/OUT,0.05,7.0,,2019-10-11,permissioned,51 - 55 Elizabeth Way Cambridge Cambridgeshire CB4 1DB,0.13548,52.21513
+POINT(0.116327 52.219017),19/0261/FUL,0.22,10.0,,2019-10-11,permissioned,74-82 Akeman Street Cambridge Cambridgeshire CB4 3HG,0.116327,52.219017
+POINT(-0.072321 52.111497),S/1877/19/RM,0.87,10.0,,2019-10-10,permissioned,"Former Monkfield Nutrition Site, Shingay-cum-Wendy, Royston, Herts, SG8 0HJ",-0.072321,52.111497
+POINT(0.139798 52.153886),S/2754/19/FL,0.1,6.0,,2019-10-07,permissioned,"Garages, Macaulay Avenue, Great Shelford, Cambridge, CB22 5AE",0.139798,52.153886
+POINT(0.037053 52.135195),S/1427/19/RM,7.87,220.0,,2019-09-23,permissioned,"Barrington Cement Plant, Haslingfield Road, Barrington, Cambridge, Cambridgeshire, CB22 7RQ",0.037053,52.135195
+POINT(0.109422 52.242924),S/2010/17/OL,0.46,32.0,,2019-09-11,permissioned,"Station Road Garage, Station Yard, Station Road, Histon, Cambridge, CB24 9LF",0.109422,52.242924
+POINT(0.109422 52.242924),S/LocalPlan/E/8 | 2010/17/OL,0.46,32.0,,2019-09-11,not-permissioned,"Station Road Garage, Station Yard, Station Road, Histon, Cambridge, CB24 9LF",0.109422,52.242924
+POINT(-0.020168 52.173118),S/1502/19/FL,0.71,0.0,,2019-08-30,permissioned,"Armshold Farm, Tinkers Lane, Kingston, CB23 1HT",-0.020168,52.173118
+POINT(0.13079 52.204001),19/0421/FUL,0.04,9.0,,2019-08-28,permissioned,Warkworth Lodge Warkworth Terrace Cambridge Cambridgeshire CB1 1EG,0.13079,52.204001
+POINT(-0.015243 52.07174),S/2175/19/FL,1.21,0.0,,2019-08-22,permissioned,"Westfield Orchard, Old North Road, Bassingbourn Cum Kneesworth, Royston, Cambridgeshire, SG8 5JS",-0.015243,52.07174
+POINT(0.142995 52.179061),18/0806/FUL,0.21,13.0,,2019-08-16,permissioned,291 Hills Road Cambridge CB2 8RP,0.142995,52.179061
+POINT(-0.02952 52.197472),S/3261/18/FL,1.27,0.0,,2019-08-15,permissioned,"Clare Cottage, Main Street, Caldecote, Cambridge, Cambridgeshire, CB23 7NU",-0.02952,52.197472
+POINT(0.141067 52.200119),17/2245/FUL | 18/1947/S73 | 19/0175/FUL,2.17,236.0,,2019-08-14,permissioned,Mill Road Depot Mill Road Cambridge CB1 2AZ,0.141067,52.200119
+POINT(0.140616 52.199264),19/0175/FUL,0.31,50.0,,2019-08-14,permissioned,Mill Road Depot Mill Road Cambridge Cambridgeshire CB1 2AZ,0.140616,52.199264
+POINT(0.141067 52.200119),17/2245/FUL | 18/1947/S73,1.86,186.0,,2019-08-14,permissioned,Mill Road Depot Mill Road Cambridge CB1 2AZ,0.141067,52.200119
+POINT(0.146767 52.218477),18/1826/FUL,0.08,3.0,,2019-08-09,permissioned,43 - 47 Water Street Cambridge Cambridgeshire CB4 1NZ,0.146767,52.218477
+POINT(0.161217 52.212161),19/0767/B1C3,0.08,11.0,,2019-07-29,permissioned,Chartwell House 620 - 622 Newmarket Road Cambridge Cambridgeshire CB5 8LP,0.161217,52.212161
+POINT(0.161217 52.212161),19/0767/B1C3 | 21/04350/FUL,0.08,11.0,,2019-07-29,permissioned,Chartwell House 620 - 622 Newmarket Road Cambridge Cambridgeshire CB5 8LP,0.161217,52.212161
+POINT(0.159449 52.182942),18/1470/FUL,0.28,11.0,,2019-07-17,permissioned,9-10A Ventress Close Cambridge Cambridgeshire CB1 8QX,0.159449,52.182942
+POINT(-0.13826 52.175688),S/1463/19/FL,1.02,0.0,,2019-07-04,permissioned,"26, Main Road, Little Gransden, Sandy, Cambridgeshire, SG19 3DN",-0.13826,52.175688
+POINT(0.312564 52.274426),BLR0510,4.7,91.0,,2019-07-01,permissioned,Stanford Park Weirs Drove Burwell Cambridge CB25 0BP,0.312564,52.274426
+POINT(0.280406 52.098718),S/0736/19/OL,0.28,2.0,,2019-07-01,permissioned,"41, Back Road, Linton, Cambridge, Cambridgeshire, CB21 4LG",0.280406,52.098718
+POINT(0.11386 52.199144),18/1807/FUL,0.03,7.0,,2019-06-18,permissioned,India House 31 Newnham Road Cambridge Cambridgeshire CB3 9EY,0.11386,52.199144
+POINT(0.11864 52.340844),BLR1212,0.3,,,2019-06-18,permissioned,2 School Lane Aldreth Ely Cambridgeshire CB6 3PL,0.11864,52.340844
+POINT(0.196498 52.273923),S/3865/17/FL,0.32,16.0,,2019-06-17,permissioned,"Land at the corner of Capper and Cody Ro, Lancaster & Walmington House, Capper Road, Waterbeach, CB25 9LY",0.196498,52.273923
+POINT(0.021135 52.07792),S/2424/18/FL,0.66,21.0,,2019-05-17,permissioned,"36, New Road, Melbourn, Royston, Cambridgeshire, SG8 6BY",0.021135,52.07792
+POINT(0.121907 52.187436),19/0248/FUL,0.49,1.0,,2019-05-03,permissioned,Meadowcroft House 16 Trumpington Road Cambridge CB2 8EX,0.121907,52.187436
+POINT(0.120272 52.213336),18/1684/FUL,0.02,6.0,,2019-05-01,permissioned,Carlyle Lodge 71A Chesterton Road Cambridge CB4 3AN,0.120272,52.213336
+POINT(0.107602 52.216871),18/0907/FUL,0.11,9.0,,2019-04-09,permissioned,50 St Stephens Place And 51 Canterbury Street Cambridge CB3 0JE,0.107602,52.216871
+POINT(-0.089288 52.117061),S/0601/19/FL,0.26,1.0,,2019-04-08,permissioned,"Brickyard Farm, Lower Road, Croydon, Royston, SG8 0HA",-0.089288,52.117061
+POINT(0.193385 52.26489),S/0193/19/FL,0.23,9.0,,2019-03-29,permissioned,"Land to the rear of 10A, Rosemary Road, Waterbeach, Cambridge, Cambridgeshire, CB25 9NB",0.193385,52.26489
+POINT(0.380494 52.159751),S/4528/18/FL,0.58,4.0,,2019-03-26,permissioned,"Scrap Yard, Willingham Green Road, Carlton, Cambridgeshire CB8 0SW",0.380494,52.159751
+POINT(-0.066082 52.112582),S/4827/18/FL,0.78,0.0,,2019-02-22,permissioned,"Sunavon, High Street, Shingay Cum Wendy, Royston, Cambridgeshire, SG8 0HH",-0.066082,52.112582
+POINT(0.104926 52.196507),18/1150/FUL,0.06,9.0,,2019-02-08,permissioned,31 Barton Road Cambridge CB3 9LB,0.104926,52.196507
+POINT(0.10169 52.22096),18/1637/FUL,0.16,4.0,,2019-02-08,permissioned,1 Grosvenor Court Cambridge CB3 0HU,0.10169,52.22096
+POINT(0.153623 52.158023),S/4707/18/FL,0.26,1.0,,2019-02-08,permissioned,"197 , Hinton Way, Great Shelford, Cambridge, CB22 5AN",0.153623,52.158023
+POINT(0.051224 52.183767),S/4331/18/OL,0.27,2.0,,2019-01-25,permissioned,"15, Comberton Road, Barton, Cambridge, Cambridgeshire, CB23 7BA",0.051224,52.183767
+POINT(0.334066 52.331554),BLR2305,0.96,4.0,,2019-01-18,permissioned,Milbrook House 50 Lode Close Soham Ely Cambridgeshire CB7 5WN,0.334066,52.331554
+POINT(0.164185 52.222609),S/3280/18/FL,0.38,0.0,,2019-01-18,permissioned,"The Black House, Chesterton Fen Road, MILTON, CB4 1UN",0.164185,52.222609
+POINT(-0.045135 52.09695),S/4194/18/FL,0.38,0.0,,2018-12-31,permissioned,"Taunus, Old North Road, Whaddon, ROYSTON, SG8 5SR",-0.045135,52.09695
+POINT(0.217129 52.104664),S/3755/18/FL,0.41,1.0,,2018-12-21,permissioned,"26, South Road, Abington, CAMBRIDGE, CB21 6AU",0.217129,52.104664
+POINT(0.197517 52.270802),S/2434/18/FL,0.27,1.0,,2018-12-14,permissioned,"The Six Bells, 9, High Street, FULBOURN, CB21 5DH",0.197517,52.270802
+POINT(0.190181 52.201645),S/2454/18/FL,0.12,3.0,,2018-12-13,permissioned,"Numbers 1 and 3, Pembroke Way, Teversham, CAMBRIDGE, CB1 9AD",0.190181,52.201645
+POINT(0.191418 52.186929),S/3404/17/FL,0.29,10.0,,2018-11-28,permissioned,"Land off Fulbourn Old Drift, Fulbourn, CAMBRIDGESHIRE, CB1 9BF",0.191418,52.186929
+POINT(0.082469 52.234159),S/1590/18/FL,0.3,8.0,,2018-11-27,permissioned,"39, Pepys Way, Girton, CAMBRIDGE, CB3 0PA",0.082469,52.234159
+POINT(0.124483 52.161681),S/2175/18/FL,0.08,4.0,,2018-11-22,permissioned,"160, Cambridge Road, Great Shelford, CAMBRIDGE, CB22 5JU",0.124483,52.161681
+POINT(0.007732 52.089821),S/1502/17/FL,0.57,22.0,,2018-11-19,permissioned,"Former GoCold Building, Station Yard, High Street, MELDRETH, SG8 6JR",0.007732,52.089821
+POINT(0.096215 52.222208),18/1451/B1C3,0.58,71.0,,2018-11-08,permissioned,National Institute Of Agricultural Botany Huntingdon Road Cambridge Cambridgeshire CB3 0LE,0.096215,52.222208
+POINT(0.164969 52.211939),C/LocalPlan/R6,1.01,75.0,,2018-10-18,not-permissioned,"636-656 Newmarket Road, Holy Cross Church Hall, East Barnwell Community Centre and Meadowlands, Newmarket Road",0.164969,52.211939
+POINT(0.158584 52.217317),C/LocalPlan/R5,0.85,35.0,,2018-10-18,not-permissioned,Camfields Resource Centre and Oil Depot 137-139 Ditton Walk,0.158584,52.217317
+POINT(0.144142 52.188904),C/LocalPlan/R8,0.75,33.0,,2018-10-18,not-permissioned,"149 Cherry Hinton Road and Telephone Exchange, Coleridge Road",0.144142,52.188904
+POINT(0.153495 52.197465),C/LocalPlan/R21,2.3,78.0,,2018-10-18,not-permissioned,315-349 Mill Road and Brookfields,0.153495,52.197465
+POINT(0.118535 52.1756),C/LocalPlan/R16,1.49,67.0,,2018-10-18,not-permissioned,"Cambridge Professional Development Centre, Foster Road",0.118535,52.1756
+POINT(0.120315 52.18135),C/LocalPlan/R14,2.01,76.0,,2018-10-18,not-permissioned,"British Telecom, Long Road",0.120315,52.18135
+POINT(0.157892 52.201243),C/LocalPlan/R11,0.82,40.0,,2018-10-18,not-permissioned,"Horizon Resource Centre, 285 Coldham's Lane",0.157892,52.201243
+POINT(0.129716 52.195334),C/LocalPlan/M5,0.5,20.0,,2018-10-18,not-permissioned,82-88 Hills Road and 57-63 Bateman Street,0.129716,52.195334
+POINT(0.138677 52.192394),C/LocalPlan/M2,9.43,550.0,,2018-10-18,not-permissioned,Clifton Road Area,0.138677,52.192394
+POINT(0.136736 52.199524),18/1365/B1C3,0.04,6.0,,2018-10-18,permissioned,"23, Tenison Road, CAMBRIDGE, CB1 2DG",0.136736,52.199524
+POINT(0.136901 52.23253),18/0765/FUL,0.08,5.0,,2018-10-09,permissioned,"Garage Block, Markham Close, CAMBRIDGE, CB4 2PX",0.136901,52.23253
+POINT(0.131268 52.190154),18/0768/FUL,0.06,6.0,,2018-10-08,permissioned,"21-25, Fitzwilliam Road, CAMBRIDGE, CB2 8BN",0.131268,52.190154
+POINT(0.177806 52.131088),S/LocalPlan/H1a,3.7,80.0,,2018-09-27,not-permissioned,"Dales Manor Business Park, Sawston (Policy H/1a)",0.177806,52.131088
+POINT(-0.036631 52.21177),S/LocalPlan/SS7,171.8,3500.0,,2018-09-27,not-permissioned,Bourn Airfield New Village (Policy SS/7),-0.036631,52.21177
+POINT(0.184577 52.28159),S/0559/17/OL,265.8,6500.0,,2018-09-27,permissioned,"Waterbeach Barracks and Airfield Site, Waterbeach, Cambridgeshire",0.184577,52.28159
+POINT(0.159137 52.226878),18SC0010,10.7,200.0,,2018-09-27,not-permissioned,"Former Marley Tiles Site, Dales Manor Business Park, Sawston",0.159137,52.226878
+POINT(0.003816 52.094285),S/0241/18/FL,0.31,8.0,,2018-09-21,permissioned,"70, Whitecroft Road, Meldreth, ROYSTON, SG8 6LS",0.003816,52.094285
+POINT(0.287194 52.097831),S/0793/18/FL,0.28,6.0,,2018-09-14,permissioned,"1, Horseheath Road, Linton, CAMBRIDGE, CB21 4LU",0.287194,52.097831
+POINT(-0.001752 52.11605),S/2559/18/FL,0.97,1.0,,2018-08-30,permissioned,"Former Golf Club House, Malton Golf Course, Malton Lane, Meldreth, ROYSTON, SG8 6PE",-0.001752,52.11605
+POINT(0.014502 52.316617),S/1224/18/FL,0.24,5.0,,2018-08-15,permissioned,"45, High Street, Over, CAMBRIDGE, CB24 5NB",0.014502,52.316617
+POINT(0.164672 52.104893),S/0746/15/OL,1.17,59.0,,2018-08-14,permissioned,"Lion Works, Station Road, Whittlesford, CAMBRIDGE, CB22 4WL",0.164672,52.104893
+POINT(0.38102 52.30873),BLR1101,8.66,0.0,,2018-08-08,permissioned,"Scotsdale Garden Centre, Market Street, Fordham, CB7 5LQ",0.38102,52.30873
+POINT(0.110914 52.262312),S/1615/18/FL | 20/01600/FUL,0.27,1.0,,2018-08-07,permissioned,"Land at Rear of 130, Cottenham Road, Histon, CAMBRIDGE, CB24 9ET",0.110914,52.262312
+POINT(0.110914 52.262312),S/1615/18/FL,0.27,1.0,,2018-08-07,permissioned,"Land at Rear of 130, Cottenham Road, Histon, CAMBRIDGE, CB24 9ET",0.110914,52.262312
+POINT(0.008667 52.161309),S/1994/18/FL,0.48,1.0,,2018-07-18,permissioned,"Church Farm, Church Lane, Little Eversden, CAMBRIDGE, CB23 1HQ",0.008667,52.161309
+POINT(0.220686 52.183864),S/1524/18/FL,0.07,1.0,,2018-07-05,permissioned,"2, Pierce Lane, Fulbourn, CAMBRIDGE, CB21 5DL",0.220686,52.183864
+POINT(0.152056 52.146134),18SC0002,0.23,35.0,,2018-06-27,permissioned,"The Bishops Site, Cambridge Road, IMPINGTON, CB24 9NU",0.152056,52.146134
+POINT(0.110112 52.242013),S/0671/17/FL,0.23,35.0,,2018-06-27,permissioned,"Old Station Yard, Cambridge Road, IMPINGTON, CB24 9NU",0.110112,52.242013
+POINT(-0.06611 52.112562),18SC0008,0.25,11.0,,2018-06-15,permissioned,"39 Pepys Way, Girton, Cambridge, Cambridgeshire, CB3 0PA",-0.06611,52.112562
+POINT(0.065488 52.258227),18SC0005,0.48,1.0,,2018-06-08,permissioned,"56, High Street, Landbeach, Cambridge, Cambridgeshire, CB25 9FT",0.065488,52.258227
+POINT(0.268026 52.397858),BLR1036,0.14,20.0,,2018-06-04,permissioned,Alexander House 38 Forehill Ely Cambridgeshire,0.268026,52.397858
+POINT(-0.016814 52.218291),S/3273/16/OL,0.73,2.0,,2018-05-31,permissioned,"Childerley Gate Filling Station, St. Neots Road, Dry Drayton, CAMBRIDGE, CB23 8AY",-0.016814,52.218291
+POINT(0.15504 52.200971),17/1272/FUL,0.34,13.0,,2018-05-22,permissioned,"Land At 300 - 314, Coldhams Lane, CAMBRIDGE, CB1 3HN",0.15504,52.200971
+POINT(0.110121 52.242493),18SC0006,0.11,5.0,,2018-05-21,permissioned,"2-4 Water Lane, OAKINGTON AND WESTWICK, CB24 3AL",0.110121,52.242493
+POINT(0.065516 52.25825),S/1250/18/FL,0.1,4.0,,2018-05-21,permissioned,"2-4, Water Lane, Oakington, CAMBRIDGE, CB24 3AL",0.065516,52.25825
+POINT(-0.082006 52.064427),18SC0003,0.17,12.0,,2018-05-15,permissioned,"Former station site including derelict Histon & Impington Railway Station, 94-96 Station Road, Impington, Cambridge, CB24 9NP",-0.082006,52.064427
+POINT(0.110179 52.242515),S/0783/17/FL,0.15,12.0,,2018-05-15,permissioned,"Former station site including derelict Histon & Impington Railway Station, 94-96, Station Road, Impington, CAMBRIDGE, CB24 9NP",0.110179,52.242515
+POINT(0.130522 52.214913),17/0970/FUL,0.3,14.0,,2018-05-02,permissioned,"St Regis And 108 Chesterton Road, St Regis House 47 Hamilton Road, St. Regis, CAMBRIDGE, CB4 1BY",0.130522,52.214913
+POINT(0.170712 52.183823),17/1757/FUL,0.13,9.0,,2018-05-01,permissioned,"283, Queen Ediths Way, CAMBRIDGE, CB1 9NH",0.170712,52.183823
+POINT(0.384087 52.39097),BLR1301,0.25,,,2018-04-30,permissioned,Larkhall Farm 38 Prickwillow Road Isleham Ely Cambridgeshire CB7 5RH,0.384087,52.39097
+POINT(0.151837 52.186183),17/1615/FUL,0.07,5.0,,2018-04-27,permissioned,"156-158, Mowbray Road, CAMBRIDGE, CB1 7TG",0.151837,52.186183
+POINT(0.082355 52.234175),18SC0007,0.36,6.0,,2018-04-24,permissioned,"Burnt Farm, High Street, Harlton, Cambridgeshire, CB23 1ES",0.082355,52.234175
+POINT(0.224492 52.345608),BLR2501,0.52,9.0,,2018-04-18,permissioned,Former Haulage Yard Newmarket Road Stretham Cambridgeshire,0.224492,52.345608
+POINT(-0.081991 52.064465),S/2927/17/FL,0.19,0.0,,2018-04-18,permissioned,"Sheen Farm, Royston Road, Litlington, ROYSTON, SG8 0RH",-0.081991,52.064465
+POINT(-0.145204 52.178455),18SC0001,0.25,1.0,,2018-04-13,permissioned,"Land to the side of Willow Tree House, Church Street, Little Gransden, Sandy, SG193DU",-0.145204,52.178455
+POINT(-0.051637 52.290538),18SC0009,0.3,2.0,,2018-04-06,permissioned,"33, Bar Lane, Stapleford, Cambridge, Cambridgeshire, CB22 5BJ",-0.051637,52.290538
+POINT(0.152057 52.146173),S/4426/17/FL,0.29,2.0,,2018-04-06,permissioned,"33, Bar Lane, Stapleford, CAMBRIDGE, CB22 5BJ",0.152057,52.146173
+POINT(-0.119001 52.247923),18SC0016,0.57,15.0,,2018-03-29,permissioned,"Plumbs Dairy, 107, High Street, BALSHAM, CB21 4EP",-0.119001,52.247923
+POINT(0.159445 52.242276),18SC0013,0.11,5.0,,2018-03-19,permissioned,"2, Cambridge Road, MILTON, CB24 6AW",0.159445,52.242276
+POINT(0.136324 52.193992),15/1759/FUL,0.38,89.0,,2018-03-08,permissioned,Murdoch House 40 - 44 Station Road And Remains Of Former Silo Associated With Fosters Mill Cambridge Cambridgeshire CB1 2JH,0.136324,52.193992
+POINT(0.022913 52.316943),18SC0024,0.96,4.0,,2018-03-01,permissioned,"Land off Fen End, Over, CAMBRIDGE, CB24 5NE",0.022913,52.316943
+POINT(0.022954 52.316967),S/2577/17/FL,0.14,4.0,,2018-03-01,permissioned,"Land off Fen End, Over, CAMBRIDGE, CB24 5NE",0.022954,52.316967
+POINT(0.109053 52.245952),S/2697/17/FL,0.05,2.0,,2018-02-21,permissioned,"66 - 68, Station Road, HISTON, CB24 9LF",0.109053,52.245952
+POINT(0.37671 52.075521),S/4579/17/FL,0.83,1.0,,2018-02-13,permissioned,"The Oaks, Blacksmiths Lane, Shudy Camps, CAMBRIDGE, CB21 4RH",0.37671,52.075521
+POINT(0.376577 52.075485),18SC0031,0.83,1.0,,2018-02-13,permissioned,"The Oaks, Blacksmiths Lane, Shudy Camps, CAMBRIDGE, CB21 4RH",0.376577,52.075485
+POINT(0.311004 52.132182),18SC0030,1.24,1.0,,2018-02-12,permissioned,"97, High Street, Balsham, CAMBRIDGE, CB21 4EP",0.311004,52.132182
+POINT(0.311005 52.132213),S/4477/17/FL,1.24,1.0,,2018-02-12,permissioned,"97, High Street, Balsham, CAMBRIDGE, CB21 4EP",0.311005,52.132213
+POINT(-0.000605 52.089117),S/3529/16/OL,0.4,6.0,,2018-02-02,permissioned,"Scrapyard, Chiswick End, Meldreth, ROYSTON, SG8 6LZ",-0.000605,52.089117
+POINT(0.124879 52.160438),18SC0023,0.09,5.0,,2018-01-19,permissioned,"129, Cambridge Road, Great Shelford, CAMBRIDGE, CB22 5JJ",0.124879,52.160438
+POINT(0.009914 52.155551),S/1331/17/FL,0.34,1.0,,2018-01-18,permissioned,"16, Harlton Road, Little Eversden, CAMBRIDGE, CB23 1HB",0.009914,52.155551
+POINT(0.282041 52.237877),BLR2701,0.52,0.0,,2018-01-18,permissioned,Hillside Mill Quarry Ln Swaffham Bulbeck Cambridge CB25 0LU,0.282041,52.237877
+POINT(-0.044486 52.081714),18SC0022,0.97,6.0,,2018-01-15,permissioned,"Land located north of 131, The Causeway, Bassingbourn, ROYSTON, SG8 5JB",-0.044486,52.081714
+POINT(-0.04422 52.081819),S/2253/16/RM,0.25,6.0,,2018-01-15,permissioned,"Land located north of 131, The Causeway, Bassingbourn, ROYSTON, SG8 5JB",-0.04422,52.081819
+POINT(0.159392 52.179967),17/1626/FUL,0.07,4.0,,2018-01-11,permissioned,"130, Queen Ediths Way, CAMBRIDGE, CB1 8NW",0.159392,52.179967
+POINT(0.147512 52.19752),17/1527/FUL,0.17,14.0,,2017-12-20,permissioned,"Cambridge Carpets, 213, Mill Road, CAMBRIDGE, CB1 3BE",0.147512,52.19752
+POINT(0.030063 52.262282),S/2894/17/FL,0.51,0.0,,2017-12-18,permissioned,"Land at Hazlewell Farm, Bar Road, Longstanton, CAMBRIDGE, CB23 8DS",0.030063,52.262282
+POINT(0.030048 52.262196),18SC0027,0.51,2.0,,2017-12-18,permissioned,"Land at Hazlewell Farm, Bar Road, Lolworth, CAMBRIDGE, CB23 8DS",0.030048,52.262196
+POINT(0.462467 52.211755),BLR0601,0.512696,0.0,,2017-12-06,permissioned,"1, Oak Lane, Cheveley, NEWMARKET, CB8 9RA",0.462467,52.211755
+POINT(0.1594 52.217544),15/1020/FUL,0.35,14.0,,2017-11-29,permissioned,"5, Abbey Gardens Ditton Walk, CAMBRIDGE, CB5 8EH",0.1594,52.217544
+POINT(0.339699 52.332447),BLR2302,0.18,0.0,,2017-11-15,permissioned,90 Paddock Street Soham Ely Cambridgeshire CB7 5JA,0.339699,52.332447
+POINT(0.351475 52.33557),BLR2303,1.34,0.0,,2017-11-15,not-permissioned,Eastern Gateway East Fen Common Soham Ely CB7 5JJ,0.351475,52.33557
+POINT(0.144046 52.227023),17/1282/FUL,0.05,4.0,,2017-11-02,permissioned,"339, Milton Road, CAMBRIDGE, CB4 1XL",0.144046,52.227023
+POINT(0.119984 52.184521),17/0826/FUL,0.26,0.0,,2017-10-24,permissioned,"2, Barrow Road, CAMBRIDGE, CB2 8AS",0.119984,52.184521
+POINT(0.380448 52.159432),18SC0025,1.08,2.0,,2017-10-16,permissioned,"Gowing Auto's, Willingham Green Road, Brinkley, NEWMARKET, CB8 0SW",0.380448,52.159432
+POINT(0.088115 52.213702),17/0172/FUL,0.3,14.0,,2017-10-11,permissioned,"36, Madingley Road, CAMBRIDGE, CB3 0EX",0.088115,52.213702
+POINT(0.137316 52.229591),17/0927/FUL,0.1,9.0,,2017-10-06,permissioned,"Jenny Wren, St. Kilda Avenue, CAMBRIDGE, CB4 2QA",0.137316,52.229591
+POINT(0.241715 52.24275),BLR1904,0.27,1.0,,2017-10-02,permissioned,15 Station Road Lode Cambridge CB25 9HB,0.241715,52.24275
+POINT(0.155498 52.187752),5.02,2.8,123.0,,2017-09-20,not-permissioned,"The Paddocks Trading Estate, Cherry Hinton Road",0.155498,52.187752
+POINT(0.482604 52.224912),BLR0103,0.8065,8.0,,2017-09-19,permissioned,28 High Street Ashley Newmarket Suffolk CB8 9DX,0.482604,52.224912
+POINT(0.136178 52.207708),14/1905/FUL,0.49,80.0,,2017-09-13,permissioned,"64-68, Newmarket Road, CAMBRIDGE, CB5 8DZ",0.136178,52.207708
+POINT(0.092383 52.153079),18SC0014,0.87,10.0,,2017-09-12,permissioned,"26, South End, BASSINGBOURN CUM KNEESWORTH, SG8 5NJ",0.092383,52.153079
+POINT(-0.058914 52.076163),S/0331/15/FL,0.87,10.0,,2017-09-12,permissioned,"26, South End, BASSINGBOURN CUM KNEESWORTH, SG8 5NJ",-0.058914,52.076163
+POINT(0.260304 52.222576),BLR0201,0.11,0.0,,2017-09-03,not-permissioned,74-76 Beechwood Avenue Bottisham Cambridge CB25 9DB,0.260304,52.222576
+POINT(0.146675 52.219611),17/1023/FUL,0.05,5.0,,2017-08-30,permissioned,"207, Green End Road, CAMBRIDGE, CB4 1RJ",0.146675,52.219611
+POINT(0.157552 52.220797),16/0617/FUL,0.42,13.0,,2017-08-21,permissioned,"Haling House, Fen Road, CAMBRIDGE, CB4 1UN",0.157552,52.220797
+POINT(0.161755 52.41631),BLR0803,0.41,4.0,,2017-08-21,permissioned,Vine Leigh Farm 33 Main Street Wardy Hill CB6 2DF,0.161755,52.41631
+POINT(0.079958 52.137743),18SC0019,0.26,2.0,,2017-08-17,permissioned,"21, High Street, HARSTON, CB22 7PX",0.079958,52.137743
+POINT(0.35902 52.223675),BLR2402,0.373,1.0,,2017-08-09,permissioned,Newmarket Equine Hospital Cambridge Road Newmarket Suffolk CB8 0FG,0.35902,52.223675
+POINT(0.266819 52.398321),BLR1002,0.095662,0.0,,2017-08-08,permissioned,"Pound Store, 10, Forehill, ELY, Cambridgeshire CB7 4AF",0.266819,52.398321
+POINT(-0.05932 52.076195),18SC0017,1.76,53.0,,2017-08-04,permissioned,"Land between Church Lane and Ermine Street South, Church Lane, Papworth Everard, CAMBRIDGE, CB23 3QN",-0.05932,52.076195
+POINT(0.129697 52.197079),17/0265/FUL,0.03,10.0,,2017-07-17,permissioned,"23 And 25, Hills Road, CAMBRIDGE, CB2 1NW",0.129697,52.197079
+POINT(0.169559 52.182335),17/0260/FUL,0.36,1.0,,2017-07-07,permissioned,Land to the Rear of 268 Queen Edith's Way,0.169559,52.182335
+POINT(0.108426 52.212936),16/1864/FUL,2.93,0.0,,2017-07-07,permissioned,"St. Edmund's College, CAMBRIDGE, CB3 0BN",0.108426,52.212936
+POINT(0.131268 52.230871),16/1364/FUL,0.31,7.0,,2017-07-06,permissioned,"Garage Block 1-20, Cameron Road and Land Adjacent to Nos. 33 And 45 Nuns Way",0.131268,52.230871
+POINT(0.38341 52.305733),Site/11/28,0.26,9.0,,2017-07-03,permissioned,"Fordham Technology Centre, 5 Station Road, Fordham, Ely, Cambridgeshire CB7 5LW",0.38341,52.305733
+POINT(-0.202533 52.148982),S/1075/17/FL,0.26,0.0,,2017-06-23,permissioned,"16, Little Heath, Gamlingay, SANDY, SG19 3LL",-0.202533,52.148982
+POINT(0.190736 52.387349),BLR3421,0.2068,5.0,,2017-06-21,permissioned,Land Adjacent 204 Main Street Witchford CB6 2HT,0.190736,52.387349
+POINT(-0.024611 52.206134),18SC0026,0.24,7.0,,2017-06-06,permissioned,"Land Adjoining 6, Highfields Road, Highfields Caldecote, CAMBRIDGE, CB23 7NX",-0.024611,52.206134
+POINT(-0.138226 52.181046),S/3507/16/FL,0.32,2.0,,2017-05-04,permissioned,"6, Primrose Hill, Little Gransden, SANDY, SG19 3DP",-0.138226,52.181046
+POINT(0.136592 52.18736),16/2248/FUL,0.08,2.0,,2017-05-02,permissioned,"174, Hills Road, CAMBRIDGE, CB2 8PQ",0.136592,52.18736
+POINT(0.13591 52.215544),16/2249/FUL,0.03,6.0,,2017-04-28,permissioned,"56, Elizabeth Way, CAMBRIDGE, CB4 1EE",0.13591,52.215544
+POINT(0.318797 52.13086),18SC0021,0.83,33.0,,2017-04-24,permissioned,"7, High Street, BALSHAM, CB21 4DJ",0.318797,52.13086
+POINT(0.129279 52.221383),16/1970/FUL,0.16,4.0,,2017-04-11,permissioned,"1, Leys Road, CAMBRIDGE, CB4 2AP",0.129279,52.221383
+POINT(0.051739 52.275902),18SC0029,0.43,6.0,,2017-04-11,permissioned,"53, Woodside, Longstanton, CAMBRIDGE, CB24 3BU",0.051739,52.275902
+POINT(0.31226 52.080514),18SC0028,3.64,1.0,,2017-04-06,permissioned,"Bartlow Park, Camps Road, Bartlow, CAMBRIDGE, CB21 4PP",0.31226,52.080514
+POINT(0.106214 52.16543),16/1769/REM,1.71,65.0,,2017-03-28,permissioned,11 Hauxton Road,0.106214,52.16543
+POINT(-0.128221 52.062041),17SC0028,0.09,2.0,,2017-03-28,permissioned,"Land to rear of 4, Mill Courtyard, Steeple Morden, Royston, Cambridgeshire, SG8 0NH",-0.128221,52.062041
+POINT(-0.04199 52.300144),17SC0025,0.33,1.0,,2017-03-17,permissioned,"56 , Park Lane, FEN DRAYTON, CB24 4SW",-0.04199,52.300144
+POINT(0.256874 52.222919),Site/02/08,0.11,9.0,,2017-03-09,permissioned,"Police Station, 12, Bell Road, Bottisham, CAMBRIDGE, CB25 9DF",0.256874,52.222919
+POINT(0.200671 52.18615),17SC0008a,13.38,203.0,,2017-02-28,pending-decision,"Ida Darwin Hospital, Fulbourn Old Drift, FULBOURN, CB21 5EE",0.200671,52.18615
+POINT(0.216011 52.344056),BLR2509,0.9262,4.0,,2017-02-27,permissioned,"Meadow Farm, Fieldside, Stretham, ELY, CB6 3LT",0.216011,52.344056
+POINT(0.315799 52.462542),BLR1803,0.305409,3.0,,2017-02-20,permissioned,"Site To North And North West Of 50, Station Road, Littleport, ELY, CB6 1QF",0.315799,52.462542
+POINT(0.084115 52.044548),17SC0023,0.4,1.0,,2017-02-17,permissioned,"Woodstock, 63 , Fowlmere Road, Heydon, Cambridgeshire, SG8 8PZ ",0.084115,52.044548
+POINT(0.19736 52.212163),17SC0026,0.47,0.0,,2017-02-16,permissioned,"Quy Water, Newmarket Road, Fen Ditton, Cambridge, Cambridgeshire, CB1 9AT ",0.19736,52.212163
+POINT(0.063695 52.27962),S/2011/14/OL,63.3,2450.0,,2017-01-09,permissioned,"Northstowe Phase 2 - Bar Farm, Bar Road, Longstanton, CAMBRIDGE, CB24 3DX",0.063695,52.27962
+POINT(0.063898 52.281724),17SC0009a,63.3,3500.0,,2017-01-08,permissioned,"Land to the East of B1050 and Longstanton, West of the Cambridgeshire Guided Busway (CGB) and North of Oakington",0.063898,52.281724
+POINT(0.258746 52.396572),BLR1001,0.18571,0.0,,2016-12-28,permissioned,Land At Barton Road Car Park Barton Road Ely Cambridgeshire,0.258746,52.396572
+POINT(0.258746 52.396572),Site/10/31,0.19,11.0,,2016-12-28,permissioned,Land At Barton Road Car Park Barton Road Ely Cambridgeshire,0.258746,52.396572
+POINT(-0.015692 52.072142),17SC0029,1.26,0.0,,2016-12-27,permissioned,"Westfield Orchard,Ashwell Street, Melbourn, Cambridgeshire, SG8 0RS",-0.015692,52.072142
+POINT(-0.126409 52.084078),17SC0012,0.34,0.0,,2016-12-09,permissioned,"60, New Road, Guilden Morden, Royston, Cambridgeshire, SG8 0JN",-0.126409,52.084078
+POINT(-0.196794 52.156651),17SC0031,2.92,90.0,,2016-12-07,permissioned,"Land at Green End Industrial Estate, Green End, Gamlingay, Gamlingay, Cambridgeshire, SG19 3LX ",-0.196794,52.156651
+POINT(-0.196746 52.156554),S/2068/15/OL,2.92,85.0,,2016-12-07,permissioned,"Pinewood Structures Ltd, Green End Industrial Estate, Green End, GAMLINGAY, SG19 3LX",-0.196746,52.156554
+POINT(0.175242 52.213355),17SC0030,64.51,481.0,,2016-11-30,permissioned,"Cambridge East, Land North of Newmarket Road, Newmarket Road, Cambridge",0.175242,52.213355
+POINT(0.287163 52.097775),17SC0011,0.29,6.0,,2016-11-30,permissioned,"1, Horseheath Road, Linton, Cambridge, Cambridgeshire, CB21 4LU",0.287163,52.097775
+POINT(0.180912 52.214379),S/2682/13/OL,16.22,481.0,,2016-11-30,permissioned,"Wing Development, North of Newmarket Road, Cambridge",0.180912,52.214379
+POINT(0.193199 52.352104),BLR3209,0.16,1.0,,2016-11-15,permissioned,87 Stretham Road Wilburton Ely CB6 3RY,0.193199,52.352104
+POINT(0.186521 52.387455),BLR3420,0.2735,1.0,,2016-11-10,permissioned,"23, Sutton Road, Witchford, ELY, CB6 2HX",0.186521,52.387455
+POINT(0.385033 52.043309),17SC0024,0.26,0.0,,2016-11-02,permissioned,"Meadowside Lodge, Olmstead Green, Castle Camps, Cambridge, Cambridgeshire, CB21 4TW",0.385033,52.043309
+POINT(0.044141 52.129764),17SC0006,31.63,220.0,,2016-10-27,permissioned,"Former CEMEX Cement Works, Barrington Cement Plant, Haslingfield Road, Barrington, Cambridge, Cambridgeshire, CB22 7RQ",0.044141,52.129764
+POINT(0.070734 52.095751),17SC0017,0.48,3.0,,2016-10-24,permissioned,"The Willows & Highbank, Long Lane, Fowlmere, Royston, Herts, SG8 7TG",0.070734,52.095751
+POINT(0.041528 52.310158),17SC0019,0.67,0.0,,2016-10-04,permissioned,"Cold Harbour Farm, Willingham Road, OVER, CB24 5EY",0.041528,52.310158
+POINT(0.21817 52.186785),17SC0015,0.54,6.0,,2016-09-29,permissioned,"Land to the east of, Cox's Drove, Fulbourn, CB21 5HE ",0.21817,52.186785
+POINT(0.110866 52.225857),15/0519/OUT,0.71,26.0,,2016-09-27,permissioned,295 to 301 Histon Road,0.110866,52.225857
+POINT(0.159502 52.242544),17SC0018,0.62,2.0,,2016-09-27,permissioned,"2, Cambridge Road, Milton, Cambridge, Cambridgeshire, CB24 6AW",0.159502,52.242544
+POINT(0.206727 52.188798),17SC0014,0.47,0.0,,2016-09-21,permissioned,"L Abri, Teversham Road, Fulbourn, Cambridge, Cambridgeshire, CB21 5EB",0.206727,52.188798
+POINT(0.462467 52.211755),Site/06/05,0.51,7.0,,2016-09-14,permissioned,"1, Oak Lane, Cheveley, NEWMARKET, CB8 9RA",0.462467,52.211755
+POINT(0.300941 52.314452),BLR3101,0.476351,0.0,,2016-09-12,permissioned,"36, Chapel Lane, Wicken, ELY, CB7 5XZ",0.300941,52.314452
+POINT(0.300941 52.314452),Site/31/11,0.48,7.0,,2016-09-12,permissioned,"36, Chapel Lane, Wicken, ELY, CB7 5XZ",0.300941,52.314452
+POINT(0.14998 52.358785),BLR1218,0.5559,1.0,,2016-09-06,permissioned,"14a, Station Road, Haddenham, ELY, CB6 3XD",0.14998,52.358785
+POINT(0.026335 52.254689),18SC0018,2.92,40.0,,2016-08-03,permissioned,"Hallmark Hotel, Land South side of Huntingdon Road, Bar Hill, CAMBRIDGE, CB23 8EU",0.026335,52.254689
+POINT(0.026394 52.254765),S/0851/16/FL,2.92,40.0,,2016-08-03,permissioned,"Hallmark Hotel, Land South side of Huntingdon Road, Bar Hill, CAMBRIDGE, CB23 8EU",0.026394,52.254765
+POINT(0.088665 52.226015),17SC0005,0.34,2.0,,2016-07-12,permissioned,"17-19, Bandon Road,Girton, Cambridgeshire, CB3 OLU",0.088665,52.226015
+POINT(0.337924 52.336295),Site/23/37,0.27,10.0,,2016-07-07,permissioned,"Soham Health Centre, Pratt St, Soham, Ely CB7 5BH",0.337924,52.336295
+POINT(-0.101183 52.203408),17SC0016,0.5,2.0,,2016-06-14,permissioned,"The Plant Depot, Church Farm, Gransden Road, Caxton, Cambridge, CB23 3PL",-0.101183,52.203408
+POINT(0.309937 52.132742),18SC0015,0.5,14.0,,2016-06-13,permissioned,"Rectory Farm House, Cambridge Road, Hauxton, CAMBRIDGE, CB22 5HT",0.309937,52.132742
+POINT(0.266819 52.398321),Site/10/33,0.1,7.0,,2016-06-10,permissioned,"Pound Store, 10, Forehill, ELY, Cambridgeshire CB7 4AF",0.266819,52.398321
+POINT(0.234045 52.122875),17SC0010,0.48,2.0,,2016-06-01,permissioned,"27, Cambridge Road, Little Abington, Cambridgeshire, CB21 6BL",0.234045,52.122875
+POINT(0.083177 52.143765),17SC0007,0.32,1.0,,2016-05-04,permissioned,"Sheepshead Lane, Harston, Cambridgeshire",0.083177,52.143765
+POINT(0.309213 52.456112),BLR1826,0.0389,4.0,,2016-04-26,permissioned,"20, Victoria Street, Littleport, Cambridgeshire, CB6 1LX",0.309213,52.456112
+POINT(0.25157 52.359882),BLR1701,0.26,4.0,,2016-04-15,permissioned,Land Adacent 12 Holt Fen Little Thetford Cambridgeshire CB6 3BH,0.25157,52.359882
+POINT(0.13387 52.294768),17SC0021,0.37,1.0,,2016-02-29,permissioned,"40, Church Lane, Cottenham, Cambridge, Cambridgeshire, CB24 8SN",0.13387,52.294768
+POINT(0.007777 52.209431),S/2935/15/FL,0.41,1.0,,2016-02-19,permissioned,"44, Main Street, Hardwick, CAMBRIDGE, CB23 7QS",0.007777,52.209431
+POINT(0.322773 52.266407),BLR0501,3.052829,0.0,,2016-02-19,permissioned,Former D S Smith Site Reach Road Burwell Burwell CB25 0AH,0.322773,52.266407
+POINT(0.007776 52.209364),17SC0022,0.41,1.0,,2016-02-19,permissioned,"44, Main Street, Hardwick, Cambridge, Cambridgeshire, CB23 7QS",0.007776,52.209364
+POINT(0.050903 52.183769),17SC0013,0.27,2.0,,2016-02-15,permissioned,"15, Comberton Road, Barton, Cambridge, Cambridgeshire, CB23 7BA",0.050903,52.183769
+POINT(0.339699 52.332448),Site/23/35,0.18,10.0,,2015-12-23,permissioned,"90 Paddock Street, Soham, Ely Cambridgeshire CB7 5JA",0.339699,52.332448
+POINT(0.322773 52.266407),Site/05/06,3.06,70.0,,2015-11-10,permissioned,Former D S Smith Site Reach Road Burwell Burwell CB25 0AH,0.322773,52.266407
+POINT(-0.04421 52.081691),17SC0002,0.94,20.0,,2015-11-05,permissioned,"Land to the rear of, 131 The Causeway, Bassingbourn Cum Kneesworth, Royston, Cambridgeshire, SG8 5JB",-0.04421,52.081691
+POINT(0.304866 52.455775),Site/18/26,0.16,9.0,,2015-09-29,permissioned,"The Bingo Hall, Hempfield Road, Littleport, ELY, CB6 1NW",0.304866,52.455775
+POINT(0.304866 52.455775),BLR1802,0.1594,0.0,,2015-09-29,permissioned,"The Bingo Hall, Hempfield Road, Littleport, ELY, CB6 1NW",0.304866,52.455775
+POINT(0.119568 52.29623),17SC0027,0.82,0.0,,2015-09-22,permissioned,"Cottenham Farm, Broad Lane, Cottenham, Cambs., CB24 8SW",0.119568,52.29623
+POINT(0.273702 52.399474),Site/10/32,0.71,58.0,,2015-08-28,permissioned,"Lisle Lane, Ely, Cambridgeshire, CB7 4FA",0.273702,52.399474
+POINT(0.132627 52.191954),15/1164/B1C3,0.04,6.0,,2015-08-12,permissioned,"5, Brooklands Avenue, CAMBRIDGE, CB2 8BB",0.132627,52.191954
+POINT(-0.016122 52.216656),17SC0020,0.59,1.0,,2015-06-26,permissioned,"Westwind, Highfields Road, Highfields Caldecote, Caldecote, Cambridge, Cambridgeshire, CB23 7NX",-0.016122,52.216656
+POINT(0.376576 52.075476),17SC0003,0.82,1.0,,2015-03-23,permissioned,"The Oaks, Blacksmiths Lane, Shudy Camps, Cambridge, Cambridgeshire, CB21 4RQ",0.376576,52.075476
+POINT(0.149054 52.396933),Site/33/01,0.41,10.0,,2015-03-10,permissioned,"Kings of Witcham, The Slade, Ely, CB6 2LA",0.149054,52.396933
+POINT(0.057957 52.0691),S/1692/14/FL,5.37,0.0,,2015-01-27,permissioned,"Ruboic The Flint, Newmarket Road, Heydon, ROYSTON, SG8 7PN",0.057957,52.0691
+POINT(0.093579 52.15117),17SC0004a,7.24,201.0,,2014-11-13,permissioned,"Former Bayer Cropscience Site,Cambridge Road, Hauxton, Cambridge, Cambridgeshire, CB22 5HT",0.093579,52.15117
+POINT(-0.119034 52.247982),S/0623/13/FL | S/0307/17/RM,2.12,61.0,,2014-10-31,permissioned,"Land between Church Lane & Ermine Street South, Papworth Everard, CAMBRIDGE, CB23 3RG",-0.119034,52.247982
+POINT(0.125395 52.216573),14/0052/FUL,0.42,5.0,,2014-06-04,permissioned,Former Milton Road Primary School Milton Road,0.125395,52.216573
+POINT(0.139605 52.198034),11/1294/FUL,1.15,43.0,,2014-04-08,permissioned,Travis Perkins Trading Co Ltd Devonshire Road,0.139605,52.198034
+POINT(-0.012695 52.218086),S/0255/13/FL,1.04,4.0,,2013-11-27,permissioned,"17 Highfield Court, Highfields Road, Highfields Caldecote, CAMBRIDGE, CB23 7NW",-0.012695,52.218086
+POINT(0.155241 52.114315),17SC0001,0.65,16.0,,2013-05-06,permissioned,"Granta Processors, Mill Lane, Whittlesford, Cambridge, Cambridgeshire, CB22 4XL",0.155241,52.114315
+POINT(0.332801 52.343178),Site/23/33,0.53,17.0,,2013-01-18,permissioned,"Land To Rear Of 7 & 7A Townsend, Soham, Cambridgeshire, CB7 5DB",0.332801,52.343178
+POINT(0.332801 52.343178),BLR2301,0.53,0.0,,2013-01-18,not-permissioned,Land To Rear Of 7 & 7A Townsend Soham Cambridgeshire CB7 5DB,0.332801,52.343178
+POINT(0.108853 52.170657),11/0073/REM,8.89,163.0,,2011-07-29,permissioned,"MONSANTO, MARIS LANE, CAMBRIDGE, CAMBRIDGESHIRE, CB2 2LQ",0.108853,52.170657
+POINT(0.0934 52.15169),17SC0004,8.76,285.0,,2010-02-12,permissioned,"Bayer CropScience,Hauxton, Cambridgeshire",0.0934,52.15169
+POINT(0.18802 52.18499),17SC0008,26.91,230.0,,2010-01-28,permissioned,"Fulbourn & Ida Darwin Hospitals,Fulbourn Old Drift, Cambridgeshire",0.18802,52.18499
+POINT(0.13397 52.215094),06/1305/FUL | 03/0406/FUL | 03/0241/FUL | 06/0544/FUL,0.59,0.0,,2009-03-03,permissioned,"Land off, De Freville Avenue/, SANDY LANE, CAMBRIDGE",0.13397,52.215094
+POINT(0.146104 52.187421),05/1329/FUL,0.19,16.0,,2007-11-29,permissioned,"Sorrento Hotel 190 - 196, Cherry Hinton Road, Cambridge, CB1",0.146104,52.187421
+POINT(0.146104 52.187421),05/1329/FUL | 12/1506/FUL,0.19,16.0,,2007-11-29,permissioned,"Sorrento Hotel 190 - 196, Cherry Hinton Road, Cambridge, CB1",0.146104,52.187421
+POINT(0.131193 52.19439),06/0552/FUL,0.83,156.0,,2007-08-03,permissioned,"Betjeman House Broadcasting House Botanic House and Public Houses at 106 -108, Hills Road, Cambridge, CB2",0.131193,52.19439
+POINT(0.063245 52.272411),17SC0009b,176.5,3500.0,,2007-07-19,not-permissioned,"Northstowe, Longstanton Road, Cambridgeshire",0.063245,52.272411
+POINT(0.034437 52.267471),17SC0009,1380.9,10000.0,,2007-07-19,permissioned,"Northstowe, Longstanton Road, Cambridgeshire",0.034437,52.267471
+POINT(0.065849 52.26952),S/NorthstoweAAP/Phase3,150.33,3500.0,,2007-07-19,not-permissioned,"Nothstowe Phase 3 - Land at, Oakington Barracks, Ramptoon Road, Longstanton, Cambridge CB4",0.065849,52.26952
+POINT(0.133946 52.215106),5.18,0.6,23.0,,2005-05-20,permissioned,Sandy Lane,0.133946,52.215106
+POINT(0.120602 52.213806),C/LocalPlan/R4,0.77,48.0,,2003-06-01,not-permissioned,"Housing allocation at, Henry Giles House, Chesterton Road, Cambridge, CB4",0.120602,52.213806
+POINT(0.155374 52.187917),C/LocalPlan/R7,2.79,123.0,,2003-06-01,not-permissioned,"Housing allocation at, The Paddocks Trading Estate, Cherry Hinton Road, Cambridge, CB1",0.155374,52.187917
+POINT(0.145937 52.229812),C/LocalPlan/M1,2.4,95.0,,2003-06-01,not-permissioned,"Housing allocation at, 379--381 Milton Road, Cambridge, CB4",0.145937,52.229812
+POINT(0.130545 52.203484),C/LocalPlan/M4,0.95,50.0,,2001-03-01,not-permissioned,"Housing Allocation, Land at Parkside Police Station and Fire and Rescue Station, Parkside, Cambridge, CB1",0.130545,52.203484
+POINT(0.109797 52.218693),C/LocalPlan/R2,1.46,78.0,,2001-03-01,not-permissioned,"Housing allocation at, Willowcroft, Histon Road, Cambridge, CB4",0.109797,52.218693
+POINT(0.139519 52.198061),C/LocalPlan/R9,1.22,43.0,,2001-03-01,not-permissioned,"Housing Allocation, Land at Travis Perkins, Devonshire Road, Cambridge, CB1",0.139519,52.198061
+POINT(0.26369 52.400857),BLR1003,0.604838,0.0,,,not-permissioned,"The Grange, Nutholt Lane, Ely CB7 4EE",0.26369,52.400857
+POINT(0.264088 52.401585),BLR1035,0.34,30.0,,,not-permissioned,"Police/ Abulance Station, Nutholt Lane, Ely, CB7 4PL",0.264088,52.401585
+POINT(0.266782 52.401947),BLR1004,1.04,0.0,,,not-permissioned,"Paradise Leisure Centre, Newnham St, Ely CB7 4PQ",0.266782,52.401947
+POINT(0.267678 52.400635),BLR1034,0.85,20.0,,,not-permissioned,"Waitrose Car Park area, Brays Lane, Ely, CB7 4QJ",0.267678,52.400635
+POINT(0.264904 52.391804),BLR1005,11.41,0.0,,,not-permissioned,"Station Gateway, Angel Drove, Ely",0.264904,52.391804
+POINT(0.276119 52.413166),BLR1006,4.03,0.0,,,not-permissioned,"Princess of Wales Hospital, Lynn Road, Ely CB6 1DN",0.276119,52.413166
+POINT(0.328803 52.335567),BLR2304,4.12,0.0,,,not-permissioned,Station Rd Soham Ely CB7 5DZ,0.328803,52.335567
+POINT(0.203519 52.457664),BLR1612,0.89,10.0,,,not-permissioned,Land North-East of Straight Furlong Pymore CB6 2EU,0.203519,52.457664
+POINT(0.191843 52.28055),18SC0011,292.2,5100.0,,,pending-decision,"Waterbeach Barracks and Airfield Site, Waterbeach, Cambridgeshire",0.191843,52.28055
+POINT(0.26369 52.400857),Site/10/11,0.61,10.0,,,not-permissioned,"The Grange, Nutholt Lane, Ely CB7 4EE",0.26369,52.400857
+POINT(0.266782 52.401948),Site/10/12,1.0,50.0,,,not-permissioned,"Paradise Leisure Centre, Newnham St, Ely CB7 4PQ",0.266782,52.401948
+POINT(0.264904 52.391802),Site/10/19,11.41,100.0,,,not-permissioned,"Station Gateway, Angel Drove, Ely",0.264904,52.391802
+POINT(0.276119 52.413165),Site/10/28,4.03,77.0,,,not-permissioned,"Princess of Wales Hospital, Lynn Road, Ely CB6 1DN",0.276119,52.413165
+POINT(0.38102 52.308731),Site/11/09,8.66,150.0,,,pending-decision,"Scotsdale Garden Centre, Market Street, Fordham, CB7 5LQ",0.38102,52.308731
+POINT(0.316207 52.459791),Site/18/01,1.75,50.0,,,pending-decision,"Station Road, Littleport, Ely CB6 1JL",0.316207,52.459791
+POINT(0.351475 52.335573),Site/23/38,1.34,41.0,,,not-permissioned,"Eastern Gateway, East Fen Common, Soham, Ely CB7 5JJ",0.351475,52.335573
+POINT(0.328803 52.335567),Site/23/40,4.12,90.0,,,pending-decision,"Station Rd, Soham, Ely CB7 5DZ",0.328803,52.335567
+POINT(0.282041 52.237875),Site/27/06,0.52,12.0,,,pending-decision,"Hillside Mill, Quarry Ln, Swaffham Bulbeck, Cambridge CB25 0LU",0.282041,52.237875
+POINT(0.145415 52.229895),5.04,2.41,95.0,,,not-permissioned,379-381 Milton Road,0.145415,52.229895
+POINT(0.120327 52.181205),5.06,1.67,55.0,,,not-permissioned,"British Telecom Site, Long Road",0.120327,52.181205
+POINT(0.10976 52.218789),5.07,1.47,78.0,,,permissioned,"Willowcroft, Histon Road",0.10976,52.218789
+POINT(0.130561 52.20349),5.12,0.48,50.0,,,not-permissioned,"Land at Parkside Police Station, Parkside",0.130561,52.20349
+POINT(0.144943 52.201551),5.14,0.8,28.0,,,pending-decision,"Ridgeons, Cavendish Road",0.144943,52.201551
+POINT(0.120492 52.213808),5.15,0.77,48.0,,,not-permissioned,Henry Giles House Chesterton Road,0.120492,52.213808
+POINT(0.159002 52.231908),9.04,52.64,440.0,,,not-permissioned,Cambridge Northern Fringe East,0.159002,52.231908
+POINT(0.312958 52.34704),BLR2306,0.87,,,,permissioned,20 The Cotes Soham Ely Cambridgeshire CB7 5EP,0.312958,52.34704
+POINT(0.337953 52.33409),BLR2307,0.15,,,,permissioned,5A White Hart Lane Soham Ely Cambridgeshire CB7 5JQ,0.337953,52.33409
+POINT(0.337462 52.33413),BLR2341,0.03,,,,permissioned,Lloyds TSB Bank Plc 8 Churchgate Street Soham Ely Cambridgeshire CB7 5DR,0.337462,52.33413
+POINT(0.141972 52.391856),BLR2343,1.132,,,,permissioned,1 Brook Dam Lane Soham Ely Cambridgeshire CB7 5HZ,0.141972,52.391856
+POINT(0.223897 52.346313),BLR2510,0.9,,,,permissioned,Land Formerly 21 Newmarket Road Stretham Cambridgeshire CB6 3JF,0.223897,52.346313
+POINT(0.253725 52.328587),BLR3120,13832.0,,,,permissioned,Dimmocks Cote 46 Stretham Road Wicken Ely Cambridgeshire CB7 5XL,0.253725,52.328587
+POINT(0.307301 52.310436),BLR3121,0.56,,,,permissioned,Land Adjacent To 14 Church Road Wicken Cambridgeshire,0.307301,52.310436
+POINT(0.176245 52.348347),BLR3210,0.37,,,,permissioned,Land South West Of 21 Twentypence Road Wilburton Cambridgeshire,0.176245,52.348347
+POINT(0.185024 52.346203),BLR3211,0.63,,,,permissioned,Mitchells Farm Millfield Lane Wilburton Ely Cambridgeshire CB6 3SD,0.185024,52.346203
+POINT(0.450623 52.21363),BLR3501,0.29,,,,permissioned,Saxon Hall 11 The Street Saxon Street Newmarket Suffolk CB8 9SX,0.450623,52.21363
+POINT(0.16786 52.33128),BLR4201,0.46,,,,permissioned,Springfield House Twentypence Road Wilburton Ely Cambridgeshire CB6 3PX,0.16786,52.33128
+POINT(0.457917 52.219817),BRL0607,0.3138,,,,permissioned,Glebe Stud Park Road Cheveley Suffolk CB8 9DF,0.457917,52.219817
+POINT(0.259326 52.40254),BLR1042,0.28,,,,pending-decision,Balagowan 34 Downham Road Ely Cambridgeshire CB6 1BL,0.259326,52.40254
+POINT(0.165265 52.344704),BLR3212,0.57,,,,pending-decision,Land At Mingay Farm Twentypence Road Wilburton Cambridgeshire,0.165265,52.344704
