@@ -44,7 +44,7 @@ This part’s about finding the growth hotspots. By sorting projects into “Sec
 
 ![Hotspot Map Screenshot](reports/Brownfield_Development_Hotspots.png)
 
-*Note: Blue Zones are Private Projects that are registered in the datasets. While Red areas indicate significant percentange of the development of brownfield sites, yellow areas denote minor development potential, and the small green areas represent regions with little development activity.
+*Note: Blue spots are Private Projects that are registered in the datasets. While Red areas indicate significant percentange of the development of brownfield sites, yellow areas denote minor development potential, and the small green areas represent regions with little development activity.
 
 ### What’s Popping?
 - **The Big Dogs: Oakington and Waterbeach**: These two are killing it, accounting for a whopping 89% of all new homes approved. Big brownfield sites—like old barracks or industrial zones—make these spots perfect for massive housing projects.
